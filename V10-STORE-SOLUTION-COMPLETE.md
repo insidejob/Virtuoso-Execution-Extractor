@@ -22,7 +22,7 @@ By combining **journey data** with **execution sideEffects**, we can distinguish
 }
 // → JSON string with element structure
 ```
-**NLP:** `Store element "Accept all" as $button2`
+**NLP:** `Store element "Accept all" in $button2`
 
 ### Store Element Text
 ```json
@@ -136,7 +136,7 @@ handleStore(journeyStep, executionStep) {
     switch(storeType) {
         case 'STORE_ELEMENT':
             const elementDesc = getSelectorDescription(journeyStep.element);
-            return `Store element ${elementDesc} as ${variable}`;
+            return `Store element ${elementDesc} in ${variable}`;
             
         case 'STORE_ELEMENT_TEXT':
             const textDesc = getSelectorDescription(journeyStep.element);
@@ -151,7 +151,7 @@ handleStore(journeyStep, executionStep) {
                 return `Store value "${journeyStep.value}" in ${variable}`;
             } else if (journeyStep.element) {
                 // Can't distinguish - add warning
-                return `Store element ${elementDesc} as ${variable}`;
+                return `Store element ${elementDesc} in ${variable}`;
             }
     }
 }

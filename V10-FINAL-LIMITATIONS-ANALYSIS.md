@@ -33,7 +33,7 @@ Step 19735153: API_CALL 10253 → sideEffects.usedData: {url: "https://reqres.in
 }
 
 // Could mean either:
-"Store element 'Accept all' as $button"          // Reference
+"Store element 'Accept all' in $button"          // Reference
 "Store element text of 'Accept all' in $button"  // Text content
 ```
 

@@ -400,7 +400,7 @@ class NLPConverter {
             
             // Default to "Store element" format
             // TODO: This might be "Store element text of X in Y" but API lacks metadata
-            return `Store element ${elementDesc} as ${storeVar}`;
+            return `Store element ${elementDesc} in ${storeVar}`;
         }
         
         // Storing a value - use Virtuoso syntax "in" not "as"

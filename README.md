@@ -118,7 +118,7 @@ virtuoso-execution-extractor/
 ### 1. Store Operation Intelligence
 The extractor can distinguish between different Store operations:
 - **Store element**: `Store element "button" in $element`
-- **Store element text**: `Store element "button" text in $text`
+- **Store element text**: `Store element text of "button" in $text`
 - **Store value**: `Store value "123" in $value`
 
 ### 2. API Test Integration

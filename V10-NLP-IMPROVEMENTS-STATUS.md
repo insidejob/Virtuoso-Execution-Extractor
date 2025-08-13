@@ -67,7 +67,7 @@ API call "Demo.Register_New_User"($url)
 ### 2. Store Element Text Issue
 **Current (Line 35):**
 ```
-Store element "Accept all" as $button
+Store element "Accept all" in $button
 ```
 
 **Expected:**

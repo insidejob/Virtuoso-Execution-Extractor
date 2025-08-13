@@ -48,7 +48,7 @@ const manualMappings = {
 }
 
 // Could mean either:
-"Store element 'Accept all' as $button"          // Storing reference
+"Store element 'Accept all' in $button"          // Storing reference
 "Store element text of 'Accept all' in $button"  // Storing text content
 ```
 
@@ -71,7 +71,7 @@ if (step.element && !step.value) {
         element: elementDesc
     });
     // Default to "Store element" format
-    return `Store element ${elementDesc} as ${storeVar}`;
+    return `Store element ${elementDesc} in ${storeVar}`;
 }
 ```
 

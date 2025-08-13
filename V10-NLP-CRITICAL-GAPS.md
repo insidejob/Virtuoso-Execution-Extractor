@@ -138,7 +138,7 @@ Store element text of "Accept all" in $button
 
 **V10 Produces:**
 ```
-Store element "Accept all" as $button
+Store element "Accept all" in $button
 ```
 
 **🚨 ISSUE:** The raw data doesn't show this step at all! The journey has a gap - step 19735177 is missing from our data but should be there.

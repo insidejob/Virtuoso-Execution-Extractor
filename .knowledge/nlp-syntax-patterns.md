@@ -13,7 +13,7 @@ Navigate to $url_variable
 Store value "text" in $variable
 Store value "25" in $age
 Store element text of "element" in $variable  # When storing text content
-Store element "element" as $variable          # When storing element reference
+Store element "element" in $variable          # When storing element reference
 ```
 
 ### Cookie/Environment Operations
