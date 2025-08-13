@@ -34,7 +34,9 @@
     "test:app2": "node test-app2-connection.js",
     "test:env": "node test-environment-confirmation.js",
     "verify": "node verify-app2-setup.js",
-    "demo:confirmation": "node demo-confirmation-prompt.js"
+    "demo:confirmation": "node demo-confirmation-prompt.js",
+    "demo:ui": "node demo-server.js",
+    "demo:dev": "node demo-server.js --port 8080"
   },
   "keywords": [
     "virtuoso",
@@ -51,8 +53,10 @@
     "node": ">=14.0.0"
   },
   "dependencies": {
+    "chalk": "^4.1.2",
     "commander": "^9.0.0",
-    "chalk": "^4.1.2"
-  },
-  "devDependencies": {}
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
 }
