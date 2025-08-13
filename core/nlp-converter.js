@@ -247,6 +247,10 @@ class NLPConverter {
             case 'FORWARD':
                 return 'Go forward';
             
+            // V10.8: Extension and JavaScript execution support
+            case 'EXECUTE':
+                return this.handleExecute(step);
+            
             default:
                 // Unknown action - will be handled by knowledge base
                 this.conversionReport.unknownActions.add(step.action);
@@ -261,6 +265,46 @@ class NLPConverter {
     }
     
     // Handler methods for each action type
+    
+    /**
+     * V10.8: Handle EXECUTE action for JavaScript and Extension execution
+     */
+    handleExecute(step) {
+        const targetType = step.target?.type;
+        const script = step.value || '';
+        const outputVar = step.meta?.outputVariable || step.variable;
+        const extensionId = step.target?.value;
+        
+        switch (targetType) {
+            case 'JAVASCRIPT':
+                // Truncate long scripts for readability
+                const truncatedScript = script.length > 50 ? 
+                    script.substring(0, 50) + '...' : script;
+                // Clean up script for display
+                const cleanScript = truncatedScript.replace(/\n/g, ' ').replace(/\s+/g, ' ');
+                
+                if (outputVar) {
+                    return `Execute JavaScript "${cleanScript}" and store result in $${outputVar}`;
+                }
+                return `Execute JavaScript "${cleanScript}"`;
+                
+            case 'EXTENSION':
+                // Extension execution with optional output variable
+                const extensionName = extensionId || 'browser extension';
+                if (outputVar) {
+                    return `Execute extension "${extensionName}" and store result in $${outputVar}`;
+                }
+                return `Execute extension "${extensionName}"`;
+                
+            default:
+                // Generic execution for unknown target types
+                if (script) {
+                    return `Execute custom script "${script.substring(0, 30)}..."`;
+                }
+                return 'Execute custom action';
+        }
+    }
+    
     handleNavigate(step, variable) {
         const url = step.meta?.url || step.value || variable;
         return `Navigate to "${url}"`;

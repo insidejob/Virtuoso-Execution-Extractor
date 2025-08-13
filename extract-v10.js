@@ -304,7 +304,7 @@ class VirtuosoExtractorV10 {
         
         console.log('🚀 Virtuoso Extraction V10 Starting\n');
         console.log('=' .repeat(70));
-        console.log(`Version: V10.7.0 - Performance-First Architecture with Refined Folder Structure`);
+        console.log(`Version: V10.8.0 - Extension & JavaScript Execution Support`);
         console.log(`Flags: ${JSON.stringify(this.flags)}`);
         if (this.flags.noCache || this.flags.fresh) {
             console.log(`🚫 Cache Disabled: ${this.flags.noCache ? 'No caching' : 'Fresh data only'} (for debugging)`);

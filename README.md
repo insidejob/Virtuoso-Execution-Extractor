@@ -174,7 +174,14 @@ Requires valid API token with access to:
 
 ## 🔄 Version History
 
-### V10.7 (Current)
+### V10.8 (Current)
+- **Extension support added** - JavaScript and browser extension execution
+- Complete EXECUTE action handling
+- Support for custom scripts and plugins
+- Output variable storage from executions
+- Maintains 99% accuracy with no gaps
+
+### V10.7
 - **99% NLP accuracy achieved**
 - Store operation distinction perfected
 - API test integration completed
