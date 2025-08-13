@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-08-10T19:50:45.360Z",
+  "baseUrl": "https://app2.virtuoso.qa",
+  "authentication": {
+    "token": "Bearer token",
+    "working": false
+  },
+  "workingEndpoints": [],
+  "apiStructure": {},
+  "graphql": null,
+  "restEndpoints": [],
+  "summary": {
+    "totalWorkingEndpoints": 0,
+    "hasGraphQL": false,
+    "restResourcesFound": 0
+  }
+}

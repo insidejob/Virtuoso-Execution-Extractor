@@ -1,0 +1,6136 @@
+{
+  "summary": {
+    "totalTests": 660,
+    "workingCombinations": 0,
+    "statusBreakdown": {
+      "200": 240,
+      "301": 180,
+      "401": 80,
+      "404": 40,
+      "ERROR": 120
+    }
+  },
+  "workingCombinations": [],
+  "allResults": [
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v1",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api.virtuoso.qa/v2",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 200,
+      "isJson": false,
+      "isHtml": false,
+      "contentType": "text/plain; charset=utf-8",
+      "sample": "Not Found"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 401,
+      "isJson": true,
+      "isHtml": false,
+      "contentType": "application/json;charset=UTF-8",
+      "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://api-app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 404,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html;charset=UTF-8",
+      "sample": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2.virtuoso.qa/rest",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": false,
+      "sample": ""
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://app2-api.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://virtuoso.qa/api",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": 301,
+      "isJson": false,
+      "isHtml": true,
+      "contentType": "text/html",
+      "sample": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715/status",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/88715",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/executions/analysis/88715",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/projects/4889/testsuites/527218",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Bearer",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "ApiKey",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-API-Key",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-Auth-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "X-Access-Token",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "Cookie",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "api_key_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "token_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    },
+    {
+      "baseUrl": "https://api.app2.virtuoso.qa",
+      "path": "/journeys/527218",
+      "authMethod": "auth_query",
+      "status": "ERROR",
+      "error": "getaddrinfo ENOTFOUND api.app2.virtuoso.qa"
+    }
+  ]
+}

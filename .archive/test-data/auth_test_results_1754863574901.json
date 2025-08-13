@@ -1,0 +1,332 @@
+[
+  {
+    "endpoint": "api-app2",
+    "auth": "Bearer",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api-app2",
+    "auth": "Token",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api-app2",
+    "auth": "X-Auth-Token",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api-app2",
+    "auth": "X-API-Key",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api-app2",
+    "auth": "X-Access-Token",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api-app2",
+    "auth": "Cookie",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api",
+    "auth": "Bearer",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api",
+    "auth": "Token",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api",
+    "auth": "X-Auth-Token",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api",
+    "auth": "X-API-Key",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api",
+    "auth": "X-Access-Token",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "api",
+    "auth": "Cookie",
+    "status": 401,
+    "isJSON": true,
+    "sample": "{\"success\":false,\"error\":{\"code\":\"401\",\"message\":\"Unauthorized\"}}"
+  },
+  {
+    "endpoint": "app2/api",
+    "auth": "Bearer",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/api",
+    "auth": "Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/api",
+    "auth": "X-Auth-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/api",
+    "auth": "X-API-Key",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/api",
+    "auth": "X-Access-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/api",
+    "auth": "Cookie",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2-api",
+    "auth": "Bearer",
+    "status": "ERROR",
+    "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+  },
+  {
+    "endpoint": "app2-api",
+    "auth": "Token",
+    "status": "ERROR",
+    "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+  },
+  {
+    "endpoint": "app2-api",
+    "auth": "X-Auth-Token",
+    "status": "ERROR",
+    "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+  },
+  {
+    "endpoint": "app2-api",
+    "auth": "X-API-Key",
+    "status": "ERROR",
+    "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+  },
+  {
+    "endpoint": "app2-api",
+    "auth": "X-Access-Token",
+    "status": "ERROR",
+    "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+  },
+  {
+    "endpoint": "app2-api",
+    "auth": "Cookie",
+    "status": "ERROR",
+    "error": "getaddrinfo ENOTFOUND app2-api.virtuoso.qa"
+  },
+  {
+    "endpoint": "app2/rest",
+    "auth": "Bearer",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/rest",
+    "auth": "Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/rest",
+    "auth": "X-Auth-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/rest",
+    "auth": "X-API-Key",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/rest",
+    "auth": "X-Access-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/rest",
+    "auth": "Cookie",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v1",
+    "auth": "Bearer",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v1",
+    "auth": "Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v1",
+    "auth": "X-Auth-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v1",
+    "auth": "X-API-Key",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v1",
+    "auth": "X-Access-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v1",
+    "auth": "Cookie",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v2",
+    "auth": "Bearer",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v2",
+    "auth": "Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v2",
+    "auth": "X-Auth-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v2",
+    "auth": "X-API-Key",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v2",
+    "auth": "X-Access-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "app2/v2",
+    "auth": "Cookie",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "graphql",
+    "auth": "Bearer",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "graphql",
+    "auth": "Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "graphql",
+    "auth": "X-Auth-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "graphql",
+    "auth": "X-API-Key",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "graphql",
+    "auth": "X-Access-Token",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  },
+  {
+    "endpoint": "graphql",
+    "auth": "Cookie",
+    "status": 301,
+    "isJSON": false,
+    "sample": ""
+  }
+]

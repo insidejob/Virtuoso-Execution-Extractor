@@ -1,0 +1,749 @@
+{
+  "info": {
+    "_postman_id": "unified-virtuoso-api-collection",
+    "name": "Unified Virtuoso API Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Unified collection combining endpoints from both Virtuoso API collections with focus on journey/testsuite management and checkpoint operations"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{auth_token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "variable": [
+    {
+      "key": "baseURL",
+      "value": "https://api-app2.virtuoso.qa",
+      "type": "string"
+    },
+    {
+      "key": "BASE_URL",
+      "value": "https://api-app2.virtuoso.qa",
+      "type": "string"
+    },
+    {
+      "key": "baseUrl",
+      "value": "https://api-app2.virtuoso.qa",
+      "type": "string"
+    },
+    {
+      "key": "auth_token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "X-Virtuoso-Client-ID",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "X-Virtuoso-Client-Name",
+      "value": "Virtuoso API Client",
+      "type": "string"
+    },
+    {
+      "key": "envelope",
+      "value": "false",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Project Management",
+      "item": [
+        {
+          "name": "Create Project",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"{{projectName}}_{{$randomUUID}}\",\n  \"organizationId\": {{organizationId}}\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/projects",
+              "host": ["{{baseURL}}"],
+              "path": ["projects"]
+            }
+          }
+        },
+        {
+          "name": "List Projects",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/projects?organizationId={{organizationId}}",
+              "host": ["{{baseURL}}"],
+              "path": ["projects"],
+              "query": [
+                {
+                  "key": "organizationId",
+                  "value": "{{organizationId}}"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Goal Management",
+      "item": [
+        {
+          "name": "Create Goal",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"projectId\": {{projectId}},\n  \"name\": \"Goal_{{$randomUUID}}\",\n  \"environmentId\": null,\n  \"url\": \"https://www.example.com\",\n  \"deviceSize\": {\n    \"width\": 1280,\n    \"height\": 800\n  },\n  \"meta\": {\n    \"onlyManagersCanPublishJourneys\": null,\n    \"disableSameOrigin\": false,\n    \"disableEventLogs\": false,\n    \"bridgeClientUuid\": null,\n    \"defaultMaxParallelism\": null,\n    \"maxParallelism\": null,\n    \"legacyElementSelection\": null,\n    \"clientSideLibraryShimsEnabled\": false,\n    \"popupAutoDismiss\": true,\n    \"waitForNetworkTraffic\": null,\n    \"failScriptOnNavigate\": null\n  },\n  \"createFirstJourney\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/goals",
+              "host": ["{{baseURL}}"],
+              "path": ["goals"]
+            }
+          }
+        },
+        {
+          "name": "Get Goal Versions",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/goals/{{goalId}}/versions",
+              "host": ["{{baseURL}}"],
+              "path": ["goals", "{{goalId}}", "versions"]
+            }
+          }
+        },
+        {
+          "name": "Get Project Goals",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/projects/{{projectId}}/goals?archived=false",
+              "host": ["{{baseURL}}"],
+              "path": ["projects", "{{projectId}}", "goals"],
+              "query": [
+                {
+                  "key": "archived",
+                  "value": "false"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Journey Management - FOCUS AREA",
+      "description": "Journey/TestSuite endpoints for managing test journeys including Journey 527286",
+      "item": [
+        {
+          "name": "Get Journeys (TestSuites) Status",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/testsuites/latest_status?versionId={{snapshotId}}&goalId={{goalId}}&includeSequencesDetails=true",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites", "latest_status"],
+              "query": [
+                {
+                  "key": "versionId",
+                  "value": "{{snapshotId}}"
+                },
+                {
+                  "key": "goalId",
+                  "value": "{{goalId}}"
+                },
+                {
+                  "key": "includeSequencesDetails",
+                  "value": "true"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Journey (TestSuite)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"snapshotId\": {{snapshotId}},\n  \"goalId\": {{goalId}},\n  \"name\": \"{{journeyName}}_{{$randomUUID}}\",\n  \"title\": \"{{journeyName}}_{{$randomUUID}}\",\n  \"archived\": false,\n  \"draft\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/testsuites",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites"]
+            }
+          }
+        },
+        {
+          "name": "Get Journey Details (Including Checkpoints & Steps)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/testsuites/{{journeyId}}",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites", "{{journeyId}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Journey 527286 Details - SPECIFIC",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/testsuites/527286",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites", "527286"]
+            }
+          }
+        },
+        {
+          "name": "Get Journey Execution History",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/testsuites/{{journeyId}}/history?envelope={{envelope}}",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites", "{{journeyId}}", "history"],
+              "query": [
+                {
+                  "key": "envelope",
+                  "value": "{{envelope}}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Execute Journey",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/testsuites/execution?snapshotId={{snapshot_id}}&goalId={{goal_id}}&suiteId%5B%5D={{journey_id}}&includeJourneyDetails=true&envelope={{envelope}}",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites", "execution"],
+              "query": [
+                {
+                  "key": "snapshotId",
+                  "value": "{{snapshot_id}}"
+                },
+                {
+                  "key": "goalId",
+                  "value": "{{goal_id}}"
+                },
+                {
+                  "key": "suiteId[]",
+                  "value": "{{journey_id}}"
+                },
+                {
+                  "key": "includeJourneyDetails",
+                  "value": "true"
+                },
+                {
+                  "key": "envelope",
+                  "value": "{{envelope}}"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Checkpoint Management - FOCUS AREA",
+      "description": "Checkpoint (TestCase) endpoints for managing test checkpoints within journeys",
+      "item": [
+        {
+          "name": "Create Checkpoint",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"snapshotId\": {{snapshotId}},\n  \"goalId\": {{goalId}},\n  \"title\": \"Checkpoint_{{$randomUUID}}\"\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/testcases",
+              "host": ["{{baseURL}}"],
+              "path": ["testcases"]
+            }
+          }
+        },
+        {
+          "name": "Attach Checkpoint to Journey",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"checkpointId\": {{checkpointId}},\n  \"position\": {{checkpointPosition}}\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/testsuites/{{journeyId}}/checkpoints/attach",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites", "{{journeyId}}", "checkpoints", "attach"]
+            }
+          }
+        },
+        {
+          "name": "Get Checkpoint Steps from Journey 527286",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/testsuites/527286",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites", "527286"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Step Management - FOCUS AREA",
+      "description": "TestStep endpoints for managing individual test steps within checkpoints",
+      "item": [
+        {
+          "name": "Create Test Step",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"checkpointId\": {{checkpointId}},\n  \"stepIndex\": 0,\n  \"parsedStep\": {\n    \"action\": \"WAIT\",\n    \"target\": {\n      \"selectors\": [\n        {\n          \"type\": \"GUESS\",\n          \"value\": \"{\\\"clue\\\":\\\"Example Domain\\\"}\"\n        }\n      ]\n    },\n    \"value\": \"20000\",\n    \"meta\": {}\n  }\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/teststeps",
+              "host": ["{{baseURL}}"],
+              "path": ["teststeps"]
+            }
+          }
+        },
+        {
+          "name": "Create Navigation Step",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"checkpointId\": {{checkpointId}},\n  \"stepIndex\": 0,\n  \"parsedStep\": {\n    \"action\": \"NAVIGATE\",\n    \"value\": \"https://example.com\",\n    \"meta\": {\n      \"kind\": \"NAVIGATE\",\n      \"type\": \"URL\",\n      \"useNewTab\": false\n    }\n  }\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/teststeps",
+              "host": ["{{baseURL}}"],
+              "path": ["teststeps"]
+            }
+          }
+        },
+        {
+          "name": "Get Step Details",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "X-Virtuoso-Client-ID",
+                "value": "{{X-Virtuoso-Client-ID}}"
+              },
+              {
+                "key": "X-Virtuoso-Client-Name",
+                "value": "{{X-Virtuoso-Client-Name}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/teststeps/{{stepId}}",
+              "host": ["{{baseURL}}"],
+              "path": ["teststeps", "{{stepId}}"]
+            }
+          }
+        },
+        {
+          "name": "Get Step Execution Timeline",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/timelines/journeys/{{journey_id}}/checkpoints/{{checkpoint_id}}/steps/{{step_id}}?pageSize=20&envelope={{envelope}}",
+              "host": ["{{baseURL}}"],
+              "path": ["timelines", "journeys", "{{journey_id}}", "checkpoints", "{{checkpoint_id}}", "steps", "{{step_id}}"],
+              "query": [
+                {
+                  "key": "pageSize",
+                  "value": "20"
+                },
+                {
+                  "key": "envelope",
+                  "value": "{{envelope}}"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Test Step",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"id\": {{stepId}},\n  \"canonicalId\": \"{{StepCanonicalId}}\",\n  \"action\": \"NAVIGATE\",\n  \"value\": \"https://www.example.com\",\n  \"meta\": {\n    \"kind\": \"NAVIGATE\",\n    \"type\": \"URL\",\n    \"value\": \"https://www.example2.com\",\n    \"url\": \"https://www.example2.com\",\n    \"useNewTab\": false\n  },\n  \"optional\": false,\n  \"ignoreOutcome\": false,\n  \"skip\": false\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/teststeps/{{stepId}}",
+              "host": ["{{baseURL}}"],
+              "path": ["teststeps", "{{stepId}}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Execution Management",
+      "item": [
+        {
+          "name": "Execute Goal",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/goals/{{goal_id}}/snapshots/{{snapshot_id}}/execute?envelope=false",
+              "host": ["{{baseURL}}"],
+              "path": ["goals", "{{goal_id}}", "snapshots", "{{snapshot_id}}", "execute"],
+              "query": [
+                {
+                  "key": "envelope",
+                  "value": "false"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Execution Status",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/jobs/{{execution_id}}/status?envelope=false",
+              "host": ["{{baseURL}}"],
+              "path": ["jobs", "{{execution_id}}", "status"],
+              "query": [
+                {
+                  "key": "envelope",
+                  "value": "false"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Latest Execution Status",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/testsuites/latest_status?jobId={{jobId}}&includeSequencesDetails=true&includeTrackingDetails=true",
+              "host": ["{{baseURL}}"],
+              "path": ["testsuites", "latest_status"],
+              "query": [
+                {
+                  "key": "jobId",
+                  "value": "{{jobId}}"
+                },
+                {
+                  "key": "includeSequencesDetails",
+                  "value": "true"
+                },
+                {
+                  "key": "includeTrackingDetails",
+                  "value": "true"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Test Data Management",
+      "item": [
+        {
+          "name": "Create Test Data Table",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/testdata/tables/create",
+              "host": ["{{baseURL}}"],
+              "path": ["testdata", "tables", "create"]
+            }
+          }
+        },
+        {
+          "name": "Get Test Data Table",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "{{baseURL}}/testdata/tables/{{tableId}}",
+              "host": ["{{baseURL}}"],
+              "path": ["testdata", "tables", "{{tableId}}"]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "API Tests",
+      "item": [
+        {
+          "name": "List API Tests",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{auth_token}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/api-tests?projectId={{projectId}}&detailed=true",
+              "host": ["{{baseURL}}"],
+              "path": ["api-tests"],
+              "query": [
+                {
+                  "key": "projectId",
+                  "value": "{{projectId}}"
+                },
+                {
+                  "key": "detailed",
+                  "value": "true"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Environment Management",
+      "item": [
+        {
+          "name": "Create Environment",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"TestEnvironment_{{$randomUUID}}\",\n  \"baseUrl\": \"https://staging.example.com\",\n  \"variables\": {\n    \"API_TIMEOUT\": \"30000\",\n    \"ENABLE_DEBUG\": \"true\"\n  },\n  \"projectId\": \"{{projectId}}\"\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/environments/create",
+              "host": ["{{baseURL}}"],
+              "path": ["environments", "create"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

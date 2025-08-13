@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-08-10T22:14:38.056Z",
+  "jobId": 88715,
+  "journeyId": 527218,
+  "apiResponses": {
+    "status": "Not Found",
+    "detailed": "Not Found",
+    "analysis": "Not Found",
+    "testsuite_(journey)": "Not Found",
+    "project_testsuite": "Not Found",
+    "project_execution": "Not Found",
+    "journey_direct": "Not Found",
+    "run_(alternative_name)": "Not Found"
+  },
+  "structuredData": null,
+  "errors": []
+}

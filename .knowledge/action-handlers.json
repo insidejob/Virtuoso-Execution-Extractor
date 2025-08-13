@@ -1,0 +1,86 @@
+{
+  "description": "Unknown action handlers learned from usage",
+  "version": "1.0.0",
+  "handlers": {
+    "SCROLL": {
+      "pattern": "Scroll {direction} {amount}",
+      "parameters": ["direction", "amount"],
+      "examples": [
+        "Scroll down 500px",
+        "Scroll up to top",
+        "Scroll to element"
+      ],
+      "confidence": 0.8
+    },
+    "HOVER": {
+      "pattern": "Hover over {element}",
+      "parameters": ["element"],
+      "examples": [
+        "Hover over \"Submit\" button",
+        "Hover over menu item"
+      ],
+      "confidence": 0.85
+    },
+    "DRAG": {
+      "pattern": "Drag {source} to {target}",
+      "parameters": ["source", "target"],
+      "examples": [
+        "Drag element A to position B"
+      ],
+      "confidence": 0.7
+    },
+    "UPLOAD": {
+      "pattern": "Upload file {filename} to {element}",
+      "parameters": ["filename", "element"],
+      "examples": [
+        "Upload \"test.pdf\" to file input"
+      ],
+      "confidence": 0.75
+    },
+    "SWITCH_TAB": {
+      "pattern": "Switch to tab {identifier}",
+      "parameters": ["identifier"],
+      "examples": [
+        "Switch to tab 2",
+        "Switch to new tab"
+      ],
+      "confidence": 0.8
+    },
+    "CLOSE_TAB": {
+      "pattern": "Close current tab",
+      "parameters": [],
+      "examples": [
+        "Close current tab"
+      ],
+      "confidence": 0.9
+    },
+    "ENVIRONMENT": {
+      "pattern": "Cookie/Environment operations",
+      "types": {
+        "ADD": {
+          "cookie": "Cookie create \"{name}\" as \"{value}\"",
+          "env": "Add environment variable \"{name}\""
+        },
+        "DELETE": {
+          "cookie": "Cookie remove \"{name}\"",
+          "env": "Delete environment variable \"{name}\""
+        },
+        "REMOVE": {
+          "cookie": "Cookie remove \"{name}\"",
+          "env": "Delete environment variable \"{name}\""
+        },
+        "CLEAR": {
+          "cookie": "Clear all cookies",
+          "env": "Clear all environment variables"
+        }
+      },
+      "parameters": ["type", "name", "value"],
+      "note": "API provides no distinction between cookie and env operations. Currently hardcoded as cookie.",
+      "confidence": 1.0
+    }
+  },
+  "fallback": {
+    "pattern": "Perform {action} on {target}",
+    "description": "Generic fallback for completely unknown actions"
+  }
+}

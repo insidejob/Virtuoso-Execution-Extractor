@@ -1,0 +1,58 @@
+{
+  "name": "virtuoso-api-reference",
+  "version": "1.0.0",
+  "description": "Ultra-fast API reference and testing system for Virtuoso QA platform",
+  "main": "virtuoso-master.js",
+  "bin": {
+    "virtuoso": "./virtuoso-cli-wrapper.js",
+    "virtuoso-legacy": "./virtuoso-master.js",
+    "virtuoso-old": "./virtuoso-cli.js"
+  },
+  "scripts": {
+    "search": "node src/search.js",
+    "test": "node src/test-runner.js --mock",
+    "test:mock": "node src/test-runner.js --mock",
+    "test:all": "node src/test-runner.js --all",
+    "test:endpoint": "node src/test-runner.js --endpoint",
+    "discover": "node src/api-discovery.js",
+    "discover:verbose": "node src/api-discovery.js --verbose",
+    "validate": "node src/api-validator.js",
+    "validate:verbose": "node src/api-validator.js --verbose",
+    "workflow": "node src/workflow-engine.js",
+    "workflow:execute": "node src/workflow-engine.js execute",
+    "workflow:natural": "node src/workflow-engine.js natural",
+    "example:auth": "node examples/auth.js",
+    "example:projects": "node examples/projects.js",
+    "example:testing": "node examples/testing.js",
+    "demo": "node quick-demo.js",
+    "schema:validate": "node -e \"require('./api-schema.json'); console.log('✅ Schema is valid JSON');\"",
+    "all": "npm run validate",
+    "start": "node virtuoso-master.js",
+    "env:status": "node src/environment-manager.js status",
+    "env:test": "node src/environment-manager.js test",
+    "env:set": "node src/environment-manager.js set",
+    "test:app2": "node test-app2-connection.js",
+    "test:env": "node test-environment-confirmation.js",
+    "verify": "node verify-app2-setup.js",
+    "demo:confirmation": "node demo-confirmation-prompt.js"
+  },
+  "keywords": [
+    "virtuoso",
+    "api",
+    "testing",
+    "qa",
+    "automation",
+    "rest",
+    "client"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "commander": "^9.0.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-08-10T20:13:24.815Z",
+  "journey": {
+    "project_id": 4889,
+    "goal_id": 8519,
+    "version": 28737,
+    "journey_id": 527286
+  },
+  "extractedData": {
+    "/api/goals/8519": {
+      "success": false,
+      "error": {
+        "code": "401",
+        "message": "Unauthorized"
+      }
+    },
+    "/api/projects/4889": {
+      "success": false,
+      "error": {
+        "code": "401",
+        "message": "Unauthorized"
+      }
+    },
+    "/api/projects/4889/goals": {
+      "success": false,
+      "error": {
+        "code": "401",
+        "message": "Unauthorized"
+      }
+    }
+  },
+  "summary": {
+    "dataPointsExtracted": 3,
+    "authenticationIssues": true,
+    "recommendation": "Need proper API token or use browser extraction"
+  }
+}

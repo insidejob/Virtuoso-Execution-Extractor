@@ -1,0 +1,26 @@
+{
+  "jobs": [],
+  "executions": [],
+  "projects": [],
+  "testsuites": [],
+  "workingEndpoints": [
+    {
+      "endpoint": "/auth/sso?organization=1964&userEmail=ed.clarke@spotqa.com",
+      "requiresAuth": false,
+      "data": {
+        "success": true,
+        "item": {
+          "ssoAuthenticationInfo": {
+            "GOOGLE": [
+              {
+                "organizationName": "",
+                "url": "https://oauth.sso.app2.virtuoso.qa/oauth2/authorize?client_id=ehqfejr0k8opr8dr6oq8g5c&response_type=CODE&identity_provider=Google&scope=aws.cognito.signin.user.admin+email+openid&redirect_uri=https%3A%2F%2Fapi-app2.virtuoso.qa%2Fapi%2Fauth%2Fsso%2Fgoogle-idp-result"
+              }
+            ]
+          },
+          "allowPassword": true
+        }
+      }
+    }
+  ]
+}

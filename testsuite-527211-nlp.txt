@@ -1,0 +1,18 @@
+// Checkpoint 1: TC2: Navigate to URL
+Navigate to "url"
+
+// Checkpoint 2: TC35: Login Admin
+Write "username" in field "username"
+Write "password" in field "password"
+Click on "ng scope"
+Click on "Administration"
+
+// Checkpoint 3: TC36: Add Isolation Questions
+Click on "Isolation Questions"
+Click on "add-question-button"
+Pick "Electrical" from "element"
+Pick "Fire" from "element"
+Write "This is a new question" in field "questionText"
+Pick "Yes / No" from "element"
+Write "1" in field "orderId"
+Click on "save-button"

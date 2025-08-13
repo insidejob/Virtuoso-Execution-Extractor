@@ -1,0 +1,15 @@
+// Checkpoint 1: TC2: Navigate to URL
+Navigate to "url"
+
+// Checkpoint 2: TC27: Login Admin
+Write "username" in field "username"
+Write "password" in field "password"
+Click on "ng scope"
+Click on "Administration"
+
+// Checkpoint 3: TC28: Add Permit Activities
+Click on "Permit Activities"
+Click on "Add"
+Pick "Fire" from "element"
+Write "Testing" in field "activityName"
+Click on "Save"

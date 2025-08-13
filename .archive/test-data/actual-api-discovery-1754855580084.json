@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-08-10T19:53:00.082Z",
+  "token": "Bearer token used",
+  "organizationId": 1964,
+  "discovered": {
+    "working": [
+      {
+        "url": "https://api.virtuoso.qa/user",
+        "status": 200,
+        "hasData": true
+      },
+      {
+        "url": "https://api.virtuoso.qa/projects",
+        "status": 200,
+        "hasData": true
+      },
+      {
+        "url": "https://api.virtuoso.qa/v1/user",
+        "status": 200,
+        "hasData": true
+      },
+      {
+        "url": "https://api.virtuoso.qa/v2/user",
+        "status": 200,
+        "hasData": true
+      },
+      {
+        "url": "https://api.virtuoso.qa/graphql",
+        "type": "graphql"
+      },
+      {
+        "url": "https://api.virtuoso.qa/query",
+        "type": "graphql"
+      },
+      {
+        "url": "https://api.virtuoso.qa/organizations/1964",
+        "status": 200
+      }
+    ],
+    "authentication": {
+      "Authorization": true,
+      "X-API-Key": true,
+      "X-Auth-Token": true,
+      "apikey": true
+    },
+    "structure": {
+      "api.virtuoso.qa/api/user": "requires_auth",
+      "api.virtuoso.qa/api/organizations/1964": "requires_auth"
+    }
+  },
+  "summary": {
+    "workingEndpoints": 7,
+    "authMethodsFound": 4
+  }
+}

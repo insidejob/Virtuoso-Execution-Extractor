@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-08-11T11:36:18.096Z",
+  "token": "2d313def-7ec2-4526-b0b6-57028c343aba",
+  "tokenAnalysis": {
+    "length": 36,
+    "format": "Valid UUID v4 format ✅",
+    "pattern": "UUID v4"
+  },
+  "results": [
+    {
+      "endpoint": "/testsuites/527211?envelope=false",
+      "status": 200,
+      "success": true
+    },
+    {
+      "endpoint": "/testsuites/527218?envelope=false",
+      "status": 200,
+      "success": true
+    },
+    {
+      "endpoint": "/executions/88715",
+      "status": 200,
+      "success": true
+    },
+    {
+      "endpoint": "/projects/4889/environments",
+      "status": 200,
+      "success": true
+    },
+    {
+      "endpoint": "/projects/4889",
+      "status": 200,
+      "success": true
+    }
+  ],
+  "conclusion": "TOKEN_WORKS"
+}

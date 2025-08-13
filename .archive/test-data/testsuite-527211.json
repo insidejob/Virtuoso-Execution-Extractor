@@ -1,0 +1,2865 @@
+{
+  "id": 527211,
+  "snapshotId": 28733,
+  "goalId": 8534,
+  "name": "Suite 18",
+  "title": "iPermit Add Isolation Question",
+  "dataTableId": 1940,
+  "canonicalId": "1935b0b7-c4f7-4f90-a02b-61780cea9a2c",
+  "draft": false,
+  "tags": [],
+  "cases": [
+    {
+      "kind": "Checkpoint",
+      "id": 1296513,
+      "canonicalId": "53b850dc-f4b5-4f1f-a67a-0cf53241b99d",
+      "snapshotId": 28733,
+      "goalId": 8534,
+      "name": "TC2",
+      "title": "Navigate to URL",
+      "sharedCount": 27,
+      "steps": [
+        {
+          "id": 15878407,
+          "canonicalId": "3dba8a16-5f8c-4f50-a09e-a735e9cd5d13",
+          "action": "NAVIGATE",
+          "variable": "url",
+          "meta": {
+            "kind": "NAVIGATE",
+            "type": "URL",
+            "useNewTab": false
+          },
+          "optional": false,
+          "value": "",
+          "ignoreOutcome": false,
+          "skip": false
+        }
+      ],
+      "tags": []
+    },
+    {
+      "kind": "Checkpoint",
+      "id": 1296546,
+      "canonicalId": "349ca022-594a-44e6-9d3a-bf0a45565fca",
+      "snapshotId": 28733,
+      "goalId": 8534,
+      "name": "TC35",
+      "title": "Login Admin",
+      "sharedCount": 1,
+      "steps": [
+        {
+          "id": 15878358,
+          "canonicalId": "57759ade-8f96-491b-8b44-e48247a37e97",
+          "action": "WRITE",
+          "variable": "username",
+          "meta": {
+            "kind": "WRITE",
+            "append": false
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 12174516,
+            "target": {
+              "kind": "INPUT",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[1]/div[2]/div[2]/form[1]/div/div/div[2]/div[2]/input"
+                },
+                {
+                  "type": "ID",
+                  "value": "username"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".form-panel-body > :nth-child(2) > .ng-pristine"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Username\"}"
+                }
+              ],
+              "signature": "d1f64da1-5wa142",
+              "tagName": "INPUT",
+              "text": "",
+              "classes": [
+                "ng-pristine",
+                "ng-untouched",
+                "ng-invalid",
+                "ng-invalid-required"
+              ],
+              "rect": {
+                "top": 185,
+                "right": 818,
+                "bottom": 219,
+                "left": 463,
+                "width": 356,
+                "height": 34,
+                "x": 462,
+                "y": 184
+              },
+              "offset": {
+                "height": 34,
+                "width": 356,
+                "left": 31,
+                "top": 95
+              },
+              "scroll": {
+                "height": 32,
+                "width": 354,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "username",
+                "name": "username",
+                "type": "text",
+                "class": "ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                "ng-class": "{invalid: usernameIsInvalid()}",
+                "ng-model": "credentials.username",
+                "required": ""
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/element/57c889b9046a3a43aee610ec59f8a4e789446d12b4675001d42058d15ad86175.png",
+              "encapsulated": false,
+              "form": "d1f64da1-1hgkob1",
+              "labels": [
+                {
+                  "kind": "LABEL",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div[1]/div[2]/div[2]/form[1]/div/div/div[2]/div[2]/label"
+                    },
+                    {
+                      "type": "CSS_SELECTOR",
+                      "value": ":nth-child(2) > label"
+                    }
+                  ],
+                  "signature": "d1f64da1-1ht9igk",
+                  "tagName": "LABEL",
+                  "text": "Username",
+                  "classes": [],
+                  "rect": {
+                    "top": 160,
+                    "right": 530,
+                    "bottom": 180,
+                    "left": 463,
+                    "width": 68,
+                    "height": 20,
+                    "x": 462,
+                    "y": 159
+                  },
+                  "offset": {
+                    "height": 20,
+                    "width": 68,
+                    "left": 31,
+                    "top": 70
+                  },
+                  "scroll": {
+                    "height": 20,
+                    "width": 68,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "for": "username"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "form": "d1f64da1-1hgkob1",
+                  "control": "d1f64da1-5wa142",
+                  "displayed": true,
+                  "isDisplayed": true
+                }
+              ],
+              "label": {
+                "kind": "LABEL",
+                "selectors": [
+                  {
+                    "type": "XPATH",
+                    "value": "/html/body/div[1]/div[2]/div[2]/form[1]/div/div/div[2]/div[2]/label"
+                  },
+                  {
+                    "type": "CSS_SELECTOR",
+                    "value": ":nth-child(2) > label"
+                  }
+                ],
+                "signature": "d1f64da1-1ht9igk",
+                "tagName": "LABEL",
+                "text": "Username",
+                "classes": [],
+                "rect": {
+                  "top": 160,
+                  "right": 530,
+                  "bottom": 180,
+                  "left": 463,
+                  "width": 68,
+                  "height": 20,
+                  "x": 462,
+                  "y": 159
+                },
+                "offset": {
+                  "height": 20,
+                  "width": 68,
+                  "left": 31,
+                  "top": 70
+                },
+                "scroll": {
+                  "height": 20,
+                  "width": 68,
+                  "left": 0,
+                  "top": 0
+                },
+                "inViewport": true,
+                "attributes": {
+                  "for": "username"
+                },
+                "eventListeners": [],
+                "encapsulated": false,
+                "form": "d1f64da1-1hgkob1",
+                "control": "d1f64da1-5wa142",
+                "displayed": true,
+                "isDisplayed": true
+              },
+              "value": "",
+              "checked": false,
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": false,
+                "valueMissing": true
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878359,
+          "canonicalId": "a7970d30-7ee6-4e49-b985-9585724c9081",
+          "action": "WRITE",
+          "variable": "password",
+          "meta": {
+            "kind": "WRITE",
+            "append": false
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 12174517,
+            "target": {
+              "kind": "INPUT",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div/div[2]/div[2]/form[1]/div/div/div[2]/div[3]/input"
+                },
+                {
+                  "type": "ID",
+                  "value": "password"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > :nth-child(3) > .ng-pristine"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Password\"}"
+                }
+              ],
+              "signature": "2edb7ef3-4womtc",
+              "tagName": "INPUT",
+              "text": "",
+              "classes": [
+                "ng-pristine",
+                "ng-untouched",
+                "ng-invalid",
+                "ng-invalid-required"
+              ],
+              "rect": {
+                "top": 259,
+                "right": 818,
+                "bottom": 293,
+                "left": 463,
+                "width": 356,
+                "height": 34,
+                "x": 462,
+                "y": 258
+              },
+              "offset": {
+                "height": 34,
+                "width": 356,
+                "left": 31,
+                "top": 169
+              },
+              "scroll": {
+                "height": 32,
+                "width": 354,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "password",
+                "name": "password",
+                "type": "password",
+                "class": "ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                "ng-class": "{invalid: passwordIsInvalid()}",
+                "ng-model": "credentials.password",
+                "required": ""
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/element/57c889b9046a3a43aee610ec59f8a4e789446d12b4675001d42058d15ad86175.png",
+              "encapsulated": false,
+              "form": "2edb7ef3-1syrr1a",
+              "labels": [
+                {
+                  "kind": "LABEL",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/form[1]/div/div/div[2]/div[3]/label"
+                    },
+                    {
+                      "type": "CSS_SELECTOR",
+                      "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > :nth-child(3) > label"
+                    }
+                  ],
+                  "signature": "2edb7ef3-1kziyd6",
+                  "tagName": "LABEL",
+                  "text": "Password",
+                  "classes": [],
+                  "rect": {
+                    "top": 234,
+                    "right": 529,
+                    "bottom": 254,
+                    "left": 463,
+                    "width": 66,
+                    "height": 20,
+                    "x": 462,
+                    "y": 233
+                  },
+                  "offset": {
+                    "height": 20,
+                    "width": 66,
+                    "left": 31,
+                    "top": 144
+                  },
+                  "scroll": {
+                    "height": 20,
+                    "width": 66,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "for": "password"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "form": "2edb7ef3-1syrr1a",
+                  "control": "2edb7ef3-4womtc",
+                  "displayed": true,
+                  "isDisplayed": true
+                }
+              ],
+              "label": {
+                "kind": "LABEL",
+                "selectors": [
+                  {
+                    "type": "XPATH",
+                    "value": "/html/body/div/div[2]/div[2]/form[1]/div/div/div[2]/div[3]/label"
+                  },
+                  {
+                    "type": "CSS_SELECTOR",
+                    "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > :nth-child(3) > label"
+                  }
+                ],
+                "signature": "2edb7ef3-1kziyd6",
+                "tagName": "LABEL",
+                "text": "Password",
+                "classes": [],
+                "rect": {
+                  "top": 234,
+                  "right": 529,
+                  "bottom": 254,
+                  "left": 463,
+                  "width": 66,
+                  "height": 20,
+                  "x": 462,
+                  "y": 233
+                },
+                "offset": {
+                  "height": 20,
+                  "width": 66,
+                  "left": 31,
+                  "top": 144
+                },
+                "scroll": {
+                  "height": 20,
+                  "width": 66,
+                  "left": 0,
+                  "top": 0
+                },
+                "inViewport": true,
+                "attributes": {
+                  "for": "password"
+                },
+                "eventListeners": [],
+                "encapsulated": false,
+                "form": "2edb7ef3-1syrr1a",
+                "control": "2edb7ef3-4womtc",
+                "displayed": true,
+                "isDisplayed": true
+              },
+              "value": "",
+              "checked": false,
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": false,
+                "valueMissing": true
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878360,
+          "canonicalId": "336d1878-9760-4ad7-bb96-e060f45a7505",
+          "action": "CLICK",
+          "meta": {
+            "kind": "CLICK",
+            "type": "NATURAL"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 12174515,
+            "target": {
+              "kind": "BUTTON",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "Login"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > .primary-button"
+                }
+              ],
+              "signature": "17b57b48-8ry42a",
+              "tagName": "BUTTON",
+              "text": " Login",
+              "classes": [
+                "primary-button",
+                "pull-right"
+              ],
+              "rect": {
+                "top": 308,
+                "right": 818,
+                "bottom": 342,
+                "left": 740,
+                "width": 78,
+                "height": 34,
+                "x": 740,
+                "y": 307
+              },
+              "offset": {
+                "height": 34,
+                "width": 78,
+                "left": 309,
+                "top": 218
+              },
+              "scroll": {
+                "height": 32,
+                "width": 76,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "class": "primary-button pull-right",
+                "ng-click": "login(credentials)",
+                "ng-disabled": "(!formIsValid()) || busy"
+              },
+              "eventListeners": [],
+              "encapsulated": false,
+              "form": "17b57b48-1syrr1a",
+              "labels": [],
+              "value": "",
+              "disabled": false,
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": true,
+                "valueMissing": false
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878361,
+          "canonicalId": "e6665a5d-97b9-4ce6-a775-46fd2c9496c3",
+          "action": "CLICK",
+          "meta": {
+            "kind": "CLICK",
+            "type": "NATURAL"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 12174514,
+            "target": {
+              "kind": "LINK",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div/div[1]/nav[2]/div/div[2]/ul/li[9]/a"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Administration\"}"
+                }
+              ],
+              "signature": "c9d9380b-14a4d7q",
+              "tagName": "A",
+              "text": " Administration",
+              "classes": [],
+              "rect": {
+                "top": 0,
+                "right": 0,
+                "bottom": 0,
+                "left": 0,
+                "width": 0,
+                "height": 0,
+                "x": 0,
+                "y": 0
+              },
+              "offset": {
+                "height": 0,
+                "width": 0,
+                "left": 0,
+                "top": 0
+              },
+              "scroll": {
+                "height": 0,
+                "width": 0,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "href": "#/admin"
+              },
+              "eventListeners": [],
+              "encapsulated": false,
+              "url": "https://mobile-pretest.dev.iamtechapps.com/#/admin",
+              "origin": "https://mobile-pretest.dev.iamtechapps.com",
+              "displayed": false,
+              "isDisplayed": false
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        }
+      ],
+      "tags": []
+    },
+    {
+      "kind": "Checkpoint",
+      "id": 1296547,
+      "canonicalId": "5e29d188-034c-4da7-ad07-62b6887c989f",
+      "snapshotId": 28733,
+      "goalId": 8534,
+      "name": "TC36",
+      "title": "Add Isolation Questions",
+      "sharedCount": 1,
+      "steps": [
+        {
+          "id": 15878562,
+          "canonicalId": "0383b09d-7ff5-43e9-bbea-8243c1f349e2",
+          "action": "CLICK",
+          "meta": {
+            "kind": "CLICK",
+            "type": "NATURAL"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 12174518,
+            "target": {
+              "kind": "LINK",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[1]/div[2]/div[2]/div/div[5]/div/div[2]/div/div[2]/a"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ":nth-child(5) > .form-panel > .form-panel-body > .list-group > :nth-child(2) > .list-group-item"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": "[ca-action=\"IsolationTypeQuestion\"] > [ng-click=\"isCollapsed = !isCollapsed\"]"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Isolation Questions\"}"
+                }
+              ],
+              "signature": "8d4d6834-n1sm4i",
+              "tagName": "A",
+              "text": "Isolation Questions",
+              "classes": [
+                "list-group-item"
+              ],
+              "rect": {
+                "top": 413,
+                "right": 1235,
+                "bottom": 455,
+                "left": 879,
+                "width": 356,
+                "height": 42,
+                "x": 879,
+                "y": 412
+              },
+              "offset": {
+                "height": 42,
+                "width": 356,
+                "left": 31,
+                "top": 97
+              },
+              "scroll": {
+                "height": 40,
+                "width": 354,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "href": "#/questions/Isolation",
+                "class": "list-group-item",
+                "ng-click": "isCollapsed = !isCollapsed"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/element/24f7b071ff002b104f321f647885d9a3fe353b55cf92621122aed78b91f6da7a.png",
+              "encapsulated": false,
+              "url": "https://mobile-pretest.dev.iamtechapps.com/#/questions/Isolation",
+              "origin": "https://mobile-pretest.dev.iamtechapps.com",
+              "displayed": true,
+              "isDisplayed": true
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878362,
+          "canonicalId": "390f6e3d-968f-402e-bc29-d3b71832df11",
+          "action": "CLICK",
+          "meta": {
+            "kind": "CLICK",
+            "type": "NATURAL"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 12174519,
+            "target": {
+              "kind": "BUTTON",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/button"
+                },
+                {
+                  "type": "ID",
+                  "value": "add-question-button"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".toolbar-right > .primary-button"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Add\"}"
+                }
+              ],
+              "signature": "48557a73-1r4a9cu",
+              "tagName": "BUTTON",
+              "text": "\n                     Add Isolation Question\n                ",
+              "classes": [
+                "primary-button",
+                "ng-binding",
+                "ng-scope"
+              ],
+              "rect": {
+                "top": 50,
+                "right": 1265,
+                "bottom": 84,
+                "left": 1081,
+                "width": 184,
+                "height": 34,
+                "x": 1081,
+                "y": 50
+              },
+              "offset": {
+                "height": 34,
+                "width": 184,
+                "left": 441,
+                "top": 0
+              },
+              "scroll": {
+                "height": 32,
+                "width": 182,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "add-question-button",
+                "type": "button",
+                "class": "primary-button ng-binding ng-scope",
+                "ng-click": "onAdd();",
+                "ca-action": "Save",
+                "ca-resource": "PermitTypeQuestion"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/element/0c7742673944987524e7886221a45fe302f92e80bf853d98f0047b4d6b41f16f.png",
+              "encapsulated": false,
+              "labels": [],
+              "value": "",
+              "disabled": false,
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": true,
+                "valueMissing": false
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878563,
+          "canonicalId": "764bd013-2a1f-40b3-9d0d-6a534cda93a7",
+          "action": "PICK",
+          "meta": {
+            "kind": "PICK",
+            "type": "VISIBLE_TEXT"
+          },
+          "optional": false,
+          "value": "Electrical",
+          "element": {
+            "id": 12174522,
+            "target": {
+              "kind": "SELECT",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/select"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='permit-type-group']/select"
+                },
+                {
+                  "type": "ID",
+                  "value": "types"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ":nth-child(1) > .form-control"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Please Select...ElectricalMechanical/ProcessInstrumentInhibits/Overrides\",\"elementType\":\"DROPDOWN\"}"
+                }
+              ],
+              "signature": "82044709-1ou2ij8",
+              "tagName": "SELECT",
+              "text": "Please Select...ElectricalMechanical/ProcessInstrumentInhibits/Overrides",
+              "classes": [
+                "form-control",
+                "ng-pristine",
+                "ng-untouched",
+                "ng-invalid",
+                "ng-invalid-required"
+              ],
+              "rect": {
+                "top": 138,
+                "right": 397,
+                "bottom": 172,
+                "left": 46,
+                "width": 351,
+                "height": 34,
+                "x": 46,
+                "y": 137
+              },
+              "offset": {
+                "height": 34,
+                "width": 351,
+                "left": 31,
+                "top": 80
+              },
+              "scroll": {
+                "height": 32,
+                "width": 349,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "types",
+                "class": "form-control ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                "ng-model": "selectedPermitTypeQuestion.permitTypeId",
+                "required": "",
+                "ng-options": "pt.id as pt.permitTypeName for pt in types"
+              },
+              "eventListeners": [],
+              "encapsulated": false,
+              "form": "82044709-4pznqj",
+              "labels": [
+                {
+                  "kind": "LABEL",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/label"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='permit-type-group']/label"
+                    },
+                    {
+                      "type": "CSS_SELECTOR",
+                      "value": ":nth-child(1) > .required"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Isolation Type\"}"
+                    }
+                  ],
+                  "signature": "82044709-148r4gq",
+                  "tagName": "LABEL",
+                  "text": "Isolation Type",
+                  "classes": [
+                    "required",
+                    "ng-binding"
+                  ],
+                  "rect": {
+                    "top": 113,
+                    "right": 148,
+                    "bottom": 133,
+                    "left": 46,
+                    "width": 102,
+                    "height": 20,
+                    "x": 46,
+                    "y": 112
+                  },
+                  "offset": {
+                    "height": 20,
+                    "width": 102,
+                    "left": 31,
+                    "top": 55
+                  },
+                  "scroll": {
+                    "height": 20,
+                    "width": 102,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "for": "types",
+                    "class": "required ng-binding"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "form": "82044709-4pznqj",
+                  "control": "82044709-1ou2ij8",
+                  "displayed": true,
+                  "isDisplayed": true
+                }
+              ],
+              "label": {
+                "kind": "LABEL",
+                "selectors": [
+                  {
+                    "type": "XPATH",
+                    "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/label"
+                  },
+                  {
+                    "type": "XPATH_ID",
+                    "value": "//*[@id='permit-type-group']/label"
+                  },
+                  {
+                    "type": "CSS_SELECTOR",
+                    "value": ":nth-child(1) > .required"
+                  },
+                  {
+                    "type": "GUESS",
+                    "value": "{\"clue\":\"Isolation Type\"}"
+                  }
+                ],
+                "signature": "82044709-148r4gq",
+                "tagName": "LABEL",
+                "text": "Isolation Type",
+                "classes": [
+                  "required",
+                  "ng-binding"
+                ],
+                "rect": {
+                  "top": 113,
+                  "right": 148,
+                  "bottom": 133,
+                  "left": 46,
+                  "width": 102,
+                  "height": 20,
+                  "x": 46,
+                  "y": 112
+                },
+                "offset": {
+                  "height": 20,
+                  "width": 102,
+                  "left": 31,
+                  "top": 55
+                },
+                "scroll": {
+                  "height": 20,
+                  "width": 102,
+                  "left": 0,
+                  "top": 0
+                },
+                "inViewport": true,
+                "attributes": {
+                  "for": "types",
+                  "class": "required ng-binding"
+                },
+                "eventListeners": [],
+                "encapsulated": false,
+                "form": "82044709-4pznqj",
+                "control": "82044709-1ou2ij8",
+                "displayed": true,
+                "isDisplayed": true
+              },
+              "value": "",
+              "options": [
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/select/option[1]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='types']/option[1]"
+                    }
+                  ],
+                  "signature": "82044709-1xl6j8n",
+                  "tagName": "OPTION",
+                  "text": "Please Select...",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "class": "",
+                    "value": "",
+                    "selected": "selected"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/select/option[2]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='types']/option[2]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Electrical\"}"
+                    }
+                  ],
+                  "signature": "82044709-gbmi5o",
+                  "tagName": "OPTION",
+                  "text": "Electrical",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Electrical",
+                    "value": "number:1611"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/select/option[3]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='types']/option[3]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Mechanical/Process\"}"
+                    }
+                  ],
+                  "signature": "82044709-hfhrfl",
+                  "tagName": "OPTION",
+                  "text": "Mechanical/Process",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Mechanical/Process",
+                    "value": "number:1859"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/select/option[4]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='types']/option[4]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Instrument\"}"
+                    }
+                  ],
+                  "signature": "82044709-1ypkpie",
+                  "tagName": "OPTION",
+                  "text": "Instrument",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Instrument",
+                    "value": "number:2107"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/select/option[5]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='types']/option[5]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Inhibits/Overrides\"}"
+                    }
+                  ],
+                  "signature": "82044709-1xlj58j",
+                  "tagName": "OPTION",
+                  "text": "Inhibits/Overrides",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Inhibits/Overrides",
+                    "value": "number:2355"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                }
+              ],
+              "selected": [
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/select/option[1]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='types']/option[1]"
+                    }
+                  ],
+                  "signature": "82044709-1xl6j8n",
+                  "tagName": "OPTION",
+                  "text": "Please Select...",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "class": "",
+                    "value": "",
+                    "selected": "selected"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                }
+              ],
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": false,
+                "valueMissing": true
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878371,
+          "canonicalId": "48c404e0-7ec6-46c6-87d7-28186ebf1e49",
+          "action": "PICK",
+          "meta": {
+            "kind": "PICK",
+            "type": "VISIBLE_TEXT"
+          },
+          "optional": false,
+          "value": "Fire",
+          "element": {
+            "id": 12174523,
+            "target": {
+              "kind": "SELECT",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[2]/select"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='question-type-group']/select"
+                },
+                {
+                  "type": "ID",
+                  "value": "questionTypes"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".form-panel-body > :nth-child(2) > .form-control"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Please Select...General WorkPrecautionsFireHazard and Controls ChecklistCBRE CompetenceCBRE CommunicationPPE ChecklistSafety ChecklistPPEQualifications / Compet\",\"elementType\":\"DROPDOWN\"}"
+                }
+              ],
+              "signature": "1219ca9e-1r7qtwl",
+              "tagName": "SELECT",
+              "text": "Please Select...General WorkPrecautionsFireHazard and Controls ChecklistCBRE CompetenceTestingCBRE CommunicationPPE ChecklistSafety ChecklistPPEQualifications / CompetenceCBRE Risk Control InformationCBRE Tools and EquipmentIsolationWork at HeightCBRE Work Area ConditionCBRE Work Area ProtectionEmergency ProceduresConfined SpacesCBRE Emergencies :- Do you knowCBRE Personal Protective Equipment (PPE)  is the last control measureCBRE - Who is at RISK from your work?CBRE - Essential PPE Required to be WornCBRE Last check",
+              "classes": [
+                "form-control",
+                "ng-pristine",
+                "ng-untouched",
+                "ng-invalid",
+                "ng-invalid-required"
+              ],
+              "rect": {
+                "top": 249,
+                "right": 397,
+                "bottom": 283,
+                "left": 46,
+                "width": 351,
+                "height": 34,
+                "x": 46,
+                "y": 248
+              },
+              "offset": {
+                "height": 34,
+                "width": 351,
+                "left": 31,
+                "top": 154
+              },
+              "scroll": {
+                "height": 32,
+                "width": 349,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "questionTypes",
+                "class": "form-control ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                "ng-model": "selectedPermitTypeQuestion.questionTypeId",
+                "required": "",
+                "ng-options": "qt.id as qt.questionTypeName for qt in questionTypes"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/element/0be7141844e56b578098a71cfe3f16614f6884bb9b76ef2ee004d5fdd2938331.png",
+              "encapsulated": false,
+              "form": "1219ca9e-4pznqj",
+              "labels": [
+                {
+                  "kind": "LABEL",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[2]/label"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='question-type-group']/label"
+                    },
+                    {
+                      "type": "CSS_SELECTOR",
+                      "value": ":nth-child(2) > .required"
+                    }
+                  ],
+                  "signature": "1219ca9e-e5wj11",
+                  "tagName": "LABEL",
+                  "text": "Question Type",
+                  "classes": [
+                    "required"
+                  ],
+                  "rect": {
+                    "top": 224,
+                    "right": 151,
+                    "bottom": 244,
+                    "left": 46,
+                    "width": 105,
+                    "height": 20,
+                    "x": 46,
+                    "y": 223
+                  },
+                  "offset": {
+                    "height": 20,
+                    "width": 105,
+                    "left": 31,
+                    "top": 129
+                  },
+                  "scroll": {
+                    "height": 20,
+                    "width": 105,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "for": "questionTypes",
+                    "class": "required"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "form": "1219ca9e-4pznqj",
+                  "control": "1219ca9e-1r7qtwl",
+                  "displayed": true,
+                  "isDisplayed": true
+                }
+              ],
+              "label": {
+                "kind": "LABEL",
+                "selectors": [
+                  {
+                    "type": "XPATH",
+                    "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[2]/label"
+                  },
+                  {
+                    "type": "XPATH_ID",
+                    "value": "//*[@id='question-type-group']/label"
+                  },
+                  {
+                    "type": "CSS_SELECTOR",
+                    "value": ":nth-child(2) > .required"
+                  }
+                ],
+                "signature": "1219ca9e-e5wj11",
+                "tagName": "LABEL",
+                "text": "Question Type",
+                "classes": [
+                  "required"
+                ],
+                "rect": {
+                  "top": 224,
+                  "right": 151,
+                  "bottom": 244,
+                  "left": 46,
+                  "width": 105,
+                  "height": 20,
+                  "x": 46,
+                  "y": 223
+                },
+                "offset": {
+                  "height": 20,
+                  "width": 105,
+                  "left": 31,
+                  "top": 129
+                },
+                "scroll": {
+                  "height": 20,
+                  "width": 105,
+                  "left": 0,
+                  "top": 0
+                },
+                "inViewport": true,
+                "attributes": {
+                  "for": "questionTypes",
+                  "class": "required"
+                },
+                "eventListeners": [],
+                "encapsulated": false,
+                "form": "1219ca9e-4pznqj",
+                "control": "1219ca9e-1r7qtwl",
+                "displayed": true,
+                "isDisplayed": true
+              },
+              "value": "",
+              "options": [],
+              "selected": [],
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": false,
+                "valueMissing": true
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878372,
+          "canonicalId": "236d670a-2ad4-4085-89eb-5adef8d2a78a",
+          "action": "WRITE",
+          "meta": {
+            "kind": "WRITE",
+            "append": false
+          },
+          "optional": false,
+          "value": "This is a new question",
+          "element": {
+            "id": 12174524,
+            "target": {
+              "kind": "TEXTAREA",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[4]/textarea"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='question-group']/textarea"
+                },
+                {
+                  "type": "ID",
+                  "value": "questionText"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ":nth-child(4) > .ng-pristine"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Question\"}"
+                }
+              ],
+              "signature": "d3602777-16dm1l",
+              "tagName": "TEXTAREA",
+              "text": "",
+              "classes": [
+                "ng-pristine",
+                "ng-untouched",
+                "ng-invalid",
+                "ng-invalid-required"
+              ],
+              "rect": {
+                "top": 351,
+                "right": 397,
+                "bottom": 451,
+                "left": 46,
+                "width": 351,
+                "height": 100,
+                "x": 46,
+                "y": 350
+              },
+              "offset": {
+                "height": 100,
+                "width": 351,
+                "left": 31,
+                "top": 290
+              },
+              "scroll": {
+                "height": 98,
+                "width": 349,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "questionText",
+                "cols": "10",
+                "name": "questionText",
+                "rows": "5",
+                "class": "ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                "style": "height: 100px;",
+                "ng-model": "selectedPermitTypeQuestion.questionText",
+                "required": ""
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/20be75904f1d1963fba2dcb14631f643684e0f632256671cdac03e56817eef87.png",
+              "encapsulated": false,
+              "form": "d3602777-4pznqj",
+              "labels": [
+                {
+                  "kind": "LABEL",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[4]/label"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='question-group']/label"
+                    },
+                    {
+                      "type": "CSS_SELECTOR",
+                      "value": ":nth-child(4) > .required"
+                    }
+                  ],
+                  "signature": "d3602777-ym2ojj",
+                  "tagName": "LABEL",
+                  "text": "Question",
+                  "classes": [
+                    "required"
+                  ],
+                  "rect": {
+                    "top": 326,
+                    "right": 115,
+                    "bottom": 346,
+                    "left": 46,
+                    "width": 69,
+                    "height": 20,
+                    "x": 46,
+                    "y": 325
+                  },
+                  "offset": {
+                    "height": 20,
+                    "width": 69,
+                    "left": 31,
+                    "top": 265
+                  },
+                  "scroll": {
+                    "height": 20,
+                    "width": 69,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "for": "questionText",
+                    "class": "required"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "form": "d3602777-4pznqj",
+                  "control": "d3602777-16dm1l",
+                  "displayed": true,
+                  "isDisplayed": true
+                }
+              ],
+              "label": {
+                "kind": "LABEL",
+                "selectors": [
+                  {
+                    "type": "XPATH",
+                    "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[4]/label"
+                  },
+                  {
+                    "type": "XPATH_ID",
+                    "value": "//*[@id='question-group']/label"
+                  },
+                  {
+                    "type": "CSS_SELECTOR",
+                    "value": ":nth-child(4) > .required"
+                  }
+                ],
+                "signature": "d3602777-ym2ojj",
+                "tagName": "LABEL",
+                "text": "Question",
+                "classes": [
+                  "required"
+                ],
+                "rect": {
+                  "top": 326,
+                  "right": 115,
+                  "bottom": 346,
+                  "left": 46,
+                  "width": 69,
+                  "height": 20,
+                  "x": 46,
+                  "y": 325
+                },
+                "offset": {
+                  "height": 20,
+                  "width": 69,
+                  "left": 31,
+                  "top": 265
+                },
+                "scroll": {
+                  "height": 20,
+                  "width": 69,
+                  "left": 0,
+                  "top": 0
+                },
+                "inViewport": true,
+                "attributes": {
+                  "for": "questionText",
+                  "class": "required"
+                },
+                "eventListeners": [],
+                "encapsulated": false,
+                "form": "d3602777-4pznqj",
+                "control": "d3602777-16dm1l",
+                "displayed": true,
+                "isDisplayed": true
+              },
+              "value": "",
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": false,
+                "valueMissing": true
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878373,
+          "canonicalId": "c19a0dd0-df4a-4d2f-8f4a-4f32361ba5e5",
+          "action": "PICK",
+          "meta": {
+            "kind": "PICK",
+            "type": "VISIBLE_TEXT"
+          },
+          "optional": false,
+          "value": "Yes / No",
+          "element": {
+            "id": 12174525,
+            "target": {
+              "kind": "SELECT",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='response-type-group']/select"
+                },
+                {
+                  "type": "ID",
+                  "value": "responseTypes"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ":nth-child(5) > .form-control"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Please Select...Yes / NoTextMulti LineYes / No / NADropdownYes / No / TextMulti TextYes No Toggle\",\"elementType\":\"DROPDOWN\"}"
+                }
+              ],
+              "signature": "74d99697-euuuzs",
+              "tagName": "SELECT",
+              "text": "Please Select...Yes / NoTextMulti LineYes / No / NADropdownYes / No / TextMulti TextYes No Toggle",
+              "classes": [
+                "form-control",
+                "ng-pristine",
+                "ng-untouched",
+                "ng-invalid",
+                "ng-invalid-required"
+              ],
+              "rect": {
+                "top": 593,
+                "right": 397,
+                "bottom": 627,
+                "left": 46,
+                "width": 351,
+                "height": 34,
+                "x": 46,
+                "y": 592
+              },
+              "offset": {
+                "height": 34,
+                "width": 351,
+                "left": 31,
+                "top": 430
+              },
+              "scroll": {
+                "height": 32,
+                "width": 349,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "responseTypes",
+                "class": "form-control ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                "ng-model": "selectedPermitTypeQuestion.responseTypeId",
+                "required": "",
+                "ng-options": "rt.id as rt.responseTypeName for rt in responseTypes"
+              },
+              "eventListeners": [],
+              "encapsulated": false,
+              "form": "74d99697-4pznqj",
+              "labels": [
+                {
+                  "kind": "LABEL",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/label"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='response-type-group']/label"
+                    },
+                    {
+                      "type": "CSS_SELECTOR",
+                      "value": ":nth-child(5) > .required"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Response Type\"}"
+                    }
+                  ],
+                  "signature": "74d99697-78pzwe",
+                  "tagName": "LABEL",
+                  "text": "Response Type",
+                  "classes": [
+                    "required"
+                  ],
+                  "rect": {
+                    "top": 568,
+                    "right": 157,
+                    "bottom": 588,
+                    "left": 46,
+                    "width": 111,
+                    "height": 20,
+                    "x": 46,
+                    "y": 567
+                  },
+                  "offset": {
+                    "height": 20,
+                    "width": 111,
+                    "left": 31,
+                    "top": 405
+                  },
+                  "scroll": {
+                    "height": 20,
+                    "width": 111,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "for": "responseTypes",
+                    "class": "required"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "form": "74d99697-4pznqj",
+                  "control": "74d99697-euuuzs",
+                  "displayed": true,
+                  "isDisplayed": true
+                }
+              ],
+              "label": {
+                "kind": "LABEL",
+                "selectors": [
+                  {
+                    "type": "XPATH",
+                    "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/label"
+                  },
+                  {
+                    "type": "XPATH_ID",
+                    "value": "//*[@id='response-type-group']/label"
+                  },
+                  {
+                    "type": "CSS_SELECTOR",
+                    "value": ":nth-child(5) > .required"
+                  },
+                  {
+                    "type": "GUESS",
+                    "value": "{\"clue\":\"Response Type\"}"
+                  }
+                ],
+                "signature": "74d99697-78pzwe",
+                "tagName": "LABEL",
+                "text": "Response Type",
+                "classes": [
+                  "required"
+                ],
+                "rect": {
+                  "top": 568,
+                  "right": 157,
+                  "bottom": 588,
+                  "left": 46,
+                  "width": 111,
+                  "height": 20,
+                  "x": 46,
+                  "y": 567
+                },
+                "offset": {
+                  "height": 20,
+                  "width": 111,
+                  "left": 31,
+                  "top": 405
+                },
+                "scroll": {
+                  "height": 20,
+                  "width": 111,
+                  "left": 0,
+                  "top": 0
+                },
+                "inViewport": true,
+                "attributes": {
+                  "for": "responseTypes",
+                  "class": "required"
+                },
+                "eventListeners": [],
+                "encapsulated": false,
+                "form": "74d99697-4pznqj",
+                "control": "74d99697-euuuzs",
+                "displayed": true,
+                "isDisplayed": true
+              },
+              "value": "",
+              "options": [
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[1]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[1]"
+                    }
+                  ],
+                  "signature": "74d99697-cnpztn",
+                  "tagName": "OPTION",
+                  "text": "Please Select...",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "class": "",
+                    "value": "",
+                    "selected": "selected"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[2]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[2]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Yes / No\"}"
+                    }
+                  ],
+                  "signature": "74d99697-ufa0ps",
+                  "tagName": "OPTION",
+                  "text": "Yes / No",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Yes / No",
+                    "value": "number:1"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[3]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[3]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Text\"}"
+                    }
+                  ],
+                  "signature": "74d99697-vj59zp",
+                  "tagName": "OPTION",
+                  "text": "Text",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Text",
+                    "value": "number:2"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[4]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[4]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Multi Line\"}"
+                    }
+                  ],
+                  "signature": "74d99697-drcqhu",
+                  "tagName": "OPTION",
+                  "text": "Multi Line",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Multi Line",
+                    "value": "number:3"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[5]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[5]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Yes / No / NA\"}"
+                    }
+                  ],
+                  "signature": "74d99697-uelqm7",
+                  "tagName": "OPTION",
+                  "text": "Yes / No / NA",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Yes / No / NA",
+                    "value": "number:4"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[6]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[6]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Dropdown\"}"
+                    }
+                  ],
+                  "signature": "74d99697-uev744",
+                  "tagName": "OPTION",
+                  "text": "Dropdown",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Dropdown",
+                    "value": "number:5"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[7]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[7]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Yes / No / Text\"}"
+                    }
+                  ],
+                  "signature": "74d99697-drfvzt",
+                  "tagName": "OPTION",
+                  "text": "Yes / No / Text",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Yes / No / Text",
+                    "value": "number:6"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[8]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[8]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Multi Text\"}"
+                    }
+                  ],
+                  "signature": "74d99697-vi8hae",
+                  "tagName": "OPTION",
+                  "text": "Multi Text",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Multi Text",
+                    "value": "number:7"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                },
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[9]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[9]"
+                    },
+                    {
+                      "type": "GUESS",
+                      "value": "{\"clue\":\"Yes No Toggle\"}"
+                    }
+                  ],
+                  "signature": "74d99697-ue6x0j",
+                  "tagName": "OPTION",
+                  "text": "Yes No Toggle",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "label": "Yes No Toggle",
+                    "value": "number:8"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                }
+              ],
+              "selected": [
+                {
+                  "kind": "BASIC",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[5]/select/option[1]"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='responseTypes']/option[1]"
+                    }
+                  ],
+                  "signature": "74d99697-cnpztn",
+                  "tagName": "OPTION",
+                  "text": "Please Select...",
+                  "classes": [],
+                  "rect": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "width": 0,
+                    "height": 0,
+                    "x": 0,
+                    "y": 0
+                  },
+                  "offset": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "scroll": {
+                    "height": 0,
+                    "width": 0,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "class": "",
+                    "value": "",
+                    "selected": "selected"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "displayed": false,
+                  "isDisplayed": false
+                }
+              ],
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": false,
+                "valueMissing": true
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878370,
+          "canonicalId": "f6f06be2-308f-4f21-9b19-e79a3f933492",
+          "action": "WRITE",
+          "meta": {
+            "kind": "WRITE",
+            "append": false
+          },
+          "optional": false,
+          "value": "1",
+          "element": {
+            "id": 12174520,
+            "target": {
+              "kind": "INPUT",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[9]/input"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='order-group']/input"
+                },
+                {
+                  "type": "ID",
+                  "value": "orderId"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ":nth-child(9) > .ng-pristine"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Order\"}"
+                }
+              ],
+              "signature": "446a45f1-189di7s",
+              "tagName": "INPUT",
+              "text": "",
+              "classes": [
+                "ng-pristine",
+                "ng-untouched",
+                "ng-invalid",
+                "ng-invalid-required"
+              ],
+              "rect": {
+                "top": 636,
+                "right": 397,
+                "bottom": 670,
+                "left": 46,
+                "width": 351,
+                "height": 34,
+                "x": 46,
+                "y": 635
+              },
+              "offset": {
+                "height": 34,
+                "width": 351,
+                "left": 31,
+                "top": 578
+              },
+              "scroll": {
+                "height": 32,
+                "width": 349,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "orderId",
+                "name": "orderId",
+                "type": "text",
+                "class": "ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                "ng-model": "selectedPermitTypeQuestion.orderId",
+                "required": ""
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/element/48036bbc3e253159afdef61f321c6db6a2f2ca9e56405134a12749bc1900e3a5.png",
+              "encapsulated": false,
+              "form": "446a45f1-4pznqj",
+              "labels": [
+                {
+                  "kind": "LABEL",
+                  "selectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[9]/label"
+                    },
+                    {
+                      "type": "XPATH_ID",
+                      "value": "//*[@id='order-group']/label"
+                    },
+                    {
+                      "type": "CSS_SELECTOR",
+                      "value": ":nth-child(9) > .required"
+                    }
+                  ],
+                  "signature": "446a45f1-1om21pu",
+                  "tagName": "LABEL",
+                  "text": "Order",
+                  "classes": [
+                    "required"
+                  ],
+                  "rect": {
+                    "top": 611,
+                    "right": 93,
+                    "bottom": 631,
+                    "left": 46,
+                    "width": 47,
+                    "height": 20,
+                    "x": 46,
+                    "y": 610
+                  },
+                  "offset": {
+                    "height": 20,
+                    "width": 47,
+                    "left": 31,
+                    "top": 553
+                  },
+                  "scroll": {
+                    "height": 20,
+                    "width": 47,
+                    "left": 0,
+                    "top": 0
+                  },
+                  "inViewport": true,
+                  "attributes": {
+                    "for": "orderId",
+                    "class": "required"
+                  },
+                  "eventListeners": [],
+                  "encapsulated": false,
+                  "form": "446a45f1-4pznqj",
+                  "control": "446a45f1-189di7s",
+                  "displayed": true,
+                  "isDisplayed": true
+                }
+              ],
+              "label": {
+                "kind": "LABEL",
+                "selectors": [
+                  {
+                    "type": "XPATH",
+                    "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[9]/label"
+                  },
+                  {
+                    "type": "XPATH_ID",
+                    "value": "//*[@id='order-group']/label"
+                  },
+                  {
+                    "type": "CSS_SELECTOR",
+                    "value": ":nth-child(9) > .required"
+                  }
+                ],
+                "signature": "446a45f1-1om21pu",
+                "tagName": "LABEL",
+                "text": "Order",
+                "classes": [
+                  "required"
+                ],
+                "rect": {
+                  "top": 611,
+                  "right": 93,
+                  "bottom": 631,
+                  "left": 46,
+                  "width": 47,
+                  "height": 20,
+                  "x": 46,
+                  "y": 610
+                },
+                "offset": {
+                  "height": 20,
+                  "width": 47,
+                  "left": 31,
+                  "top": 553
+                },
+                "scroll": {
+                  "height": 20,
+                  "width": 47,
+                  "left": 0,
+                  "top": 0
+                },
+                "inViewport": true,
+                "attributes": {
+                  "for": "orderId",
+                  "class": "required"
+                },
+                "eventListeners": [],
+                "encapsulated": false,
+                "form": "446a45f1-4pznqj",
+                "control": "446a45f1-189di7s",
+                "displayed": true,
+                "isDisplayed": true
+              },
+              "value": "",
+              "checked": false,
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": false,
+                "valueMissing": true
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 15878357,
+          "canonicalId": "e6bf62f6-82ce-4baf-baf7-92447aba9b3c",
+          "action": "CLICK",
+          "meta": {
+            "kind": "CLICK",
+            "type": "NATURAL"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 12174521,
+            "target": {
+              "kind": "BUTTON",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[1]/div[2]/button[2]"
+                },
+                {
+                  "type": "ID",
+                  "value": "save-button"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".primary-button"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Save\"}"
+                }
+              ],
+              "signature": "2cf051a0-g9okvt",
+              "tagName": "BUTTON",
+              "text": "\n                     Save\n                    ",
+              "classes": [
+                "primary-button",
+                "ng-scope"
+              ],
+              "rect": {
+                "top": 118,
+                "right": 1150,
+                "bottom": 152,
+                "left": 1074,
+                "width": 76,
+                "height": 34,
+                "x": 1074,
+                "y": 118
+              },
+              "offset": {
+                "height": 34,
+                "width": 76,
+                "left": 442,
+                "top": 0
+              },
+              "scroll": {
+                "height": 32,
+                "width": 74,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "save-button",
+                "type": "button",
+                "class": "primary-button ng-scope",
+                "title": "Save",
+                "ng-click": "onSave(selectedPermitTypeQuestion);",
+                "ca-action": "Save",
+                "ca-resource": "PermitTypeQuestion",
+                "ng-disabled": "questionForm.$invalid || questionForm.$pristine || !questionForm.$dirty"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/81173d2d529f9cb012875c1d159aad3b058df047b6bf5d83adf351473e2115a6.png",
+              "encapsulated": false,
+              "form": "2cf051a0-4pznqj",
+              "labels": [],
+              "value": "",
+              "disabled": false,
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": true,
+                "valueMissing": false
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "dataAttributeValues": {
+    "Permit_Types": "General Work",
+    "QuestionType1": "Precautions",
+    "QuestionType2": "General Work",
+    "QuestionType3": "PPE",
+    "QuestionType4": "Qualifications / Competence",
+    "QuestionType5": "Isolation",
+    "QuestionType6": "Work at Height",
+    "QuestionType7": "Emergency Procedures",
+    "QuestionType8": "Confined Spaces",
+    "Question21": "All HP equipment checked and free of damage",
+    "Question22": "Is it possible for the work to be carried out at in a controlled environment such as a welding bay?",
+    "Question23": "Is it possible for the work to be carried without having to carry out the lifting operation, if not have adequate access and egress means been agreed with all parties for the lifting equipment?",
+    "Question24": "Ventilation sufficient and dust free",
+    "Question25": "4 point chin strap",
+    "Question26": "Is it possible for the work to be carried out at ground level, if not have adequate access methods been made available?",
+    "Question27": "",
+    "Question13": "Has sufficient lighting been provided in the case of dark areas, dusk, night and dawn?",
+    "Question14": "Special tools/equipment requirements assessed & equipment provided?",
+    "Question15": "Is there safe means of access to the work area?",
+    "Question16": "Have barriers or covers been used to prevent falls through openings in the floor/ceiling?",
+    "Question17": "Have methods of waste disposal been agreed?",
+    "Question18": "Are all tools and equipment in good working order and suitable for the job?",
+    "Question19": "Have methods of cleaning any spillages been agreed?",
+    "Question20": "Is any lone working to take place and if so, have suitable arrangements been made for this?",
+    "Question3": "Is the workforce qualified to carry out the task?",
+    "Question4": "Is work being carried out at height? If yes a WAH PTW should be issued.",
+    "Question5": "Isolated electrical supply? Work in accordance with current Electricity at Work Regs.",
+    "Question6": "Are personnel aware of means of escape and method of raising alarm?",
+    "Question7": "Is confined space working necessary? If so, a Confined Spaces PTW is required.",
+    "Question8": "Are personnel aware of first aid reporting procedures?",
+    "Question9": "Isolator locked off / tagged? Work in accordance with Electricity at Work Regs. Safe Working Practices HSG 85.",
+    "Question10": "When working outdoors assess weather conditions to ensure it is safe to carry out the work.",
+    "Question11": "Have you been provided with copies of certification?",
+    "Question12": "PPE requirements assessed & PPE provided?",
+    "Question1": "Has a risk assessment been carried out?",
+    "Question2": "Is appropriate PPE available?",
+    "JSAtype": "Risk Assessment",
+    "Isolationtype": "Instrument",
+    "Industry": "Manufacturing",
+    "Newpermittype": "Zoning",
+    "NewPermitquestion": "What materials will be used?",
+    "Newpermittype1": "Building",
+    "Questiontype": "Text",
+    "username": "Virtuoso1",
+    "password": "jABREx5*Do1U5U%L@vU#9tV8UzyA",
+    "QuestionType9": "",
+    "QuestionType10": "",
+    "Hazardtype": "Corrosive materials"
+  }
+}

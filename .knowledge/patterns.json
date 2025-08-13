@@ -1,0 +1,38 @@
+{
+  "description": "Fallback patterns for unknown scenarios",
+  "version": "1.0.0",
+  "selector_patterns": {
+    "missing_selector": {
+      "priority": ["text", "id", "class", "xpath"],
+      "fallback": "element on page"
+    },
+    "variable_selector": {
+      "pattern": "${variable}",
+      "description": "When selector is a variable reference"
+    }
+  },
+  "action_patterns": {
+    "unknown_with_target": {
+      "pattern": "{action} on {target}",
+      "applies_to": ["actions with selectors"]
+    },
+    "unknown_with_value": {
+      "pattern": "{action} with value {value}",
+      "applies_to": ["actions with values"]
+    },
+    "unknown_simple": {
+      "pattern": "Perform {action}",
+      "applies_to": ["actions without parameters"]
+    }
+  },
+  "auto_fix_rules": {
+    "SCROLL": {
+      "suggested_handler": "handleScroll",
+      "implementation": "return `Scroll ${step.meta?.direction || 'down'} ${step.meta?.amount || ''}`.trim();"
+    },
+    "HOVER": {
+      "suggested_handler": "handleHover",
+      "implementation": "return `Hover over ${this.getSelectorDescription(selectors)}`;"
+    }
+  }
+}

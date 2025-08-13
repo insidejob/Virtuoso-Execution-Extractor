@@ -1,0 +1,401 @@
+{
+  "success": true,
+  "envelope": true,
+  "item": {
+    "executionId": 86339,
+    "journeyId": 527257,
+    "projectId": 4889,
+    "goalId": 8519,
+    "status": "failed",
+    "startedAt": "2025-01-10T14:23:15.234Z",
+    "completedAt": "2025-01-10T14:24:03.891Z",
+    "duration": 48657,
+    "executionType": "manual",
+    "triggeredBy": "user@example.com",
+    "environment": {
+      "browser": "chrome",
+      "browserVersion": "120.0.6099.130",
+      "platform": "linux",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    "summary": {
+      "totalCheckpoints": 5,
+      "passedCheckpoints": 3,
+      "failedCheckpoints": 1,
+      "skippedCheckpoints": 1,
+      "totalSteps": 15,
+      "passedSteps": 11,
+      "failedSteps": 1,
+      "skippedSteps": 3,
+      "totalAssertions": 11,
+      "passedAssertions": 8,
+      "failedAssertions": 1,
+      "skippedAssertions": 2
+    },
+    "checkpoints": [
+      {
+        "checkpointId": "checkpoint_1",
+        "name": "Navigate to Login Page",
+        "status": "passed",
+        "startTime": "2025-01-10T14:23:15.234Z",
+        "endTime": "2025-01-10T14:23:18.456Z",
+        "duration": 3222,
+        "steps": [
+          {
+            "stepId": "step_1_1",
+            "action": "navigate",
+            "target": "https://app.example.com/login",
+            "status": "passed",
+            "startTime": "2025-01-10T14:23:15.234Z",
+            "endTime": "2025-01-10T14:23:17.123Z",
+            "duration": 1889,
+            "actualResult": "Successfully navigated to https://app.example.com/login",
+            "screenshot": {
+              "before": null,
+              "after": "https://screenshots.virtuoso.qa/86339/step_1_1_after.png"
+            },
+            "performance": {
+              "pageLoadTime": 1650,
+              "domContentLoaded": 892,
+              "firstContentfulPaint": 423,
+              "networkRequests": 23,
+              "totalTransferSize": 2453678
+            }
+          },
+          {
+            "stepId": "step_1_2",
+            "action": "wait_for_element",
+            "selector": "//input[@id='username']",
+            "status": "passed",
+            "startTime": "2025-01-10T14:23:17.123Z",
+            "endTime": "2025-01-10T14:23:18.456Z",
+            "duration": 1333,
+            "actualResult": "Element found and visible",
+            "elementDetails": {
+              "found": true,
+              "visible": true,
+              "enabled": true,
+              "position": { "x": 760, "y": 400 },
+              "size": { "width": 400, "height": 45 }
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "url_contains",
+            "expected": "/login",
+            "actual": "https://app.example.com/login",
+            "status": "passed",
+            "message": "URL contains /login as expected"
+          },
+          {
+            "type": "element_visible",
+            "selector": "#login-form",
+            "status": "passed",
+            "message": "Login form is visible"
+          }
+        ]
+      },
+      {
+        "checkpointId": "checkpoint_2",
+        "name": "Enter User Credentials",
+        "status": "passed",
+        "startTime": "2025-01-10T14:23:18.456Z",
+        "endTime": "2025-01-10T14:23:25.789Z",
+        "duration": 7333,
+        "steps": [
+          {
+            "stepId": "step_2_1",
+            "action": "click",
+            "selector": "#username",
+            "status": "passed",
+            "duration": 245,
+            "actualResult": "Clicked on element #username"
+          },
+          {
+            "stepId": "step_2_2",
+            "action": "type",
+            "selector": "#username",
+            "value": "testuser@example.com",
+            "status": "passed",
+            "duration": 2100,
+            "actualResult": "Typed 'testuser@example.com' into #username",
+            "typingSpeed": 95
+          },
+          {
+            "stepId": "step_2_3",
+            "action": "click",
+            "selector": "#password",
+            "status": "passed",
+            "duration": 189,
+            "actualResult": "Clicked on element #password"
+          },
+          {
+            "stepId": "step_2_4",
+            "action": "type",
+            "selector": "#password",
+            "value": "********",
+            "status": "passed",
+            "duration": 1560,
+            "actualResult": "Typed password into #password field",
+            "masked": true
+          }
+        ],
+        "assertions": [
+          {
+            "type": "field_value",
+            "selector": "#username",
+            "expected": "testuser@example.com",
+            "actual": "testuser@example.com",
+            "status": "passed"
+          },
+          {
+            "type": "field_not_empty",
+            "selector": "#password",
+            "status": "passed"
+          }
+        ]
+      },
+      {
+        "checkpointId": "checkpoint_3",
+        "name": "Submit Login Form",
+        "status": "passed",
+        "startTime": "2025-01-10T14:23:25.789Z",
+        "endTime": "2025-01-10T14:23:35.234Z",
+        "duration": 9445,
+        "steps": [
+          {
+            "stepId": "step_3_1",
+            "action": "click",
+            "selector": "button[type='submit']",
+            "status": "passed",
+            "duration": 156,
+            "actualResult": "Clicked submit button",
+            "networkActivity": {
+              "requestInitiated": true,
+              "endpoint": "/api/auth/login",
+              "method": "POST",
+              "responseStatus": 200,
+              "responseTime": 823
+            }
+          },
+          {
+            "stepId": "step_3_2",
+            "action": "wait_for_url",
+            "target": "/dashboard",
+            "status": "passed",
+            "duration": 9289,
+            "actualResult": "Successfully redirected to /dashboard",
+            "urlTransition": {
+              "from": "https://app.example.com/login",
+              "to": "https://app.example.com/dashboard",
+              "redirects": 1
+            }
+          }
+        ]
+      },
+      {
+        "checkpointId": "checkpoint_4",
+        "name": "Verify Dashboard Loaded",
+        "status": "failed",
+        "startTime": "2025-01-10T14:23:35.234Z",
+        "endTime": "2025-01-10T14:24:03.891Z",
+        "duration": 28657,
+        "failureReason": "Timeout waiting for element",
+        "steps": [
+          {
+            "stepId": "step_4_1",
+            "action": "wait_for_element",
+            "selector": "h1.dashboard-title",
+            "status": "failed",
+            "duration": 10000,
+            "actualResult": "Element not found within timeout",
+            "error": {
+              "type": "ElementNotFoundError",
+              "message": "Failed to find element with selector 'h1.dashboard-title' within 10000ms",
+              "selector": "h1.dashboard-title",
+              "timeout": 10000,
+              "attemptedSelectors": [
+                "h1.dashboard-title",
+                "h1[class*='dashboard']",
+                ".dashboard-title"
+              ],
+              "screenshot": "https://screenshots.virtuoso.qa/86339/step_4_1_failure.png",
+              "domSnapshot": "https://snapshots.virtuoso.qa/86339/step_4_1_dom.html"
+            },
+            "aiAnalysis": {
+              "detected": "The page loaded but the expected element selector has changed",
+              "suggestion": "Try using selector 'h1.page-title' or 'div.dashboard-header h1'",
+              "confidence": 0.87,
+              "similarElements": [
+                {
+                  "selector": "h1.page-title",
+                  "text": "Welcome testuser",
+                  "similarity": 0.78
+                },
+                {
+                  "selector": "div.dashboard-header h1",
+                  "text": "Dashboard",
+                  "similarity": 0.65
+                }
+              ]
+            },
+            "consoleErrors": [
+              {
+                "timestamp": "2025-01-10T14:23:44.123Z",
+                "level": "error",
+                "message": "TypeError: Cannot read property 'title' of undefined",
+                "source": "dashboard.js:45"
+              }
+            ],
+            "networkErrors": [
+              {
+                "url": "/api/dashboard/widgets",
+                "status": 500,
+                "message": "Internal Server Error"
+              }
+            ]
+          },
+          {
+            "stepId": "step_4_2",
+            "action": "verify_text",
+            "status": "skipped",
+            "reason": "Previous step failed"
+          },
+          {
+            "stepId": "step_4_3",
+            "action": "screenshot",
+            "status": "skipped",
+            "reason": "Previous step failed"
+          }
+        ],
+        "assertions": [
+          {
+            "type": "url_contains",
+            "expected": "/dashboard",
+            "actual": "https://app.example.com/dashboard",
+            "status": "passed"
+          },
+          {
+            "type": "element_visible",
+            "selector": ".user-menu",
+            "status": "failed",
+            "message": "User menu not found"
+          }
+        ]
+      },
+      {
+        "checkpointId": "checkpoint_5",
+        "name": "Verify User Menu Options",
+        "status": "skipped",
+        "reason": "Previous checkpoint failed",
+        "steps": [
+          {
+            "stepId": "step_5_1",
+            "status": "skipped"
+          },
+          {
+            "stepId": "step_5_2",
+            "status": "skipped"
+          },
+          {
+            "stepId": "step_5_3",
+            "status": "skipped"
+          }
+        ]
+      }
+    ],
+    "failureAnalysis": {
+      "primaryCause": "Element selector change",
+      "affectedCheckpoint": "checkpoint_4",
+      "affectedStep": "step_4_1",
+      "rootCause": {
+        "category": "UI_CHANGE",
+        "description": "The dashboard title element selector has changed from 'h1.dashboard-title' to 'h1.page-title'",
+        "recommendation": "Update the selector in the journey definition to 'h1.page-title'",
+        "autoHealAvailable": true,
+        "suggestedFix": {
+          "oldSelector": "h1.dashboard-title",
+          "newSelector": "h1.page-title",
+          "confidence": 0.87
+        }
+      },
+      "contributingFactors": [
+        {
+          "factor": "API Error",
+          "description": "Dashboard widgets API returned 500 error",
+          "impact": "medium"
+        },
+        {
+          "factor": "JavaScript Error",
+          "description": "Console error in dashboard.js may affect element rendering",
+          "impact": "low"
+        }
+      ],
+      "historicalContext": {
+        "previousExecutions": [
+          {
+            "executionId": 86338,
+            "status": "passed",
+            "date": "2025-01-10T10:15:00Z"
+          },
+          {
+            "executionId": 86337,
+            "status": "passed",
+            "date": "2025-01-10T06:00:00Z"
+          }
+        ],
+        "firstFailure": "2025-01-10T14:23:35.234Z",
+        "failurePattern": "New failure - was passing consistently"
+      }
+    },
+    "artifacts": {
+      "screenshots": [
+        {
+          "stepId": "step_1_1",
+          "url": "https://screenshots.virtuoso.qa/86339/step_1_1_after.png"
+        },
+        {
+          "stepId": "step_4_1",
+          "url": "https://screenshots.virtuoso.qa/86339/step_4_1_failure.png",
+          "type": "failure"
+        }
+      ],
+      "video": {
+        "url": "https://videos.virtuoso.qa/86339/execution.mp4",
+        "duration": 48657,
+        "failureTimestamp": 20000
+      },
+      "logs": {
+        "console": "https://logs.virtuoso.qa/86339/console.log",
+        "network": "https://logs.virtuoso.qa/86339/network.har",
+        "browser": "https://logs.virtuoso.qa/86339/browser.log"
+      },
+      "domSnapshots": [
+        {
+          "stepId": "step_4_1",
+          "url": "https://snapshots.virtuoso.qa/86339/step_4_1_dom.html"
+        }
+      ]
+    },
+    "metrics": {
+      "performance": {
+        "avgPageLoadTime": 2145,
+        "avgResponseTime": 567,
+        "totalNetworkRequests": 89,
+        "totalDataTransferred": 5.2,
+        "cpuUsage": 45,
+        "memoryUsage": 234
+      },
+      "coverage": {
+        "checkpointsCovered": 4,
+        "stepsCovered": 12,
+        "assertionsCovered": 9,
+        "coveragePercentage": 80
+      }
+    }
+  }
+}

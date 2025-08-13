@@ -1,0 +1,26 @@
+{
+  "development": {
+    "baseUrl": "https://api-dev.virtuoso.qa/api",
+    "timeout": 30000,
+    "retryAttempts": 3,
+    "requestDelay": 1000,
+    "testProjectId": "dev-project-123",
+    "testGoalId": "dev-goal-456"
+  },
+  "staging": {
+    "baseUrl": "https://api-staging.virtuoso.qa/api",
+    "timeout": 30000,
+    "retryAttempts": 3,
+    "requestDelay": 500,
+    "testProjectId": "staging-project-123",
+    "testGoalId": "staging-goal-456"
+  },
+  "production": {
+    "baseUrl": "https://api.virtuoso.qa/api",
+    "timeout": 30000,
+    "retryAttempts": 2,
+    "requestDelay": 1000,
+    "testProjectId": null,
+    "testGoalId": null
+  }
+}

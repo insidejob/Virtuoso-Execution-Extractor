@@ -1,0 +1,18 @@
+Checkpoint 2: Navigate to URL
+Navigate to $url
+
+Checkpoint 35: Login Admin
+Write $username in field "Username"
+Write $password in field "Password"
+Click on " Login"
+Click on "Administration"
+
+Checkpoint 36: Add Isolation Questions
+Click on "Isolation Questions"
+Click on "Add"
+Pick "Electrical" from dropdown "Please Select...ElectricalMechanical/ProcessInstrumentInhibits/Overrides"
+Pick "Fire" from dropdown "Please Select...General WorkPrecautionsFireHazard and Controls ChecklistCBRE CompetenceCBRE CommunicationPPE ChecklistSafety ChecklistPPEQualifications / Compet"
+Write "This is a new question" in field "Question"
+Pick "Yes / No" from dropdown "Please Select...Yes / NoTextMulti LineYes / No / NADropdownYes / No / TextMulti TextYes No Toggle"
+Write "1" in field "Order"
+Click on "Save"

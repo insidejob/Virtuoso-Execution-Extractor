@@ -1,0 +1,1335 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-10T19:49:08.717Z",
+    "baseUrl": "https://app2.virtuoso.qa",
+    "organizationId": 1964,
+    "totalEndpointsTested": 151,
+    "successfulEndpoints": 43
+  },
+  "statistics": {
+    "totalRequests": 151,
+    "successfulRequests": 33,
+    "failedRequests": 118,
+    "discoveredEndpoints": 0,
+    "hiddenEndpoints": 0
+  },
+  "endpoints": {
+    "authentication": [
+      {
+        "endpoint": "/api/user",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:00 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203935bb33854-LHR",
+          "location": "http://app2.virtuoso.qa/#api/user",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "jrsqSo7zhQtIfLFRdvS92gY2uUWYuV_HBS4ELm2ZfajH_aGs7IcyEw==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:00.127Z"
+      },
+      {
+        "endpoint": "/api/user",
+        "method": "GET",
+        "authenticated": true
+      },
+      {
+        "endpoint": "/api/users",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:00 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203942c6b3854-LHR",
+          "location": "http://app2.virtuoso.qa/#api/users",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "LcXZgXMNT_W7dlOOclB5qyTcHuT8yGb4aUZe0XNAn0uznjIkVZmu3Q==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:00.229Z"
+      },
+      {
+        "endpoint": "/user",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:00 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203945dc77765-LHR",
+          "location": "http://app2.virtuoso.qa/#user",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 942cb3fbe68b5c10602773b4d1b1c0e8.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "lHlHE3QgcDim6_fjT5bJO7bb7pG6E2bz3wU4qPu4Z81nkonPpURS-w==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:00.303Z"
+      },
+      {
+        "endpoint": "/users",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:00 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203961e033854-LHR",
+          "location": "http://app2.virtuoso.qa/#users",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "CS5SFzLbfwtPLmMxErOz66m8PdO0KwXCckYGr5jhJ49j-gcntTPn9w==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:00.545Z"
+      }
+    ],
+    "resources": [
+      {
+        "endpoint": "/api/project",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:00 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203944e0934ed-LHR",
+          "location": "http://app2.virtuoso.qa/#api/project",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 ce3edb24525b5cd14ad82bbb2327e8a4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "E6MvIr9mTCWzzQVnXM73OCK55NRWFr3tFUdzUHjhbCetzfnYb4-kVA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:00.278Z"
+      },
+      {
+        "endpoint": "/project",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:00 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d20396399034ed-LHR",
+          "location": "http://app2.virtuoso.qa/#project",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 ce3edb24525b5cd14ad82bbb2327e8a4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "Vzvlb1BDKYQlRyG9FXmdeCNSWzoeY53LyKE3gmtdw0RszaCeo4oNJw==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:00.542Z"
+      },
+      {
+        "endpoint": "/api/goal",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:01 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d2039bcb9f34ed-LHR",
+          "location": "http://app2.virtuoso.qa/#api/goal",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 ce3edb24525b5cd14ad82bbb2327e8a4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "Cvw0qSbxooyFGWaiEfjM1Ck0XkpyLEaVZkgN9d8llpBBYijeQCo1lA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:01.440Z"
+      },
+      {
+        "endpoint": "/api/projects",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:01 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d2039bcaf13854-LHR",
+          "location": "http://app2.virtuoso.qa/#api/projects",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "XZefzIQdBmX_4VAwdynmAMN_AJXI2zYysdliG2TR6ORhiHAGJ_be8g==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:01.440Z"
+      },
+      {
+        "endpoint": "/api/goals",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:01 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d2039bcb767765-LHR",
+          "location": "http://app2.virtuoso.qa/#api/goals",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 942cb3fbe68b5c10602773b4d1b1c0e8.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "jAv_ZAsfEOti7df8kfr5dc6X3xFLrajjCuA50hPL_0lAYWDeFdW79A==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:01.460Z"
+      },
+      {
+        "endpoint": "/goal",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:01 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d2039d4e6334ed-LHR",
+          "location": "http://app2.virtuoso.qa/#goal",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 ce3edb24525b5cd14ad82bbb2327e8a4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "m5k3VkB5NKAy1_W0ex6w28j5S2lJSvIVF06ONIDzKDx-6UodX5xfEw==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:01.702Z"
+      },
+      {
+        "endpoint": "/goals",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:01 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d2039daccd7765-LHR",
+          "location": "http://app2.virtuoso.qa/#goals",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 942cb3fbe68b5c10602773b4d1b1c0e8.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "cBC5MWYHOKINQEkSE0-dIH-alkReNj_iZVDmzNqQ8Khk7JqfZBe6eg==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:01.740Z"
+      },
+      {
+        "endpoint": "/projects",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:01 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d2039d9c9e3854-LHR",
+          "location": "http://app2.virtuoso.qa/#projects",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "-m3BojsDHLx6vILyK38cLjclbUBGS0zjEKTrei6v2o6waTJBUtdH8A==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:01.793Z"
+      },
+      {
+        "endpoint": "/api/organizations",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:02 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203a399ba7765-LHR",
+          "location": "http://app2.virtuoso.qa/#api/organizations",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 942cb3fbe68b5c10602773b4d1b1c0e8.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "9VGJCCjZiCgyFhHD1lVWaGGdOJSBWHeHGvGBxWJQcm0DFjZz0eMVHA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:02.708Z"
+      },
+      {
+        "endpoint": "/api/organization",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:02 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203a39a313854-LHR",
+          "location": "http://app2.virtuoso.qa/#api/organization",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "s9693P8b6q_e0IrrOSNfBYuqnXai4pbkEpgM4lIi_WcMpBDfSRh2gQ==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:02.736Z"
+      },
+      {
+        "endpoint": "/api/test",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:02 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203a3fdff34ed-LHR",
+          "location": "http://app2.virtuoso.qa/#api/test",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 ce3edb24525b5cd14ad82bbb2327e8a4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "nR_tr9zW14bkL3n0Cu_kcNV4yFVrQA457Y9HDXAcz8dfkCaGAG-E8A==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:02.798Z"
+      },
+      {
+        "endpoint": "/organizations",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:03 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203a59b497765-LHR",
+          "location": "http://app2.virtuoso.qa/#organizations",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 942cb3fbe68b5c10602773b4d1b1c0e8.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "p_ukW5qgVNpqKhyEPK9UQCNdW76gI9o4_214S-hQzR3P3GAnGGKQzg==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:03.061Z"
+      },
+      {
+        "endpoint": "/test",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:03 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203a5fa6134ed-LHR",
+          "location": "http://app2.virtuoso.qa/#test",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 ce3edb24525b5cd14ad82bbb2327e8a4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "Yr_8TOPDsrFzewiKMSjWA7CtsAUpyjfOx0fc2rUGjcGl-gh082CWBg==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:03.061Z"
+      },
+      {
+        "endpoint": "/organization",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:03 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203a59be23854-LHR",
+          "location": "http://app2.virtuoso.qa/#organization",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "F7wJxczjkCt0aQKptvbjfyF8tBhKeZpYMhLSq4Uj_0I7xSk3RUPv2w==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:03.091Z"
+      },
+      {
+        "endpoint": "/api/executions",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:03 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203ab8e5334ed-LHR",
+          "location": "http://app2.virtuoso.qa/#api/executions",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 ce3edb24525b5cd14ad82bbb2327e8a4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "_PclsnaE6D--aDpC2A6ZBypUuAr7L0BjgOVg5wztylQ0t1r8pmbY7Q==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:03.947Z"
+      },
+      {
+        "endpoint": "/api/execution",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:03 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203ab8fea7765-LHR",
+          "location": "http://app2.virtuoso.qa/#api/execution",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 942cb3fbe68b5c10602773b4d1b1c0e8.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "e8qx_fDlprg_Sf1Kv_6RQGtE9Pw6ix0kC6StNyyWaySIKp2use1tzA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:03.948Z"
+      },
+      {
+        "endpoint": "/api/tests",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:04 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203ab891f3854-LHR",
+          "location": "http://app2.virtuoso.qa/#api/tests",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "L9eFFfowuzqXrnBLGvGBjV0CGakZ1TZwCMx-L5evrSLTxb4UOpTuQA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:03.962Z"
+      },
+      {
+        "endpoint": "/executions",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:04 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203acf93134ed-LHR",
+          "location": "http://app2.virtuoso.qa/#executions",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 ce3edb24525b5cd14ad82bbb2327e8a4.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "Wiia9lK2DO9aT4OGs_tEaJIqqrtFnI0hA2AncBLUQaGLa02BfZ9u8g==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:04.189Z"
+      },
+      {
+        "endpoint": "/execution",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:04 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203ad69227765-LHR",
+          "location": "http://app2.virtuoso.qa/#execution",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 942cb3fbe68b5c10602773b4d1b1c0e8.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "mBGvWAOMD0uXXlzsE9sIptdglEliUOXjN-aobTveXI5Kf81XfRqEZA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:04.267Z"
+      },
+      {
+        "endpoint": "/tests",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:04 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203ad8af33854-LHR",
+          "location": "http://app2.virtuoso.qa/#tests",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "46hADnYmC4pFQuT7EthZmWKC6XTlqF1L_FQ-g3ZuhOyFfBgWkDE7nQ==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:04.282Z"
+      },
+      {
+        "endpoint": "/graphql",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:05 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203b30f8d3854-LHR",
+          "location": "http://app2.virtuoso.qa/#graphql",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "KCpAcmajh4W26T9NRu9XB0tCov8le8eQkN1O7yG5zRB5UsxahRMjig==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:05.222Z"
+      },
+      {
+        "endpoint": "/graphiql",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:05 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203b5e9903854-LHR",
+          "location": "http://app2.virtuoso.qa/#graphiql",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "ByHjeMfdx3ebv_gEDieshYrR1tYCV_IlJskz1-LIkBJUsgFI1NclCA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:05.621Z"
+      },
+      {
+        "endpoint": "/.well-known/openapi",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:06 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203b87ba83854-LHR",
+          "location": "http://app2.virtuoso.qa/#.well-known/openapi",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "oW4N5BNns7RnfmRK29pPTCVTE8-cGdXthKPkttYD8fBfYujtV-n6rw==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:06.028Z"
+      },
+      {
+        "endpoint": "/api-docs",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:06 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203badd603854-LHR",
+          "location": "http://app2.virtuoso.qa/#api-docs",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "MAO98htoptjlpYSPeL49KMdV6HuA3zin5HaLW7vZDIflwBtCwWpC_Q==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:06.414Z"
+      },
+      {
+        "endpoint": "/swagger.json",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:06 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203bd4f703854-LHR",
+          "location": "http://app2.virtuoso.qa/#swagger.json",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "Re1gjt9xHlRLIpbNLQ2Ubt7rFNA9XSIbwlPBuZyY0Vp5qSCYz7-yOA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:06.792Z"
+      },
+      {
+        "endpoint": "/openapi.json",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:07 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203bfa9523854-LHR",
+          "location": "http://app2.virtuoso.qa/#openapi.json",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "aeORyy6ojOCnrRfY-kId3V-bQEg2PVT0azSksFf6M6-L3EDJa3s5wg==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:07.184Z"
+      },
+      {
+        "endpoint": "/health",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:07 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203c21b323854-LHR",
+          "location": "http://app2.virtuoso.qa/#health",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "n135oQatPYlOfINEmBdZtVublkXeTEZoAF5KTziYhFP_I2D6-yCABA==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:07.563Z"
+      },
+      {
+        "endpoint": "/metrics",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:07 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203c47cfc3854-LHR",
+          "location": "http://app2.virtuoso.qa/#metrics",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "w7jST6O6EUrP5RLQSc1LQyR795R4Lt5QO7f8VzTCfbsiV6BYF35OOg==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:07.935Z"
+      },
+      {
+        "endpoint": "/version",
+        "method": "GET",
+        "status": 301,
+        "headers": {
+          "date": "Sun, 10 Aug 2025 19:49:08 GMT",
+          "content-length": "0",
+          "connection": "keep-alive",
+          "cf-ray": "96d203c6ceac3854-LHR",
+          "location": "http://app2.virtuoso.qa/#version",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 9a4946b43dbf1005ebaa0c93701f16ec.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LHR61-P3",
+          "x-amz-cf-id": "G2UD0MWNQI9S2EjEhmBJUMe3BZuHx_1H6upu1_t8uopTlpLREX_lgg==",
+          "x-frame-options": "DENY",
+          "content-security-policy": "base-uri 'self'; default-src 'self'; worker-src 'self' blob:; media-src 'self' data: https://*.virtuoso.qa; style-src 'self' 'unsafe-inline' https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com https://maxcdn.bootstrapcdn.com https://cdn-uicons.flaticon.com; img-src 'self' data: blob: https://*.amazonaws.com https://*.virtuoso.qa https://fast.chmln-cdn.com https://uploads.userpilot.io https://i.ytimg.com https://*.trychameleon.com https://*.chmln-cdn.com https://*.zendesk.com; frame-src https://devtools.virtuoso.qa https://docs.virtuoso.qa https://www.youtube.com https://lookerstudio.google.com https://*.trychameleon.com https://analytics-dev2.virtuoso.qa https://analytics-production2.virtuoso.qa https://analytics-production-us2.virtuoso.qa https://www.virtuosoqa.com https://share.hsforms.com; script-src 'self' 'unsafe-inline' https://cdn.optimizely.com https://static.cloudflareinsights.com https://js.userpilot.io https://sgmcdn.virtuoso.qa  https://www.youtube.com https://static.zdassets.com https://*.trychameleon.com https://*.zendesk.com; connect-src https://sentry.io wss://sentry.io https://*.virtuoso.qa https://*.spotqa.net https://cdn.optimizely.com wss://*.userpilot.io wss://*.virtuoso.qa wss://*.spotqa.net https://*.amazonaws.com https://ekr.zdassets.com https://api.segment.io https://*.userpilot.io https://*.trychameleon.com https://*.zendesk.com wss://*.zendesk.com; report-uri https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a&sentry_environment=freetrial; report-to csp-endpoint",
+          "strict-transport-security": "max-age=2592000",
+          "cache-control": "max-age=600, max-stale=3600",
+          "report-to": "{\"endpoints\":[{\"url\":\"https://o284267.ingest.sentry.io/api/1513608/security/?sentry_key=2178b2d23df743469699881a1756168a\\u0026sentry_environment=freetrial\"}],\"group\":\"csp-endpoint\",\"include_subdomains\":true,\"max_age\":10886400}",
+          "cf-cache-status": "DYNAMIC",
+          "x-content-type-options": "nosniff",
+          "server": "cloudflare"
+        },
+        "hasData": null,
+        "dataType": "empty",
+        "timestamp": "2025-08-10T19:49:08.313Z"
+      }
+    ],
+    "operations": [],
+    "special": [
+      {
+        "endpoint": "/graphql",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      },
+      {
+        "endpoint": "/graphiql",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      },
+      {
+        "endpoint": "/.well-known/openapi",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      },
+      {
+        "endpoint": "/api-docs",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      },
+      {
+        "endpoint": "/swagger.json",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      },
+      {
+        "endpoint": "/openapi.json",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      },
+      {
+        "endpoint": "/health",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      },
+      {
+        "endpoint": "/metrics",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      },
+      {
+        "endpoint": "/version",
+        "method": "GET",
+        "type": "special",
+        "response": null
+      }
+    ],
+    "graphql": []
+  },
+  "schemas": {},
+  "relationships": [],
+  "errors": {
+    "POST /api/users": {
+      "status": 403
+    },
+    "POST /api/project": {
+      "status": 403
+    },
+    "PUT /api/users": {
+      "status": 403
+    },
+    "POST /user": {
+      "status": 403
+    },
+    "PUT /api/project": {
+      "status": 403
+    },
+    "PATCH /api/users": {
+      "status": 403
+    },
+    "PATCH /api/project": {
+      "status": 403
+    },
+    "PUT /user": {
+      "status": 403
+    },
+    "DELETE /api/users": {
+      "status": 403
+    },
+    "DELETE /api/project": {
+      "status": 403
+    },
+    "PATCH /user": {
+      "status": 403
+    },
+    "OPTIONS /api/users": {
+      "status": 400
+    },
+    "OPTIONS /api/project": {
+      "status": 400
+    },
+    "DELETE /user": {
+      "status": 403
+    },
+    "OPTIONS /user": {
+      "status": 400
+    },
+    "POST /project": {
+      "status": 403
+    },
+    "POST /users": {
+      "status": 403
+    },
+    "PUT /project": {
+      "status": 403
+    },
+    "PUT /users": {
+      "status": 403
+    },
+    "PATCH /project": {
+      "status": 403
+    },
+    "DELETE /project": {
+      "status": 403
+    },
+    "PATCH /users": {
+      "status": 403
+    },
+    "DELETE /users": {
+      "status": 403
+    },
+    "OPTIONS /project": {
+      "status": 400
+    },
+    "OPTIONS /users": {
+      "status": 400
+    },
+    "POST /api/goal": {
+      "status": 403
+    },
+    "POST /api/projects": {
+      "status": 403
+    },
+    "POST /api/goals": {
+      "status": 403
+    },
+    "PUT /api/goal": {
+      "status": 403
+    },
+    "PUT /api/projects": {
+      "status": 403
+    },
+    "PATCH /api/goal": {
+      "status": 403
+    },
+    "PUT /api/goals": {
+      "status": 403
+    },
+    "DELETE /api/goal": {
+      "status": 403
+    },
+    "PATCH /api/projects": {
+      "status": 403
+    },
+    "PATCH /api/goals": {
+      "status": 403
+    },
+    "DELETE /api/projects": {
+      "status": 403
+    },
+    "OPTIONS /api/goal": {
+      "status": 400
+    },
+    "DELETE /api/goals": {
+      "status": 403
+    },
+    "OPTIONS /api/projects": {
+      "status": 400
+    },
+    "OPTIONS /api/goals": {
+      "status": 400
+    },
+    "POST /goal": {
+      "status": 403
+    },
+    "PUT /goal": {
+      "status": 403
+    },
+    "POST /goals": {
+      "status": 403
+    },
+    "PATCH /goal": {
+      "status": 403
+    },
+    "PUT /goals": {
+      "status": 403
+    },
+    "DELETE /goal": {
+      "status": 403
+    },
+    "POST /projects": {
+      "status": 403
+    },
+    "PATCH /goals": {
+      "status": 403
+    },
+    "PUT /projects": {
+      "status": 403
+    },
+    "OPTIONS /goal": {
+      "status": 400
+    },
+    "DELETE /goals": {
+      "status": 403
+    },
+    "PATCH /projects": {
+      "status": 403
+    },
+    "DELETE /projects": {
+      "status": 403
+    },
+    "OPTIONS /goals": {
+      "status": 400
+    },
+    "OPTIONS /projects": {
+      "status": 400
+    },
+    "POST /api/organizations": {
+      "status": 403
+    },
+    "POST /api/organization": {
+      "status": 403
+    },
+    "PUT /api/organizations": {
+      "status": 403
+    },
+    "PUT /api/organization": {
+      "status": 403
+    },
+    "POST /api/test": {
+      "status": 403
+    },
+    "PATCH /api/organizations": {
+      "status": 403
+    },
+    "PATCH /api/organization": {
+      "status": 403
+    },
+    "PUT /api/test": {
+      "status": 403
+    },
+    "DELETE /api/organizations": {
+      "status": 403
+    },
+    "DELETE /api/organization": {
+      "status": 403
+    },
+    "PATCH /api/test": {
+      "status": 403
+    },
+    "OPTIONS /api/organization": {
+      "status": 400
+    },
+    "OPTIONS /api/organizations": {
+      "status": 400
+    },
+    "DELETE /api/test": {
+      "status": 403
+    },
+    "OPTIONS /api/test": {
+      "status": 400
+    },
+    "POST /organizations": {
+      "status": 403
+    },
+    "POST /test": {
+      "status": 403
+    },
+    "PUT /test": {
+      "status": 403
+    },
+    "POST /organization": {
+      "status": 403
+    },
+    "PUT /organizations": {
+      "status": 403
+    },
+    "PATCH /test": {
+      "status": 403
+    },
+    "PATCH /organizations": {
+      "status": 403
+    },
+    "PUT /organization": {
+      "status": 403
+    },
+    "DELETE /test": {
+      "status": 403
+    },
+    "PATCH /organization": {
+      "status": 403
+    },
+    "DELETE /organizations": {
+      "status": 403
+    },
+    "OPTIONS /test": {
+      "status": 400
+    },
+    "DELETE /organization": {
+      "status": 403
+    },
+    "OPTIONS /organizations": {
+      "status": 400
+    },
+    "OPTIONS /organization": {
+      "status": 400
+    },
+    "POST /api/executions": {
+      "status": 403
+    },
+    "POST /api/execution": {
+      "status": 403
+    },
+    "POST /api/tests": {
+      "status": 403
+    },
+    "PUT /api/executions": {
+      "status": 403
+    },
+    "PUT /api/execution": {
+      "status": 403
+    },
+    "PUT /api/tests": {
+      "status": 403
+    },
+    "PATCH /api/executions": {
+      "status": 403
+    },
+    "PATCH /api/execution": {
+      "status": 403
+    },
+    "PATCH /api/tests": {
+      "status": 403
+    },
+    "DELETE /api/executions": {
+      "status": 403
+    },
+    "DELETE /api/execution": {
+      "status": 403
+    },
+    "OPTIONS /api/executions": {
+      "status": 400
+    },
+    "DELETE /api/tests": {
+      "status": 403
+    },
+    "OPTIONS /api/execution": {
+      "status": 400
+    },
+    "OPTIONS /api/tests": {
+      "status": 400
+    },
+    "POST /executions": {
+      "status": 403
+    },
+    "PUT /executions": {
+      "status": 403
+    },
+    "PATCH /executions": {
+      "status": 403
+    },
+    "POST /execution": {
+      "status": 403
+    },
+    "DELETE /executions": {
+      "status": 403
+    },
+    "POST /tests": {
+      "status": 403
+    },
+    "PUT /execution": {
+      "status": 403
+    },
+    "PUT /tests": {
+      "status": 403
+    },
+    "PATCH /execution": {
+      "status": 403
+    },
+    "OPTIONS /executions": {
+      "status": 400
+    },
+    "DELETE /execution": {
+      "status": 403
+    },
+    "PATCH /tests": {
+      "status": 403
+    },
+    "DELETE /tests": {
+      "status": 403
+    },
+    "OPTIONS /execution": {
+      "status": 400
+    },
+    "OPTIONS /tests": {
+      "status": 400
+    },
+    "POST /graphql": {
+      "status": 403
+    },
+    "POST /api/graphql": {
+      "status": 403
+    },
+    "POST /query": {
+      "status": 403
+    }
+  },
+  "discoveries": []
+}

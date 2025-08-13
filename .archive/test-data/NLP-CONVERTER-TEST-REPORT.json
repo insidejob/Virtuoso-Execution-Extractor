@@ -1,0 +1,150 @@
+{
+  "summary": {
+    "totalTests": 87,
+    "passed": 84,
+    "failed": 3,
+    "successRate": "96.6%",
+    "errors": 3
+  },
+  "coverage": {
+    "Navigation": {
+      "passed": 5,
+      "failed": 0,
+      "total": 5,
+      "percentage": "100.0"
+    },
+    "Click": {
+      "passed": 6,
+      "failed": 0,
+      "total": 6,
+      "percentage": "100.0"
+    },
+    "Write": {
+      "passed": 6,
+      "failed": 0,
+      "total": 6,
+      "percentage": "100.0"
+    },
+    "Select": {
+      "passed": 5,
+      "failed": 1,
+      "total": 6,
+      "percentage": "83.3"
+    },
+    "Wait": {
+      "passed": 5,
+      "failed": 0,
+      "total": 5,
+      "percentage": "100.0"
+    },
+    "Mouse": {
+      "passed": 7,
+      "failed": 0,
+      "total": 7,
+      "percentage": "100.0"
+    },
+    "Store": {
+      "passed": 4,
+      "failed": 0,
+      "total": 4,
+      "percentage": "100.0"
+    },
+    "Switch": {
+      "passed": 5,
+      "failed": 0,
+      "total": 5,
+      "percentage": "100.0"
+    },
+    "Scroll": {
+      "passed": 4,
+      "failed": 0,
+      "total": 4,
+      "percentage": "100.0"
+    },
+    "Upload": {
+      "passed": 2,
+      "failed": 0,
+      "total": 2,
+      "percentage": "100.0"
+    },
+    "Cookie": {
+      "passed": 3,
+      "failed": 0,
+      "total": 3,
+      "percentage": "100.0"
+    },
+    "Window": {
+      "passed": 3,
+      "failed": 0,
+      "total": 3,
+      "percentage": "100.0"
+    },
+    "Execute": {
+      "passed": 2,
+      "failed": 0,
+      "total": 2,
+      "percentage": "100.0"
+    },
+    "Dismiss": {
+      "passed": 3,
+      "failed": 0,
+      "total": 3,
+      "percentage": "100.0"
+    },
+    "Press": {
+      "passed": 5,
+      "failed": 0,
+      "total": 5,
+      "percentage": "100.0"
+    },
+    "API": {
+      "passed": 2,
+      "failed": 0,
+      "total": 2,
+      "percentage": "100.0"
+    },
+    "Variables": {
+      "passed": 4,
+      "failed": 0,
+      "total": 4,
+      "percentage": "100.0"
+    }
+  },
+  "performance": {
+    "originalTime": "1.01ms",
+    "enhancedTime": "0.43ms",
+    "improvement": "57.3%",
+    "testDataSize": 500
+  },
+  "errors": [
+    {
+      "category": "Select",
+      "test": "Select last option",
+      "expected": "Pick last option from \"dropdown\"",
+      "actual": "Pick last option from dropdown \"element\"",
+      "error": "Pattern mismatch"
+    },
+    {
+      "category": "EdgeCase",
+      "test": "Complex XPath",
+      "expected": "Click on \"//div[@class=\\\"button\\\" and contains(text(), \\\"Submit\\\")]\"",
+      "actual": "Click on \"//div[@class=\"button\" and contains(text(), \"Submit\")]\"",
+      "error": "Pattern mismatch"
+    },
+    {
+      "category": "EdgeCase",
+      "test": "Failed step",
+      "expected": "Click on \"missing\"",
+      "actual": "Click on \"#missing\"",
+      "error": "Pattern mismatch"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "High",
+      "category": "Accuracy",
+      "issue": "Success rate is 0%, below 90% target",
+      "action": "Review and fix failed test cases to improve pattern matching"
+    }
+  ]
+}

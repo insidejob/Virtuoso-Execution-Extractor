@@ -1,0 +1,10 @@
+{
+  "10253": {
+    "name": "Demo.Register_New_User",
+    "url": "https://reqres.in",
+    "method": "POST",
+    "description": "Demo API for user registration"
+  },
+  "_comment": "Manual mappings for API tests when not available through API",
+  "_instructions": "Add API test mappings here when discovered through UI or other sources"
+}

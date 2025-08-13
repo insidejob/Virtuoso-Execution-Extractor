@@ -1,0 +1,117 @@
+{
+  "timestamp": "2025-08-11T11:29:42.686Z",
+  "authentication": {
+    "Full Headers (with session)": {
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized"
+    },
+    "Bearer Token Only": {
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized"
+    },
+    "No Authentication": {
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized"
+    }
+  },
+  "endpoints": {
+    "Journey/TestSuite 527211": {
+      "path": "/testsuites/527211?envelope=false",
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized",
+      "responseSize": 65
+    },
+    "Journey/TestSuite 527218": {
+      "path": "/testsuites/527218?envelope=false",
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized",
+      "responseSize": 65
+    },
+    "Execution 88715": {
+      "path": "/executions/88715",
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized",
+      "responseSize": 65
+    },
+    "Execution Status": {
+      "path": "/executions/88715/status",
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized",
+      "responseSize": 65
+    },
+    "Project Environments": {
+      "path": "/projects/4889/environments",
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized",
+      "responseSize": 65
+    },
+    "Project Details": {
+      "path": "/projects/4889",
+      "status": 401,
+      "success": false,
+      "error": "Unauthorized",
+      "responseSize": 65
+    },
+    "Screenshots (suspected)": {
+      "path": "/executions/88715/journeyExecutions/527211/testsuiteExecutions",
+      "status": 404,
+      "success": false,
+      "error": "<html><head><title>Error</title></head><body>Not Found</body></html>",
+      "responseSize": 68
+    },
+    "Screenshots (alternative)": {
+      "path": "/executions/88715/screenshots",
+      "status": 404,
+      "success": false,
+      "error": "<html><head><title>Error</title></head><body>Not Found</body></html>",
+      "responseSize": 68
+    }
+  },
+  "summary": {
+    "total": 8,
+    "successful": 0,
+    "failed": 8,
+    "errors": [
+      {
+        "endpoint": "Journey/TestSuite 527211",
+        "error": "Unauthorized"
+      },
+      {
+        "endpoint": "Journey/TestSuite 527218",
+        "error": "Unauthorized"
+      },
+      {
+        "endpoint": "Execution 88715",
+        "error": "Unauthorized"
+      },
+      {
+        "endpoint": "Execution Status",
+        "error": "Unauthorized"
+      },
+      {
+        "endpoint": "Project Environments",
+        "error": "Unauthorized"
+      },
+      {
+        "endpoint": "Project Details",
+        "error": "Unauthorized"
+      },
+      {
+        "endpoint": "Screenshots (suspected)",
+        "error": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+      },
+      {
+        "endpoint": "Screenshots (alternative)",
+        "error": "<html><head><title>Error</title></head><body>Not Found</body></html>"
+      }
+    ]
+  }
+}

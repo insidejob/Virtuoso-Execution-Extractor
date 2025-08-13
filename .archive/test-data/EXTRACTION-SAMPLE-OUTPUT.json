@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-11T11:37:26.233Z",
+  "journey": {
+    "id": 527211,
+    "name": "Suite 18",
+    "title": "iPermit Add Isolation Question",
+    "cases": 3
+  },
+  "execution": {
+    "id": 88715
+  },
+  "variablesUsed": {
+    "count": 3,
+    "names": [
+      "url",
+      "username",
+      "password"
+    ]
+  },
+  "nlpSample": "Checkpoint 1: Navigate to URL\nNavigate to $url\n\nCheckpoint 2: Login Admin\nWrite $username\nWrite $password\nClick on element\nClick on element\n\nCheckpoint 3: Add Isolation Questions"
+}

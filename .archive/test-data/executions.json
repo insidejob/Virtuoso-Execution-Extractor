@@ -1,0 +1,1576 @@
+{
+  "id": 88715,
+  "type": "EXECUTION",
+  "triggerType": "INTERNAL_API",
+  "snapshotId": 28733,
+  "goalId": 8534,
+  "environmentId": 2418,
+  "submitDate": 1721125752205,
+  "startDate": 1721125752277,
+  "endDate": 1721125766802,
+  "status": "FINISHED",
+  "duration": 14525,
+  "meta": {
+    "kind": "EXECUTION",
+    "valid": false,
+    "testSuiteIds": [
+      527218
+    ],
+    "executionRequest": {
+      "suiteIds": [],
+      "dataDriven": false,
+      "environmentId": 2418,
+      "testSuiteCanonicalIds": [
+        "67c79af2-c90b-4184-9942-e600f29a4811"
+      ],
+      "dataDrivenPerTestSuite": {
+        "527211": false,
+        "527212": false,
+        "527213": false,
+        "527215": false,
+        "527216": false,
+        "527218": false,
+        "527219": false,
+        "527220": false,
+        "527222": false,
+        "527224": false,
+        "527228": false,
+        "527229": false,
+        "527232": false,
+        "527233": false
+      },
+      "dataRowsPerTestSuiteCanonicalId": {},
+      "dataDrivenPerTestSuiteCanonicalId": {
+        "1935b0b7-c4f7-4f90-a02b-61780cea9a2c": false,
+        "1e1bd6d3-d999-454f-bf3b-eee59dadadf8": false,
+        "274109f0-20ec-41cb-b61e-71278ea47b3a": false,
+        "462c2d88-4f87-49f9-a336-d88ef176d7a1": false,
+        "58a29278-d67d-4b9a-80f5-500c3c89d7b8": false,
+        "67c79af2-c90b-4184-9942-e600f29a4811": false,
+        "698f0d79-5747-47cb-a8de-bcf9b823acc6": false,
+        "811d1cef-a052-482c-bbe2-c060b73678aa": false,
+        "9506dae3-2cc6-47de-93e7-2aa126f26331": false,
+        "9b3977fb-8039-40bf-8bc0-f15cfb81732e": false,
+        "bb97b21f-56be-4e20-aad2-6254a733e25a": false,
+        "c2948ca7-4863-4ecc-af86-c7b9601fc67e": false,
+        "cfe99d0c-7837-4b1c-bc4f-dad24cacf22b": false,
+        "d97e2afe-c4c7-4049-84e8-7834ffdd3e9b": false
+      }
+    },
+    "initialDataPerJourneySequence": {
+      "527218": {
+        "1": {
+          "JSAtype": "Job Safety Analysis\t Operational Risk Assessment",
+          "Industry": "Construction",
+          "password": "bOw06^wf!MEqGjQH3f^5el!zR#Pg",
+          "username": "Virtuoso",
+          "Question1": "CBRE - Who is at RISK from your work?",
+          "Question2": "Do you understand the up to date MoP/SoP/EoP/Run Book/Risk Assessment for the task/s",
+          "Question3": "Have you carried out an inspection of the tools/equipment?",
+          "Question4": "Are access routes safe and adequate?",
+          "Question5": "Are you protected from contact with energy sources, falls from height, machinery and moving vehicles?",
+          "Question6": "The emergency arrangements? Incl' fire actions, climate event, exit routes, shelter/ safe areas?",
+          "Question7": "If PPE is required for the task, have you got it and is it approved?",
+          "Question8": "I am satisfied that it is safe to do the work in the way it will be done at this place and in this environment AND all the required controls and emergency measures are in place and satisfactory? If the answer is NO - you MUST contact your host BEFORE continuing with work",
+          "Question9": "Visitors",
+          "Hazardtype": "Building collapses",
+          "Question10": "Contractors/Vendors",
+          "Question11": "Do you know how to check the condition and do you know how to use and maintain your PPE",
+          "Question12": "How and where to get first aid and eye wash?",
+          "Question13": "Have you deployed the necessary 'barriers & hazard warning signs' at and around the work area?",
+          "Question14": "Are the weather conditions, work area temperatures and ventilation safe for work?",
+          "Question15": "Where required are calibration, test certificates and formal examinations in date?",
+          "Question16": "Have you the relevant Safety Data Sheet (SDS) for the Chemicals/Substances?",
+          "Question17": "Have you completed the required training including e-Learning?",
+          "Question18": "Have you checked in with the Shift/Facility Lead and do you have the Job Sheet's for the task?",
+          "Question19": "Are the tools and equipment serviceable and fit for purpose?",
+          "Question20": "Have you got adequate space and lighting?",
+          "Question21": "How to report Hazards & accidents",
+          "Question22": "The Public",
+          "Question23": "Young Persons",
+          "Question24": "Have you informed the Clients representative and those in the area where you will work?",
+          "Question25": "If working alone have you made arrangements for regular contact during your work",
+          "Question26": "Staff/On Site Team",
+          "Question27": "Others",
+          "Permit_Types": "CBRE Dynamic Risk Assessment",
+          "Questiontype": "Text",
+          "Isolationtype": "Mechanical/Process",
+          "Newpermittype": "Building",
+          "QuestionType1": "CBRE Competence",
+          "QuestionType2": "CBRE Risk Control Information",
+          "QuestionType3": "CBRE Tools and Equipment",
+          "QuestionType4": "CBRE Work Area Condition",
+          "QuestionType5": "CBRE Work Area Protection",
+          "QuestionType6": "CBRE Emergencies :- Do you know",
+          "QuestionType7": "CBRE Personal Protective Equipment (PPE) is the last control measure",
+          "QuestionType8": "CBRE Last check",
+          "QuestionType9": "CBRE - Who is at RISK from your work?",
+          "Newpermittype1": "Building",
+          "QuestionType10": "CBRE Communication",
+          "NewPermitquestion": "What are the dimensions of the project?"
+        }
+      }
+    }
+  },
+  "tags": [],
+  "launchedBy": 2986,
+  "launchedByUser": {
+    "userId": 2986,
+    "email": "chrisaston@iamtech.com",
+    "name": "Chris Aston",
+    "active": true
+  },
+  "journeyStatistics": {
+    "totalDuration": 13579,
+    "countPerOutcome": {
+      "NOT_REACHED": 0,
+      "PASS": 1,
+      "FAIL": 0,
+      "ERROR": 0,
+      "SKIP": 0,
+      "RUNNING": 0
+    },
+    "outcome": "PASS",
+    "progress": 1,
+    "totalCount": 1
+  },
+  "testSuites": {
+    "527218": {
+      "testSuiteId": 527218,
+      "testSuiteCanonicalId": "67c79af2-c90b-4184-9942-e600f29a4811",
+      "outcome": "PASS",
+      "totalDuration": 13579,
+      "testCases": {
+        "1296513": {
+          "testCaseId": 1296513,
+          "testCaseCanonicalId": "53b850dc-f4b5-4f1f-a67a-0cf53241b99d",
+          "outcome": "PASS",
+          "totalDuration": 1997,
+          "testSteps": {
+            "15878407": {
+              "id": 12381981,
+              "testStepCanonicalId": "3dba8a16-5f8c-4f50-a09e-a735e9cd5d13",
+              "testStepId": 15878407,
+              "outcome": "PASS",
+              "duration": 1997,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/b20f42c92cf344d7edbd7d73b17f13fc7a5acdadc9c71bc5c0c4e54fdc80c9b3.png",
+              "testDataValue": "",
+              "sideEffects": {
+                "usedData": {
+                  "url": "https://mobile-pretest.dev.iamtechapps.com/#/login"
+                },
+                "warnings": [],
+                "downloadedFiles": []
+              },
+              "eventsFile": "https://virtuoso-downloaded-files-freetrial.s3.eu-west-1.amazonaws.com/events/mVnVD2k2/88715/719519db-f2d2-425a-aacd-ccbddfc4c1e9/1a50de2e-8194-478f-944a-2ab9143d035c.json",
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 1,
+                "popup": 0,
+                "hasDiscoveredElement": false,
+                "total": 1
+              },
+              "totalDuration": 1997,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/b20f42c92cf344d7edbd7d73b17f13fc7a5acdadc9c71bc5c0c4e54fdc80c9b3.png"
+            }
+          },
+          "libraryCheckpoint": false
+        },
+        "1296538": {
+          "testCaseId": 1296538,
+          "testCaseCanonicalId": "7a74575b-50b8-4b76-b99d-2852a6563cc5",
+          "outcome": "PASS",
+          "totalDuration": 7561,
+          "testSteps": {
+            "15878525": {
+              "id": 12381982,
+              "testStepCanonicalId": "fdedc421-97cf-481a-89c9-e9a2da74ba48",
+              "testStepId": 15878525,
+              "outcome": "PASS",
+              "duration": 780,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/5509c25b688d0bc7e5e246e0179a88f7e81eb89df75ac6a8ace8d7087e05a257.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/6da98070978dc25e469818d630a7538483d8cf41af7e10d34ffea3734f70267f.png",
+              "testDataValue": "",
+              "sideEffects": {
+                "usedData": {
+                  "username": "Virtuoso"
+                },
+                "warnings": [],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "form": "92bcf238-1hgkob1",
+                    "kind": "INPUT",
+                    "rect": {
+                      "x": 462,
+                      "y": 184,
+                      "top": 185,
+                      "left": 463,
+                      "right": 818,
+                      "width": 356,
+                      "bottom": 219,
+                      "height": 34
+                    },
+                    "text": "",
+                    "label": {
+                      "form": "92bcf238-1hgkob1",
+                      "kind": "LABEL",
+                      "rect": {
+                        "x": 462,
+                        "y": 159,
+                        "top": 160,
+                        "left": 463,
+                        "right": 530,
+                        "width": 68,
+                        "bottom": 180,
+                        "height": 20
+                      },
+                      "text": "Username",
+                      "offset": {
+                        "top": 70,
+                        "left": 31,
+                        "width": 68,
+                        "height": 20
+                      },
+                      "scroll": {
+                        "top": 0,
+                        "left": 0,
+                        "width": 68,
+                        "height": 20
+                      },
+                      "classes": [],
+                      "control": "92bcf238-5wa142",
+                      "tagName": "LABEL",
+                      "displayed": true,
+                      "selectors": [
+                        {
+                          "type": "XPATH",
+                          "value": "/html/body/div[1]/div[2]/div[2]/form[1]/div/div/div[2]/div[2]/label"
+                        },
+                        {
+                          "type": "CSS_SELECTOR",
+                          "value": ":nth-child(2) > label"
+                        }
+                      ],
+                      "signature": "92bcf238-1ht9igk",
+                      "attributes": {
+                        "for": "username"
+                      },
+                      "inViewport": true,
+                      "isDisplayed": true,
+                      "encapsulated": false,
+                      "eventListeners": []
+                    },
+                    "value": "",
+                    "labels": [
+                      {
+                        "form": "92bcf238-1hgkob1",
+                        "kind": "LABEL",
+                        "rect": {
+                          "x": 462,
+                          "y": 159,
+                          "top": 160,
+                          "left": 463,
+                          "right": 530,
+                          "width": 68,
+                          "bottom": 180,
+                          "height": 20
+                        },
+                        "text": "Username",
+                        "offset": {
+                          "top": 70,
+                          "left": 31,
+                          "width": 68,
+                          "height": 20
+                        },
+                        "scroll": {
+                          "top": 0,
+                          "left": 0,
+                          "width": 68,
+                          "height": 20
+                        },
+                        "classes": [],
+                        "control": "92bcf238-5wa142",
+                        "tagName": "LABEL",
+                        "displayed": true,
+                        "selectors": [
+                          {
+                            "type": "XPATH",
+                            "value": "/html/body/div[1]/div[2]/div[2]/form[1]/div/div/div[2]/div[2]/label"
+                          },
+                          {
+                            "type": "CSS_SELECTOR",
+                            "value": ":nth-child(2) > label"
+                          }
+                        ],
+                        "signature": "92bcf238-1ht9igk",
+                        "attributes": {
+                          "for": "username"
+                        },
+                        "inViewport": true,
+                        "isDisplayed": true,
+                        "encapsulated": false,
+                        "eventListeners": []
+                      }
+                    ],
+                    "offset": {
+                      "top": 95,
+                      "left": 31,
+                      "width": 356,
+                      "height": 34
+                    },
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 354,
+                      "height": 32
+                    },
+                    "checked": false,
+                    "classes": [
+                      "ng-pristine",
+                      "ng-untouched",
+                      "ng-invalid",
+                      "ng-invalid-required"
+                    ],
+                    "tagName": "INPUT",
+                    "validity": {
+                      "valid": false,
+                      "tooLong": false,
+                      "badInput": false,
+                      "tooShort": false,
+                      "customError": false,
+                      "stepMismatch": false,
+                      "typeMismatch": false,
+                      "valueMissing": true,
+                      "rangeOverflow": false,
+                      "rangeUnderflow": false,
+                      "patternMismatch": false
+                    },
+                    "displayed": true,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div[1]/div[2]/div[2]/form[1]/div/div/div[2]/div[2]/input"
+                      },
+                      {
+                        "type": "ID",
+                        "value": "username"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": ".form-panel-body > :nth-child(2) > .ng-pristine"
+                      }
+                    ],
+                    "signature": "92bcf238-5wa142",
+                    "attributes": {
+                      "id": "username",
+                      "name": "username",
+                      "type": "text",
+                      "class": "ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                      "ng-class": "{invalid: usernameIsInvalid()}",
+                      "ng-model": "credentials.username",
+                      "required": ""
+                    },
+                    "inViewport": true,
+                    "isDisplayed": true,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": true,
+                  "similarity": 1
+                }
+              },
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 1,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 1
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/6da98070978dc25e469818d630a7538483d8cf41af7e10d34ffea3734f70267f.png",
+              "totalDuration": 780,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/5509c25b688d0bc7e5e246e0179a88f7e81eb89df75ac6a8ace8d7087e05a257.png"
+            },
+            "15878526": {
+              "id": 12381983,
+              "testStepCanonicalId": "48725fce-5070-4019-85a1-c328dd9467a4",
+              "testStepId": 15878526,
+              "outcome": "PASS",
+              "duration": 618,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/64d84784d048549443edd41d326221991e2b5108b02fce3ef03115953fcef275.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/f79865406c650de1c2e4a61d25ca740a33dabb3f91c9291363d6cf3d06fce128.png",
+              "testDataValue": "",
+              "sideEffects": {
+                "usedData": {
+                  "password": "bOw06^wf!MEqGjQH3f^5el!zR#Pg"
+                },
+                "warnings": [],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "form": "84c89ceb-1syrr1a",
+                    "kind": "INPUT",
+                    "rect": {
+                      "x": 462,
+                      "y": 258,
+                      "top": 259,
+                      "left": 463,
+                      "right": 818,
+                      "width": 356,
+                      "bottom": 293,
+                      "height": 34
+                    },
+                    "text": "",
+                    "label": {
+                      "form": "84c89ceb-1syrr1a",
+                      "kind": "LABEL",
+                      "rect": {
+                        "x": 462,
+                        "y": 233,
+                        "top": 234,
+                        "left": 463,
+                        "right": 529,
+                        "width": 66,
+                        "bottom": 254,
+                        "height": 20
+                      },
+                      "text": "Password",
+                      "offset": {
+                        "top": 144,
+                        "left": 31,
+                        "width": 66,
+                        "height": 20
+                      },
+                      "scroll": {
+                        "top": 0,
+                        "left": 0,
+                        "width": 66,
+                        "height": 20
+                      },
+                      "classes": [],
+                      "control": "84c89ceb-4womtc",
+                      "tagName": "LABEL",
+                      "displayed": true,
+                      "selectors": [
+                        {
+                          "type": "XPATH",
+                          "value": "/html/body/div/div[2]/div[2]/form[1]/div/div/div[2]/div[3]/label"
+                        },
+                        {
+                          "type": "CSS_SELECTOR",
+                          "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > :nth-child(3) > label"
+                        }
+                      ],
+                      "signature": "84c89ceb-1kziyd6",
+                      "attributes": {
+                        "for": "password"
+                      },
+                      "inViewport": true,
+                      "isDisplayed": true,
+                      "encapsulated": false,
+                      "eventListeners": []
+                    },
+                    "value": "",
+                    "labels": [
+                      {
+                        "form": "84c89ceb-1syrr1a",
+                        "kind": "LABEL",
+                        "rect": {
+                          "x": 462,
+                          "y": 233,
+                          "top": 234,
+                          "left": 463,
+                          "right": 529,
+                          "width": 66,
+                          "bottom": 254,
+                          "height": 20
+                        },
+                        "text": "Password",
+                        "offset": {
+                          "top": 144,
+                          "left": 31,
+                          "width": 66,
+                          "height": 20
+                        },
+                        "scroll": {
+                          "top": 0,
+                          "left": 0,
+                          "width": 66,
+                          "height": 20
+                        },
+                        "classes": [],
+                        "control": "84c89ceb-4womtc",
+                        "tagName": "LABEL",
+                        "displayed": true,
+                        "selectors": [
+                          {
+                            "type": "XPATH",
+                            "value": "/html/body/div/div[2]/div[2]/form[1]/div/div/div[2]/div[3]/label"
+                          },
+                          {
+                            "type": "CSS_SELECTOR",
+                            "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > :nth-child(3) > label"
+                          }
+                        ],
+                        "signature": "84c89ceb-1kziyd6",
+                        "attributes": {
+                          "for": "password"
+                        },
+                        "inViewport": true,
+                        "isDisplayed": true,
+                        "encapsulated": false,
+                        "eventListeners": []
+                      }
+                    ],
+                    "offset": {
+                      "top": 169,
+                      "left": 31,
+                      "width": 356,
+                      "height": 34
+                    },
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 354,
+                      "height": 32
+                    },
+                    "checked": false,
+                    "classes": [
+                      "ng-pristine",
+                      "ng-untouched",
+                      "ng-invalid",
+                      "ng-invalid-required"
+                    ],
+                    "tagName": "INPUT",
+                    "validity": {
+                      "valid": false,
+                      "tooLong": false,
+                      "badInput": false,
+                      "tooShort": false,
+                      "customError": false,
+                      "stepMismatch": false,
+                      "typeMismatch": false,
+                      "valueMissing": true,
+                      "rangeOverflow": false,
+                      "rangeUnderflow": false,
+                      "patternMismatch": false
+                    },
+                    "displayed": true,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div/div[2]/div[2]/form[1]/div/div/div[2]/div[3]/input"
+                      },
+                      {
+                        "type": "ID",
+                        "value": "password"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > :nth-child(3) > .ng-pristine"
+                      }
+                    ],
+                    "signature": "84c89ceb-4womtc",
+                    "attributes": {
+                      "id": "password",
+                      "name": "password",
+                      "type": "password",
+                      "class": "ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                      "ng-class": "{invalid: passwordIsInvalid()}",
+                      "ng-model": "credentials.password",
+                      "required": ""
+                    },
+                    "inViewport": true,
+                    "isDisplayed": true,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": true,
+                  "similarity": 1
+                }
+              },
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 1,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 1
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/f79865406c650de1c2e4a61d25ca740a33dabb3f91c9291363d6cf3d06fce128.png",
+              "totalDuration": 618,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/64d84784d048549443edd41d326221991e2b5108b02fce3ef03115953fcef275.png"
+            },
+            "15878527": {
+              "id": 12381984,
+              "testStepCanonicalId": "7c2e5b21-ecc6-47b4-9437-57bc99cf05d0",
+              "testStepId": 15878527,
+              "outcome": "PASS",
+              "duration": 4296,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/ac4f3629d556385f27e4df9265ce7eda85c666af3dfb87706643fcc1f0f3fa18.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/37c7094e4068c7d7123a144fabe219d30a7b570d6e2a7060bd1769920f2c55b5.png",
+              "testDataValue": "",
+              "sideEffects": {
+                "usedData": {},
+                "warnings": [],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "form": "2464be37-1syrr1a",
+                    "kind": "BUTTON",
+                    "rect": {
+                      "x": 740,
+                      "y": 307,
+                      "top": 308,
+                      "left": 740,
+                      "right": 818,
+                      "width": 78,
+                      "bottom": 342,
+                      "height": 34
+                    },
+                    "text": " Login",
+                    "value": "",
+                    "labels": [],
+                    "offset": {
+                      "top": 218,
+                      "left": 309,
+                      "width": 78,
+                      "height": 34
+                    },
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 76,
+                      "height": 32
+                    },
+                    "classes": [
+                      "primary-button",
+                      "pull-right"
+                    ],
+                    "tagName": "BUTTON",
+                    "disabled": false,
+                    "validity": {
+                      "valid": true,
+                      "tooLong": false,
+                      "badInput": false,
+                      "tooShort": false,
+                      "customError": false,
+                      "stepMismatch": false,
+                      "typeMismatch": false,
+                      "valueMissing": false,
+                      "rangeOverflow": false,
+                      "rangeUnderflow": false,
+                      "patternMismatch": false
+                    },
+                    "displayed": true,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div/div[2]/div[2]/form[1]/div/div/div[2]/button[1]"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > .primary-button"
+                      }
+                    ],
+                    "signature": "2464be37-8ry42a",
+                    "attributes": {
+                      "class": "primary-button pull-right",
+                      "ng-click": "login(credentials)",
+                      "ng-disabled": "(!formIsValid()) || busy"
+                    },
+                    "inViewport": true,
+                    "isDisplayed": true,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": false,
+                  "selector": {
+                    "type": "CSS_SELECTOR",
+                    "value": ".ng-scope.ng-dirty > .login > .form-panel > .form-panel-body > .primary-button"
+                  },
+                  "similarity": 0.8709677419354839,
+                  "failedSelectors": [
+                    {
+                      "type": "XPATH",
+                      "value": "Login"
+                    }
+                  ]
+                }
+              },
+              "eventsFile": "https://virtuoso-downloaded-files-freetrial.s3.eu-west-1.amazonaws.com/events/mVnVD2k2/88715/719519db-f2d2-425a-aacd-ccbddfc4c1e9/65b05552-d9b3-4a57-b76a-dbd641d8235b.json",
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 0,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 0
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/37c7094e4068c7d7123a144fabe219d30a7b570d6e2a7060bd1769920f2c55b5.png",
+              "totalDuration": 4296,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/ac4f3629d556385f27e4df9265ce7eda85c666af3dfb87706643fcc1f0f3fa18.png"
+            },
+            "15878528": {
+              "id": 12381985,
+              "testStepCanonicalId": "60f5d551-a9ac-4aef-bc43-34d88a9faabb",
+              "testStepId": 15878528,
+              "outcome": "PASS",
+              "duration": 1867,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/cb306b583b3f921ef896611383ede7203da9125c3358ac2b2aa706ffa94d0380.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/fba456a73084a8e8f949c5a29afc8f36b8955fb0e669e7a8277de770984c656c.png",
+              "testDataValue": "",
+              "sideEffects": {
+                "usedData": {},
+                "warnings": [
+                  "Failed to directly click on element; the element was force-clicked."
+                ],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "url": "https://mobile-pretest.dev.iamtechapps.com/#/admin",
+                    "kind": "LINK",
+                    "rect": {
+                      "x": 0,
+                      "y": 0,
+                      "top": 0,
+                      "left": 0,
+                      "right": 0,
+                      "width": 0,
+                      "bottom": 0,
+                      "height": 0
+                    },
+                    "text": " Administration",
+                    "offset": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "origin": "https://mobile-pretest.dev.iamtechapps.com",
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "classes": [],
+                    "tagName": "A",
+                    "displayed": false,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div[1]/div[1]/nav[2]/div/div[2]/ul/li[9]/a"
+                      },
+                      {
+                        "type": "GUESS",
+                        "value": "{\"clue\":\"Administration\",\"elementType\":\"LINK\"}"
+                      }
+                    ],
+                    "signature": "4f640d0c-8vwcw1",
+                    "attributes": {
+                      "href": "#/admin"
+                    },
+                    "inViewport": true,
+                    "isDisplayed": false,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": true,
+                  "similarity": 0.8666666666666667
+                }
+              },
+              "eventsFile": "https://virtuoso-downloaded-files-freetrial.s3.eu-west-1.amazonaws.com/events/mVnVD2k2/88715/719519db-f2d2-425a-aacd-ccbddfc4c1e9/2be54802-af49-458c-aa64-a8b7c36d05af.json",
+              "sideEffectsSummary": {
+                "warnings": 1,
+                "downloadedFiles": 0,
+                "usedData": 0,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 1
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/fba456a73084a8e8f949c5a29afc8f36b8955fb0e669e7a8277de770984c656c.png",
+              "totalDuration": 1867,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/cb306b583b3f921ef896611383ede7203da9125c3358ac2b2aa706ffa94d0380.png"
+            }
+          },
+          "libraryCheckpoint": false
+        },
+        "1296539": {
+          "testCaseId": 1296539,
+          "testCaseCanonicalId": "65252ef0-e718-4a1d-8985-b130aee56b76",
+          "outcome": "PASS",
+          "totalDuration": 4021,
+          "testSteps": {
+            "15878529": {
+              "id": 12381986,
+              "testStepCanonicalId": "4e0a7cf8-4043-45b3-9409-c9dd1f52b41f",
+              "testStepId": 15878529,
+              "outcome": "PASS",
+              "duration": 1355,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/2e9f2f8423b73eb0d56d9de6bb6471e0c4964fdf75251353018e629e27d788d2.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/a6a27aaeb8a07c8829f276d8d4db176e240b4ca32eb4450bd8d6af4f60552eb6.png",
+              "testDataValue": "",
+              "sideEffects": {
+                "usedData": {},
+                "warnings": [],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "url": "https://mobile-pretest.dev.iamtechapps.com/#/activities/Permit",
+                    "kind": "LINK",
+                    "rect": {
+                      "x": 879,
+                      "y": 218,
+                      "top": 218,
+                      "left": 879,
+                      "right": 1235,
+                      "width": 356,
+                      "bottom": 260,
+                      "height": 42
+                    },
+                    "text": "Permit Activities",
+                    "offset": {
+                      "top": 139,
+                      "left": 31,
+                      "width": 356,
+                      "height": 42
+                    },
+                    "origin": "https://mobile-pretest.dev.iamtechapps.com",
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 354,
+                      "height": 40
+                    },
+                    "classes": [
+                      "list-group-item"
+                    ],
+                    "tagName": "A",
+                    "displayed": true,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div[1]/div[2]/div[2]/div/div[4]/div/div[2]/div/div[3]/a"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": ":nth-child(4) > .form-panel > .form-panel-body > .list-group > :nth-child(3) > .list-group-item"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": "[ca-action=\"PermitActivity\"] > [ng-click=\"isCollapsed = !isCollapsed\"]"
+                      },
+                      {
+                        "type": "GUESS",
+                        "value": "{\"clue\":\"Permit Activities\",\"elementType\":\"LINK\"}"
+                      }
+                    ],
+                    "signature": "7bb92bcb-1y8btaa",
+                    "attributes": {
+                      "href": "#/activities/Permit",
+                      "class": "list-group-item",
+                      "ng-click": "isCollapsed = !isCollapsed"
+                    },
+                    "inViewport": true,
+                    "isDisplayed": true,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": true,
+                  "similarity": 0.8738738738738738
+                }
+              },
+              "eventsFile": "https://virtuoso-downloaded-files-freetrial.s3.eu-west-1.amazonaws.com/events/mVnVD2k2/88715/719519db-f2d2-425a-aacd-ccbddfc4c1e9/1d1d22e7-2e46-4f90-8674-c36d8efab106.json",
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 0,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 0
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/a6a27aaeb8a07c8829f276d8d4db176e240b4ca32eb4450bd8d6af4f60552eb6.png",
+              "totalDuration": 1355,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/2e9f2f8423b73eb0d56d9de6bb6471e0c4964fdf75251353018e629e27d788d2.png"
+            },
+            "15878530": {
+              "id": 12381988,
+              "testStepCanonicalId": "f9e27be6-1969-4397-95f0-cb4580351dd0",
+              "testStepId": 15878530,
+              "outcome": "PASS",
+              "duration": 584,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/82bd51a69f2f6e9136aaaddd720dee6595adc5ad5fb43fa1cd3b16d8183df0bd.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/b1e75f25e26ba5d822c34dbb66d428acc28c287d5eae10401c7bd822793b5994.png",
+              "testDataValue": "Fire",
+              "sideEffects": {
+                "usedData": {},
+                "warnings": [],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "form": "b967c3c1-4pznqj",
+                    "kind": "SELECT",
+                    "rect": {
+                      "x": 46,
+                      "y": 174,
+                      "top": 175,
+                      "left": 46,
+                      "right": 402,
+                      "width": 356,
+                      "bottom": 209,
+                      "height": 34
+                    },
+                    "text": "Please Select...FireAsbestosConfined SpaceElectricalGeneral WorkHot WorkLifting OperationsWorking At HeightDemolition Activities & Break InsHigh Pressure Cleaning (200 bar)Occupational HealthExposure to Hazardous EnergyExcavations & Trenches (deeper than 1m)PPE RequirementsBuildingEnvironmental ImpactOccupancyZoningEnvironmental ImpactWaste DisposalLand UseWater DischargeWater UseAir EmissionVehicle EmissionHealth InspectionInfrastructure ConstructionNoiseDrillingRadiation UseHealth and Safety ComplianceConstructionFood SafetyNewpermit",
+                    "label": {
+                      "form": "b967c3c1-4pznqj",
+                      "kind": "LABEL",
+                      "rect": {
+                        "x": 46,
+                        "y": 149,
+                        "top": 150,
+                        "left": 46,
+                        "right": 141,
+                        "width": 95,
+                        "bottom": 170,
+                        "height": 20
+                      },
+                      "text": "Permits Type",
+                      "offset": {
+                        "top": 55,
+                        "left": 31,
+                        "width": 95,
+                        "height": 20
+                      },
+                      "scroll": {
+                        "top": 0,
+                        "left": 0,
+                        "width": 95,
+                        "height": 20
+                      },
+                      "classes": [
+                        "required",
+                        "ng-binding"
+                      ],
+                      "control": "b967c3c1-1ou2ij8",
+                      "tagName": "LABEL",
+                      "displayed": true,
+                      "selectors": [
+                        {
+                          "type": "XPATH",
+                          "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/label"
+                        },
+                        {
+                          "type": "CSS_SELECTOR",
+                          "value": ":nth-child(1) > .required"
+                        }
+                      ],
+                      "signature": "b967c3c1-148r4gq",
+                      "attributes": {
+                        "for": "permitTypes",
+                        "class": "required ng-binding"
+                      },
+                      "inViewport": true,
+                      "isDisplayed": true,
+                      "encapsulated": false,
+                      "eventListeners": []
+                    },
+                    "value": "",
+                    "labels": [
+                      {
+                        "form": "b967c3c1-4pznqj",
+                        "kind": "LABEL",
+                        "rect": {
+                          "x": 46,
+                          "y": 149,
+                          "top": 150,
+                          "left": 46,
+                          "right": 141,
+                          "width": 95,
+                          "bottom": 170,
+                          "height": 20
+                        },
+                        "text": "Permits Type",
+                        "offset": {
+                          "top": 55,
+                          "left": 31,
+                          "width": 95,
+                          "height": 20
+                        },
+                        "scroll": {
+                          "top": 0,
+                          "left": 0,
+                          "width": 95,
+                          "height": 20
+                        },
+                        "classes": [
+                          "required",
+                          "ng-binding"
+                        ],
+                        "control": "b967c3c1-1ou2ij8",
+                        "tagName": "LABEL",
+                        "displayed": true,
+                        "selectors": [
+                          {
+                            "type": "XPATH",
+                            "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/label"
+                          },
+                          {
+                            "type": "CSS_SELECTOR",
+                            "value": ":nth-child(1) > .required"
+                          }
+                        ],
+                        "signature": "b967c3c1-148r4gq",
+                        "attributes": {
+                          "for": "permitTypes",
+                          "class": "required ng-binding"
+                        },
+                        "inViewport": true,
+                        "isDisplayed": true,
+                        "encapsulated": false,
+                        "eventListeners": []
+                      }
+                    ],
+                    "offset": {
+                      "top": 80,
+                      "left": 31,
+                      "width": 356,
+                      "height": 34
+                    },
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 354,
+                      "height": 32
+                    },
+                    "classes": [
+                      "form-control",
+                      "ng-pristine",
+                      "ng-untouched",
+                      "ng-invalid",
+                      "ng-invalid-required"
+                    ],
+                    "options": [],
+                    "tagName": "SELECT",
+                    "selected": [],
+                    "validity": {
+                      "valid": false,
+                      "tooLong": false,
+                      "badInput": false,
+                      "tooShort": false,
+                      "customError": false,
+                      "stepMismatch": false,
+                      "typeMismatch": false,
+                      "valueMissing": true,
+                      "rangeOverflow": false,
+                      "rangeUnderflow": false,
+                      "patternMismatch": false
+                    },
+                    "displayed": true,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[1]/select"
+                      },
+                      {
+                        "type": "ID",
+                        "value": "permitTypes"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": ".form-control"
+                      }
+                    ],
+                    "signature": "b967c3c1-1ou2ij8",
+                    "attributes": {
+                      "id": "permitTypes",
+                      "class": "form-control ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                      "ng-model": "selectedActivity.permitTypeId",
+                      "required": "",
+                      "ng-options": "pt.id as pt.permitTypeName for pt in permitTypes"
+                    },
+                    "inViewport": true,
+                    "isDisplayed": true,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": true,
+                  "similarity": 1
+                }
+              },
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 0,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 0
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/b1e75f25e26ba5d822c34dbb66d428acc28c287d5eae10401c7bd822793b5994.png",
+              "totalDuration": 584,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/82bd51a69f2f6e9136aaaddd720dee6595adc5ad5fb43fa1cd3b16d8183df0bd.png"
+            },
+            "15878531": {
+              "id": 12381990,
+              "testStepCanonicalId": "29aa1b52-69a8-451c-8e63-7ef7d434bad6",
+              "testStepId": 15878531,
+              "outcome": "PASS",
+              "duration": 846,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/dac5b677c527bb05ba03aaba23c992fbce04eb4ba7ea4f9eaf6dcf8b47163dbb.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/981e62afa9dcf26d5c1800ac7ee15e19df94bf3b4c4b1821e50633d7444b3beb.png",
+              "testDataValue": "",
+              "sideEffects": {
+                "usedData": {},
+                "warnings": [],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "form": "791f6e73-4pznqj",
+                    "kind": "BUTTON",
+                    "rect": {
+                      "x": 1160,
+                      "y": 50,
+                      "top": 50,
+                      "left": 1160,
+                      "right": 1200,
+                      "width": 40,
+                      "bottom": 84,
+                      "height": 34
+                    },
+                    "text": "",
+                    "value": "",
+                    "labels": [],
+                    "offset": {
+                      "top": 0,
+                      "left": 520,
+                      "width": 40,
+                      "height": 34
+                    },
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 38,
+                      "height": 32
+                    },
+                    "classes": [
+                      "primary-button",
+                      "ng-scope"
+                    ],
+                    "tagName": "BUTTON",
+                    "disabled": false,
+                    "validity": {
+                      "valid": true,
+                      "tooLong": false,
+                      "badInput": false,
+                      "tooShort": false,
+                      "customError": false,
+                      "stepMismatch": false,
+                      "typeMismatch": false,
+                      "valueMissing": false,
+                      "rangeOverflow": false,
+                      "rangeUnderflow": false,
+                      "patternMismatch": false
+                    },
+                    "displayed": true,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[1]/div[2]/button[2]"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": ".primary-button"
+                      }
+                    ],
+                    "signature": "791f6e73-g9okvt",
+                    "attributes": {
+                      "type": "button",
+                      "class": "primary-button ng-scope",
+                      "title": "Save",
+                      "ng-click": "onSave(selectedActivity);",
+                      "ca-action": "Save",
+                      "ca-resource": "Activity",
+                      "ng-disabled": "activityForm.$invalid || activityForm.$pristine || !activityForm.$dirty"
+                    },
+                    "inViewport": true,
+                    "isDisplayed": true,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": true,
+                  "similarity": 1
+                }
+              },
+              "eventsFile": "https://virtuoso-downloaded-files-freetrial.s3.eu-west-1.amazonaws.com/events/mVnVD2k2/88715/719519db-f2d2-425a-aacd-ccbddfc4c1e9/919426b6-634d-4219-87ed-8602d07d4031.json",
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 0,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 0
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/981e62afa9dcf26d5c1800ac7ee15e19df94bf3b4c4b1821e50633d7444b3beb.png",
+              "totalDuration": 846,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/dac5b677c527bb05ba03aaba23c992fbce04eb4ba7ea4f9eaf6dcf8b47163dbb.png"
+            },
+            "15878532": {
+              "id": 12381989,
+              "testStepCanonicalId": "cb9d4e4c-45e4-467b-b9ff-7ec5475a2b8d",
+              "testStepId": 15878532,
+              "outcome": "PASS",
+              "duration": 664,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/e10376a24a1bc7d07c8a8d8639af52fb76c6e82a7c66564cb1d720c21a63e78f.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/5aba65ee5c2a9e42a681d5c33185162cb0476c076d3a4abf0445ae18be07ef9c.png",
+              "testDataValue": "Testing",
+              "sideEffects": {
+                "usedData": {},
+                "warnings": [],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "form": "6a26688e-4pznqj",
+                    "kind": "INPUT",
+                    "rect": {
+                      "x": 46,
+                      "y": 248,
+                      "top": 249,
+                      "left": 46,
+                      "right": 402,
+                      "width": 356,
+                      "bottom": 283,
+                      "height": 34
+                    },
+                    "text": "",
+                    "label": {
+                      "form": "6a26688e-4pznqj",
+                      "kind": "LABEL",
+                      "rect": {
+                        "x": 46,
+                        "y": 223,
+                        "top": 224,
+                        "left": 46,
+                        "right": 160,
+                        "width": 114,
+                        "bottom": 244,
+                        "height": 20
+                      },
+                      "text": "Permits Activity",
+                      "offset": {
+                        "top": 129,
+                        "left": 31,
+                        "width": 114,
+                        "height": 20
+                      },
+                      "scroll": {
+                        "top": 0,
+                        "left": 0,
+                        "width": 114,
+                        "height": 20
+                      },
+                      "classes": [
+                        "required",
+                        "ng-binding"
+                      ],
+                      "control": "6a26688e-z89rhv",
+                      "tagName": "LABEL",
+                      "displayed": true,
+                      "selectors": [
+                        {
+                          "type": "XPATH",
+                          "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[2]/label"
+                        },
+                        {
+                          "type": "CSS_SELECTOR",
+                          "value": ":nth-child(2) > .required"
+                        }
+                      ],
+                      "signature": "6a26688e-e5wj11",
+                      "attributes": {
+                        "for": "activityName",
+                        "class": "required ng-binding"
+                      },
+                      "inViewport": true,
+                      "isDisplayed": true,
+                      "encapsulated": false,
+                      "eventListeners": []
+                    },
+                    "value": "",
+                    "labels": [
+                      {
+                        "form": "6a26688e-4pznqj",
+                        "kind": "LABEL",
+                        "rect": {
+                          "x": 46,
+                          "y": 223,
+                          "top": 224,
+                          "left": 46,
+                          "right": 160,
+                          "width": 114,
+                          "bottom": 244,
+                          "height": 20
+                        },
+                        "text": "Permits Activity",
+                        "offset": {
+                          "top": 129,
+                          "left": 31,
+                          "width": 114,
+                          "height": 20
+                        },
+                        "scroll": {
+                          "top": 0,
+                          "left": 0,
+                          "width": 114,
+                          "height": 20
+                        },
+                        "classes": [
+                          "required",
+                          "ng-binding"
+                        ],
+                        "control": "6a26688e-z89rhv",
+                        "tagName": "LABEL",
+                        "displayed": true,
+                        "selectors": [
+                          {
+                            "type": "XPATH",
+                            "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[2]/label"
+                          },
+                          {
+                            "type": "CSS_SELECTOR",
+                            "value": ":nth-child(2) > .required"
+                          }
+                        ],
+                        "signature": "6a26688e-e5wj11",
+                        "attributes": {
+                          "for": "activityName",
+                          "class": "required ng-binding"
+                        },
+                        "inViewport": true,
+                        "isDisplayed": true,
+                        "encapsulated": false,
+                        "eventListeners": []
+                      }
+                    ],
+                    "offset": {
+                      "top": 154,
+                      "left": 31,
+                      "width": 356,
+                      "height": 34
+                    },
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 354,
+                      "height": 32
+                    },
+                    "checked": false,
+                    "classes": [
+                      "ng-pristine",
+                      "ng-untouched",
+                      "ng-invalid",
+                      "ng-invalid-required"
+                    ],
+                    "tagName": "INPUT",
+                    "validity": {
+                      "valid": false,
+                      "tooLong": false,
+                      "badInput": false,
+                      "tooShort": false,
+                      "customError": false,
+                      "stepMismatch": false,
+                      "typeMismatch": false,
+                      "valueMissing": true,
+                      "rangeOverflow": false,
+                      "rangeUnderflow": false,
+                      "patternMismatch": false
+                    },
+                    "displayed": true,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div/div[2]/div[2]/div[2]/div/form/div[3]/div/div/div[2]/div[2]/input"
+                      },
+                      {
+                        "type": "ID",
+                        "value": "activityName"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": ".ng-pristine"
+                      }
+                    ],
+                    "signature": "6a26688e-z89rhv",
+                    "attributes": {
+                      "id": "activityName",
+                      "name": "activityName",
+                      "type": "text",
+                      "class": "ng-pristine ng-untouched ng-invalid ng-invalid-required",
+                      "ng-model": "selectedActivity.activityName",
+                      "required": ""
+                    },
+                    "inViewport": true,
+                    "isDisplayed": true,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": true,
+                  "similarity": 1
+                }
+              },
+              "eventsFile": "https://virtuoso-downloaded-files-freetrial.s3.eu-west-1.amazonaws.com/events/mVnVD2k2/88715/719519db-f2d2-425a-aacd-ccbddfc4c1e9/4211f47b-4271-4730-adf0-e7e5b4fec5ce.json",
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 0,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 0
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/5aba65ee5c2a9e42a681d5c33185162cb0476c076d3a4abf0445ae18be07ef9c.png",
+              "totalDuration": 664,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/e10376a24a1bc7d07c8a8d8639af52fb76c6e82a7c66564cb1d720c21a63e78f.png"
+            },
+            "15878533": {
+              "id": 12381987,
+              "testStepCanonicalId": "5ddb9cbf-74c1-4313-9a43-7741468521e0",
+              "testStepId": 15878533,
+              "outcome": "PASS",
+              "duration": 572,
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/4f22cf9c5541f534f324c8b16de44b67f5ca00ff702b4aed8133c093aa34fa19.png",
+              "beforeScreenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/8f0a2cc891cbab1aada5ac0d559e97cda4bc798fc264c9cdb358e8342a743e5d.png",
+              "testDataValue": "",
+              "sideEffects": {
+                "usedData": {},
+                "warnings": [],
+                "downloadedFiles": [],
+                "discoveredElement": {
+                  "element": {
+                    "kind": "BUTTON",
+                    "rect": {
+                      "x": 1225,
+                      "y": 50,
+                      "top": 50,
+                      "left": 1225,
+                      "right": 1265,
+                      "width": 40,
+                      "bottom": 84,
+                      "height": 34
+                    },
+                    "text": "\n                    \n                ",
+                    "value": "",
+                    "labels": [],
+                    "offset": {
+                      "top": 0,
+                      "left": 585,
+                      "width": 40,
+                      "height": 34
+                    },
+                    "scroll": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 38,
+                      "height": 32
+                    },
+                    "classes": [
+                      "primary-button",
+                      "ng-scope"
+                    ],
+                    "tagName": "BUTTON",
+                    "disabled": false,
+                    "validity": {
+                      "valid": true,
+                      "tooLong": false,
+                      "badInput": false,
+                      "tooShort": false,
+                      "customError": false,
+                      "stepMismatch": false,
+                      "typeMismatch": false,
+                      "valueMissing": false,
+                      "rangeOverflow": false,
+                      "rangeUnderflow": false,
+                      "patternMismatch": false
+                    },
+                    "displayed": true,
+                    "selectors": [
+                      {
+                        "type": "XPATH",
+                        "value": "/html/body/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/button"
+                      },
+                      {
+                        "type": "CSS_SELECTOR",
+                        "value": ".toolbar-right > .primary-button"
+                      }
+                    ],
+                    "signature": "439af2c3-1r4a9cu",
+                    "attributes": {
+                      "type": "button",
+                      "class": "primary-button ng-scope",
+                      "title": "Add",
+                      "ng-click": "onAdd();",
+                      "ca-action": "Save",
+                      "ca-resource": "Activity"
+                    },
+                    "inViewport": true,
+                    "isDisplayed": true,
+                    "encapsulated": false,
+                    "eventListeners": []
+                  },
+                  "guessed": true,
+                  "similarity": 1
+                }
+              },
+              "sideEffectsSummary": {
+                "warnings": 0,
+                "downloadedFiles": 0,
+                "usedData": 0,
+                "popup": 0,
+                "hasDiscoveredElement": true,
+                "total": 0
+              },
+              "beforeScreenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/8f0a2cc891cbab1aada5ac0d559e97cda4bc798fc264c9cdb358e8342a743e5d.png",
+              "totalDuration": 572,
+              "screenshotFullPath": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/mVnVD2k2/4f22cf9c5541f534f324c8b16de44b67f5ca00ff702b4aed8133c093aa34fa19.png"
+            }
+          },
+          "libraryCheckpoint": false
+        }
+      },
+      "libraryCheckpoints": {},
+      "tracking": {
+        "scheduled": true,
+        "dispatched": true,
+        "processed": true,
+        "throttled": false,
+        "createdDate": 1721125752354,
+        "scheduledDate": 1721125752471,
+        "dispatchedDate": 1721125752546,
+        "processedDate": 1721125766761
+      },
+      "dataDriven": false,
+      "journeyStatistics": {
+        "totalDuration": 13579,
+        "countPerOutcome": {
+          "NOT_REACHED": 0,
+          "PASS": 1,
+          "FAIL": 0,
+          "ERROR": 0,
+          "SKIP": 0,
+          "RUNNING": 0
+        },
+        "outcome": "PASS",
+        "progress": 1,
+        "totalCount": 1
+      }
+    }
+  },
+  "outcome": "PASS",
+  "totalDuration": 13579,
+  "progress": 1,
+  "totalTestExecutions": 1,
+  "successfulTestExecutions": 1,
+  "skippedTestExecutions": 0,
+  "failedTestExecutions": 0,
+  "notReachedTestExecutions": 0
+}

@@ -1,0 +1,31 @@
+{
+  "config": {
+    "baseUrl": "https://api-app2.virtuoso.qa/api",
+    "organization": "1964",
+    "userEmail": "ed.clarke@spotqa.com",
+    "token": "9e141010-eca5-43f5-afb9-20dc6c49833f",
+    "jobId": 88715,
+    "journeyId": 527218,
+    "projectId": 4889
+  },
+  "results": {
+    "sso": {
+      "success": true,
+      "item": {
+        "ssoAuthenticationInfo": {
+          "GOOGLE": [
+            {
+              "organizationName": "",
+              "url": "https://oauth.sso.app2.virtuoso.qa/oauth2/authorize?client_id=ehqfejr0k8opr8dr6oq8g5c&response_type=CODE&identity_provider=Google&scope=aws.cognito.signin.user.admin+email+openid&redirect_uri=https%3A%2F%2Fapi-app2.virtuoso.qa%2Fapi%2Fauth%2Fsso%2Fgoogle-idp-result"
+            }
+          ]
+        },
+        "allowPassword": true
+      }
+    }
+  },
+  "successfulEndpoints": [
+    "sso"
+  ],
+  "timestamp": "2025-08-10T22:28:14.294Z"
+}

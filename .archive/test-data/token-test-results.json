@@ -1,0 +1,27 @@
+{
+  "timestamp": "2025-08-11T23:43:53.440Z",
+  "token": "a29eaf70-2a14-41aa-9a14-06bb3381cdce",
+  "results": [
+    {
+      "endpoint": "/user",
+      "success": true,
+      "status": 200
+    },
+    {
+      "endpoint": "/projects",
+      "success": false,
+      "status": 400,
+      "error": "{\"success\":false,\"error\":{\"code\":\"1017\",\"message\":\"OrganizationId(s) should be provided\"}}"
+    },
+    {
+      "endpoint": "/projects/4889",
+      "success": true,
+      "status": 200
+    }
+  ],
+  "summary": {
+    "successful": 2,
+    "failed": 1,
+    "total": 3
+  }
+}

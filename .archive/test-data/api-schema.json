@@ -1,0 +1,405 @@
+{
+  "baseUrls": {
+    "api": "https://app2.virtuoso.qa/api",
+    "app": "https://app2.virtuoso.qa",
+    "production_api": "https://api.virtuoso.qa/api",
+    "production_app": "https://app.virtuoso.qa"
+  },
+  "defaultEnvironment": "app2",
+  "organizationId": 1964,
+  "authentication": {
+    "type": "Bearer Token",
+    "header": "Authorization",
+    "format": "Bearer {token}",
+    "tokenTypes": {
+      "ALL": "Full system access",
+      "BRIDGE": "Read access for organizations, manage access for bridge instances"
+    }
+  },
+  "categories": {
+    "platform": {
+      "name": "Platform REST API",
+      "description": "Core Virtuoso platform APIs for integration",
+      "endpoints": [
+        {
+          "id": "get-user",
+          "name": "Get User Details",
+          "method": "GET",
+          "path": "/user",
+          "description": "Retrieve authenticated user information",
+          "authentication": true,
+          "parameters": [],
+          "tags": ["user", "profile", "account"],
+          "example": {
+            "curl": "curl --header \"Authorization: Bearer $TOKEN\" https://api.virtuoso.qa/api/user",
+            "response": {
+              "id": "user-id",
+              "email": "user@example.com",
+              "name": "User Name",
+              "organizationId": "org-id"
+            }
+          }
+        },
+        {
+          "id": "list-projects",
+          "name": "List Projects",
+          "method": "GET",
+          "path": "/projects",
+          "description": "Get list of accessible projects",
+          "authentication": true,
+          "parameters": [],
+          "tags": ["projects", "list", "organization"],
+          "example": {
+            "curl": "curl --header \"Authorization: Bearer $TOKEN\" https://api.virtuoso.qa/api/projects",
+            "response": [
+              {
+                "id": "project-id",
+                "name": "Project Name",
+                "organizationId": "org-id"
+              }
+            ]
+          }
+        },
+        {
+          "id": "list-goals",
+          "name": "List Project Goals",
+          "method": "GET",
+          "path": "/projects/{project_id}/goals",
+          "description": "List all goals in a project",
+          "authentication": true,
+          "parameters": [
+            {
+              "name": "project_id",
+              "type": "path",
+              "required": true,
+              "description": "Project identifier"
+            }
+          ],
+          "tags": ["goals", "projects", "tests"],
+          "example": {
+            "curl": "curl --header \"Authorization: Bearer $TOKEN\" https://api.virtuoso.qa/api/projects/123/goals",
+            "response": [
+              {
+                "id": "goal-id",
+                "name": "Goal Name",
+                "projectId": "project-id"
+              }
+            ]
+          }
+        },
+        {
+          "id": "list-jobs",
+          "name": "List Active Jobs",
+          "method": "GET",
+          "path": "/projects/{project_id}/jobs",
+          "description": "List active job executions for a project",
+          "authentication": true,
+          "parameters": [
+            {
+              "name": "project_id",
+              "type": "path",
+              "required": true,
+              "description": "Project identifier"
+            }
+          ],
+          "tags": ["jobs", "executions", "running", "tests"],
+          "example": {
+            "curl": "curl --header \"Authorization: Bearer $TOKEN\" https://api.virtuoso.qa/api/projects/123/jobs",
+            "response": [
+              {
+                "id": "job-id",
+                "status": "running",
+                "startedAt": "2024-01-01T00:00:00Z"
+              }
+            ]
+          }
+        },
+        {
+          "id": "list-snapshots",
+          "name": "List Project Snapshots",
+          "method": "GET",
+          "path": "/projects/{project_id}/snapshots",
+          "description": "List snapshots within a project",
+          "authentication": true,
+          "parameters": [
+            {
+              "name": "project_id",
+              "type": "path",
+              "required": true,
+              "description": "Project identifier"
+            }
+          ],
+          "tags": ["snapshots", "versions", "history"],
+          "example": {
+            "curl": "curl --header \"Authorization: Bearer $TOKEN\" https://api.virtuoso.qa/api/projects/123/snapshots",
+            "response": [
+              {
+                "id": "snapshot-id",
+                "name": "Snapshot Name",
+                "createdAt": "2024-01-01T00:00:00Z"
+              }
+            ]
+          }
+        },
+        {
+          "id": "execute-goal",
+          "name": "Execute Goal",
+          "method": "POST",
+          "path": "/goals/{goal_id}/execute",
+          "description": "Execute all journeys in the latest version of a goal",
+          "authentication": true,
+          "parameters": [
+            {
+              "name": "goal_id",
+              "type": "path",
+              "required": true,
+              "description": "Goal identifier"
+            },
+            {
+              "name": "initialData",
+              "type": "body",
+              "required": false,
+              "description": "Initial variable values for execution",
+              "schema": {
+                "type": "object",
+                "additionalProperties": true
+              }
+            },
+            {
+              "name": "httpHeaders",
+              "type": "body",
+              "required": false,
+              "description": "Custom HTTP headers for execution"
+            },
+            {
+              "name": "startingUrl",
+              "type": "body",
+              "required": false,
+              "description": "Override URL for first navigation step"
+            }
+          ],
+          "tags": ["execute", "run", "test", "journey", "goal"],
+          "example": {
+            "curl": "curl --header \"Authorization: Bearer $TOKEN\" -X POST -H \"Content-Type: application/json\" -d '{\"initialData\": {\"myToken\": 123, \"fullName\": \"Test User\"}}' https://api.virtuoso.qa/api/goals/42/execute",
+            "response": {
+              "executionId": "exec-id",
+              "status": "started",
+              "journeys": ["journey-1", "journey-2"]
+            }
+          }
+        }
+      ]
+    },
+    "testing": {
+      "name": "API Testing Extensions",
+      "description": "Extensions for making API calls within test journeys",
+      "endpoints": [
+        {
+          "id": "api-get",
+          "name": "API GET Extension",
+          "method": "GET",
+          "function": "API_GET",
+          "description": "Make GET requests within test journeys",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": true,
+              "description": "Full URL with optional query parameters"
+            },
+            {
+              "name": "headers",
+              "type": "object",
+              "required": false,
+              "description": "Optional HTTP headers"
+            }
+          ],
+          "tags": ["get", "read", "fetch", "retrieve"],
+          "example": {
+            "code": "API_GET(\"https://reqres.in/api/users?page=2\") returning $data\nassert $data.page equals \"2\"",
+            "withHeaders": "store value '{\"Authorization\": \"Bearer token123\"}' in $headers\nAPI_GET(\"https://api.example.com/users\", $headers) returning $users"
+          }
+        },
+        {
+          "id": "api-post",
+          "name": "API POST Extension",
+          "method": "POST",
+          "function": "API_POST",
+          "description": "Make POST requests within test journeys",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": true,
+              "description": "Target URL"
+            },
+            {
+              "name": "body",
+              "type": "string|object",
+              "required": true,
+              "description": "Request body (JSON)"
+            },
+            {
+              "name": "headers",
+              "type": "object",
+              "required": false,
+              "description": "Optional HTTP headers"
+            }
+          ],
+          "tags": ["post", "create", "send", "submit"],
+          "example": {
+            "code": "API_POST(\"https://reqres.in/api/users\", '{\"name\":\"Virtuoso\"}') returning $data",
+            "withVariable": "Store value \"Virtuoso\" in $request.name\nAPI_POST(\"https://reqres.in/api/users\", $request) returning $data",
+            "withHeaders": "store value '{\"content-type\":\"application/json\"}' in $headers\nAPI_POST(\"https://api.example.com/users\", $body, $headers) returning $result"
+          }
+        },
+        {
+          "id": "api-put",
+          "name": "API PUT Extension",
+          "method": "PUT",
+          "function": "API_PUT",
+          "description": "Make PUT requests within test journeys",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": true,
+              "description": "Target URL with resource ID"
+            },
+            {
+              "name": "body",
+              "type": "string|object",
+              "required": true,
+              "description": "Request body (JSON)"
+            },
+            {
+              "name": "headers",
+              "type": "object",
+              "required": false,
+              "description": "Optional HTTP headers"
+            }
+          ],
+          "tags": ["put", "update", "modify", "edit"],
+          "example": {
+            "code": "API_PUT(\"https://reqres.in/api/users/2\", '{\"first_name\":\"John\"}') returning $data",
+            "withHeaders": "store value ${'Bearer ' + $token} in $auth.Authorization\nAPI_PUT(\"https://api.example.com/users/123\", $updateData, $auth) returning $result"
+          }
+        },
+        {
+          "id": "api-delete",
+          "name": "API DELETE Extension",
+          "method": "DELETE",
+          "function": "API_DELETE",
+          "description": "Make DELETE requests within test journeys",
+          "parameters": [
+            {
+              "name": "url",
+              "type": "string",
+              "required": true,
+              "description": "Target URL with resource ID"
+            },
+            {
+              "name": "headers",
+              "type": "object",
+              "required": false,
+              "description": "Optional HTTP headers"
+            }
+          ],
+          "tags": ["delete", "remove", "destroy"],
+          "example": {
+            "code": "API_DELETE(\"https://reqres.in/api/users/2\") returning $data",
+            "note": "Successful DELETE typically returns empty response with 204 status"
+          }
+        }
+      ]
+    },
+    "apiManager": {
+      "name": "API Manager",
+      "description": "Built-in API definition and testing capabilities",
+      "features": [
+        {
+          "id": "api-definition",
+          "name": "API Definition",
+          "description": "Define APIs at project or organization level",
+          "capabilities": [
+            "HTTP methods: GET, POST, PUT, DELETE",
+            "Bearer token authentication",
+            "Custom headers support",
+            "Query parameters",
+            "Body payload configuration",
+            "Environment variables",
+            "Input/output mapping"
+          ]
+        },
+        {
+          "id": "api-testing",
+          "name": "Manual API Testing",
+          "description": "Test APIs directly in API Manager",
+          "capabilities": [
+            "29-second request timeout",
+            "Response viewing (JSON, Raw, Headers)",
+            "Context extraction",
+            "Environment switching"
+          ]
+        },
+        {
+          "id": "postman-import",
+          "name": "Postman Collection Import",
+          "description": "Import existing Postman collections",
+          "limitations": [
+            "Only v2.1 collections supported",
+            "Maximum size: 8MB",
+            "Cannot delete APIs in active use"
+          ]
+        },
+        {
+          "id": "journey-integration",
+          "name": "Journey Integration",
+          "description": "Use defined APIs in test journeys",
+          "syntax": "API call \"environment.apiName\"",
+          "example": "API call \"staging.listUsers\""
+        }
+      ]
+    }
+  },
+  "commonPatterns": {
+    "authentication": {
+      "bearerToken": {
+        "description": "Standard Bearer token authentication",
+        "example": "Authorization: Bearer YOUR_TOKEN_HERE"
+      },
+      "tokenStorage": {
+        "description": "Store token in variable for reuse",
+        "example": "store value \"YOUR_TOKEN\" in $token\nstore value ${'Bearer ' + $token} in $headers.Authorization"
+      }
+    },
+    "errorHandling": {
+      "statusCodes": {
+        "200": "Success",
+        "201": "Created",
+        "204": "No Content (common for DELETE)",
+        "400": "Bad Request",
+        "401": "Unauthorized",
+        "403": "Forbidden",
+        "404": "Not Found",
+        "500": "Internal Server Error"
+      }
+    },
+    "dataExtraction": {
+      "description": "Extract values from API responses",
+      "examples": [
+        "API_GET(url) returning $response",
+        "assert $response.status equals \"200\"",
+        "store value $response.data.id in $userId"
+      ]
+    }
+  },
+  "searchIndex": {
+    "keywords": [
+      "api", "rest", "get", "post", "put", "delete", "authentication", "bearer", "token",
+      "project", "goal", "execute", "test", "journey", "snapshot", "job", "user",
+      "headers", "body", "response", "request", "curl", "postman", "environment",
+      "variable", "extension", "manager", "import", "export", "webhook"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-08-10T20:22:25.858Z",
+  "journey": {
+    "project_id": 4889,
+    "goal_id": 8519,
+    "version": 28737,
+    "journey_id": 527286,
+    "organization_id": 1964
+  },
+  "findings": [
+    {
+      "success": false,
+      "authRequired": true,
+      "url": "https://api.virtuoso.qa/api/testsuites/527286",
+      "description": "TestSuite by ID",
+      "status": 401
+    },
+    {
+      "success": false,
+      "authRequired": true,
+      "url": "https://api.virtuoso.qa/api/snapshots/28737",
+      "description": "Snapshot by version",
+      "status": 401
+    },
+    {
+      "success": false,
+      "authRequired": true,
+      "url": "https://api.virtuoso.qa/api/goals/8519/snapshots/28737",
+      "description": "Snapshot: /api/goals/8519/snapshots/28737",
+      "status": 401
+    }
+  ],
+  "summary": {
+    "successful": 0,
+    "authRequired": 3,
+    "total": 3
+  }
+}

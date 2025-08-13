@@ -1,0 +1,140 @@
+{
+  "success": true,
+  "item": {
+    "id": 88715,
+    "type": "EXECUTION",
+    "triggerType": "INTERNAL_API",
+    "snapshotId": 28733,
+    "goalId": 8534,
+    "environmentId": 2418,
+    "submitDate": 1721125752205,
+    "startDate": 1721125752277,
+    "endDate": 1721125766802,
+    "status": "FINISHED",
+    "duration": 14525,
+    "meta": {
+      "kind": "EXECUTION",
+      "valid": false,
+      "testSuiteIds": [
+        527218
+      ],
+      "executionRequest": {
+        "suiteIds": [],
+        "dataDriven": false,
+        "environmentId": 2418,
+        "testSuiteCanonicalIds": [
+          "67c79af2-c90b-4184-9942-e600f29a4811"
+        ],
+        "dataDrivenPerTestSuite": {
+          "527211": false,
+          "527212": false,
+          "527213": false,
+          "527215": false,
+          "527216": false,
+          "527218": false,
+          "527219": false,
+          "527220": false,
+          "527222": false,
+          "527224": false,
+          "527228": false,
+          "527229": false,
+          "527232": false,
+          "527233": false
+        },
+        "dataRowsPerTestSuiteCanonicalId": {},
+        "dataDrivenPerTestSuiteCanonicalId": {
+          "1935b0b7-c4f7-4f90-a02b-61780cea9a2c": false,
+          "1e1bd6d3-d999-454f-bf3b-eee59dadadf8": false,
+          "274109f0-20ec-41cb-b61e-71278ea47b3a": false,
+          "462c2d88-4f87-49f9-a336-d88ef176d7a1": false,
+          "58a29278-d67d-4b9a-80f5-500c3c89d7b8": false,
+          "67c79af2-c90b-4184-9942-e600f29a4811": false,
+          "698f0d79-5747-47cb-a8de-bcf9b823acc6": false,
+          "811d1cef-a052-482c-bbe2-c060b73678aa": false,
+          "9506dae3-2cc6-47de-93e7-2aa126f26331": false,
+          "9b3977fb-8039-40bf-8bc0-f15cfb81732e": false,
+          "bb97b21f-56be-4e20-aad2-6254a733e25a": false,
+          "c2948ca7-4863-4ecc-af86-c7b9601fc67e": false,
+          "cfe99d0c-7837-4b1c-bc4f-dad24cacf22b": false,
+          "d97e2afe-c4c7-4049-84e8-7834ffdd3e9b": false
+        }
+      },
+      "initialDataPerJourneySequence": {
+        "527218": {
+          "1": {
+            "JSAtype": "Job Safety Analysis\t Operational Risk Assessment",
+            "Industry": "Construction",
+            "password": "bOw06^wf!MEqGjQH3f^5el!zR#Pg",
+            "username": "Virtuoso",
+            "Question1": "CBRE - Who is at RISK from your work?",
+            "Question2": "Do you understand the up to date MoP/SoP/EoP/Run Book/Risk Assessment for the task/s",
+            "Question3": "Have you carried out an inspection of the tools/equipment?",
+            "Question4": "Are access routes safe and adequate?",
+            "Question5": "Are you protected from contact with energy sources, falls from height, machinery and moving vehicles?",
+            "Question6": "The emergency arrangements? Incl' fire actions, climate event, exit routes, shelter/ safe areas?",
+            "Question7": "If PPE is required for the task, have you got it and is it approved?",
+            "Question8": "I am satisfied that it is safe to do the work in the way it will be done at this place and in this environment AND all the required controls and emergency measures are in place and satisfactory? If the answer is NO - you MUST contact your host BEFORE continuing with work",
+            "Question9": "Visitors",
+            "Hazardtype": "Building collapses",
+            "Question10": "Contractors/Vendors",
+            "Question11": "Do you know how to check the condition and do you know how to use and maintain your PPE",
+            "Question12": "How and where to get first aid and eye wash?",
+            "Question13": "Have you deployed the necessary 'barriers & hazard warning signs' at and around the work area?",
+            "Question14": "Are the weather conditions, work area temperatures and ventilation safe for work?",
+            "Question15": "Where required are calibration, test certificates and formal examinations in date?",
+            "Question16": "Have you the relevant Safety Data Sheet (SDS) for the Chemicals/Substances?",
+            "Question17": "Have you completed the required training including e-Learning?",
+            "Question18": "Have you checked in with the Shift/Facility Lead and do you have the Job Sheet's for the task?",
+            "Question19": "Are the tools and equipment serviceable and fit for purpose?",
+            "Question20": "Have you got adequate space and lighting?",
+            "Question21": "How to report Hazards & accidents",
+            "Question22": "The Public",
+            "Question23": "Young Persons",
+            "Question24": "Have you informed the Clients representative and those in the area where you will work?",
+            "Question25": "If working alone have you made arrangements for regular contact during your work",
+            "Question26": "Staff/On Site Team",
+            "Question27": "Others",
+            "Permit_Types": "CBRE Dynamic Risk Assessment",
+            "Questiontype": "Text",
+            "Isolationtype": "Mechanical/Process",
+            "Newpermittype": "Building",
+            "QuestionType1": "CBRE Competence",
+            "QuestionType2": "CBRE Risk Control Information",
+            "QuestionType3": "CBRE Tools and Equipment",
+            "QuestionType4": "CBRE Work Area Condition",
+            "QuestionType5": "CBRE Work Area Protection",
+            "QuestionType6": "CBRE Emergencies :- Do you know",
+            "QuestionType7": "CBRE Personal Protective Equipment (PPE) is the last control measure",
+            "QuestionType8": "CBRE Last check",
+            "QuestionType9": "CBRE - Who is at RISK from your work?",
+            "Newpermittype1": "Building",
+            "QuestionType10": "CBRE Communication",
+            "NewPermitquestion": "What are the dimensions of the project?"
+          }
+        }
+      }
+    },
+    "tags": [],
+    "launchedBy": 2986,
+    "journeyStatistics": {
+      "countPerOutcome": {
+        "NOT_REACHED": 0,
+        "PASS": 1,
+        "FAIL": 0,
+        "ERROR": 0,
+        "SKIP": 0,
+        "RUNNING": 0
+      },
+      "outcome": "PASS",
+      "progress": 1,
+      "totalCount": 1
+    },
+    "outcome": "PASS",
+    "progress": 1,
+    "totalTestExecutions": 1,
+    "successfulTestExecutions": 1,
+    "skippedTestExecutions": 0,
+    "failedTestExecutions": 0,
+    "notReachedTestExecutions": 0
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "success": true,
+  "envelope": true,
+  "item": {
+    "id": 527286,
+    "name": "User Login and Dashboard Navigation",
+    "description": "Complete user login flow with dashboard verification",
+    "goalId": 8519,
+    "projectId": 4889,
+    "snapshotId": 28737,
+    "type": "testsuite",
+    "status": "active",
+    "createdAt": "2024-12-15T10:30:00Z",
+    "updatedAt": "2025-01-08T14:22:00Z",
+    "tags": ["smoke", "regression", "login"],
+    "metadata": {
+      "version": 28737,
+      "isLatest": true,
+      "executionCount": 145,
+      "lastExecutionId": "exec_98234",
+      "lastExecutionStatus": "passed",
+      "averageDuration": 45000
+    },
+    "checkpoints": [
+      {
+        "id": "checkpoint_1",
+        "checkpointId": 82341,
+        "name": "Navigate to Login Page",
+        "type": "navigation",
+        "order": 1,
+        "enabled": true,
+        "description": "Initial navigation to application login page",
+        "steps": [
+          {
+            "id": "step_1_1",
+            "stepId": 293847,
+            "action": "navigate",
+            "target": "https://app.example.com/login",
+            "value": null,
+            "order": 1,
+            "timeout": 30000,
+            "waitBefore": 0,
+            "waitAfter": 1000,
+            "description": "Navigate to login URL",
+            "properties": {
+              "waitForLoad": true,
+              "clearCookies": true
+            }
+          },
+          {
+            "id": "step_1_2",
+            "stepId": 293848,
+            "action": "wait_for_element",
+            "selector": "//input[@id='username']",
+            "selectorType": "xpath",
+            "value": null,
+            "order": 2,
+            "timeout": 10000,
+            "description": "Wait for username field to be present",
+            "properties": {
+              "visibility": "visible",
+              "enabled": true
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "url_contains",
+            "expected": "/login",
+            "message": "Should be on login page"
+          },
+          {
+            "type": "element_visible",
+            "selector": "#login-form",
+            "message": "Login form should be visible"
+          }
+        ]
+      },
+      {
+        "id": "checkpoint_2",
+        "checkpointId": 82342,
+        "name": "Enter User Credentials",
+        "type": "input",
+        "order": 2,
+        "enabled": true,
+        "description": "Input username and password",
+        "steps": [
+          {
+            "id": "step_2_1",
+            "stepId": 293849,
+            "action": "click",
+            "selector": "#username",
+            "selectorType": "css",
+            "value": null,
+            "order": 1,
+            "timeout": 5000,
+            "description": "Click username field",
+            "properties": {
+              "scrollIntoView": true
+            }
+          },
+          {
+            "id": "step_2_2",
+            "stepId": 293850,
+            "action": "type",
+            "selector": "#username",
+            "selectorType": "css",
+            "value": "${testData.username}",
+            "order": 2,
+            "timeout": 5000,
+            "description": "Enter username",
+            "properties": {
+              "clearField": true,
+              "typeSpeed": 100
+            }
+          },
+          {
+            "id": "step_2_3",
+            "stepId": 293851,
+            "action": "click",
+            "selector": "#password",
+            "selectorType": "css",
+            "value": null,
+            "order": 3,
+            "timeout": 5000,
+            "description": "Click password field"
+          },
+          {
+            "id": "step_2_4",
+            "stepId": 293852,
+            "action": "type",
+            "selector": "#password",
+            "selectorType": "css",
+            "value": "${testData.password}",
+            "order": 4,
+            "timeout": 5000,
+            "description": "Enter password",
+            "properties": {
+              "clearField": true,
+              "masked": true
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "field_value",
+            "selector": "#username",
+            "expected": "${testData.username}",
+            "message": "Username should be entered"
+          },
+          {
+            "type": "field_not_empty",
+            "selector": "#password",
+            "message": "Password should be entered"
+          }
+        ]
+      },
+      {
+        "id": "checkpoint_3",
+        "checkpointId": 82343,
+        "name": "Submit Login Form",
+        "type": "action",
+        "order": 3,
+        "enabled": true,
+        "description": "Click login button and submit form",
+        "steps": [
+          {
+            "id": "step_3_1",
+            "stepId": 293853,
+            "action": "click",
+            "selector": "button[type='submit']",
+            "selectorType": "css",
+            "value": null,
+            "order": 1,
+            "timeout": 5000,
+            "description": "Click login button",
+            "properties": {
+              "waitForNavigation": true
+            }
+          },
+          {
+            "id": "step_3_2",
+            "stepId": 293854,
+            "action": "wait_for_url",
+            "target": "/dashboard",
+            "value": null,
+            "order": 2,
+            "timeout": 15000,
+            "description": "Wait for redirect to dashboard",
+            "properties": {
+              "urlMatchType": "contains"
+            }
+          }
+        ],
+        "assertions": []
+      },
+      {
+        "id": "checkpoint_4",
+        "checkpointId": 82344,
+        "name": "Verify Dashboard Loaded",
+        "type": "verification",
+        "order": 4,
+        "enabled": true,
+        "description": "Verify successful login and dashboard elements",
+        "steps": [
+          {
+            "id": "step_4_1",
+            "stepId": 293855,
+            "action": "wait_for_element",
+            "selector": "h1.dashboard-title",
+            "selectorType": "css",
+            "value": null,
+            "order": 1,
+            "timeout": 10000,
+            "description": "Wait for dashboard title"
+          },
+          {
+            "id": "step_4_2",
+            "stepId": 293856,
+            "action": "verify_text",
+            "selector": "h1.dashboard-title",
+            "selectorType": "css",
+            "value": "Welcome ${testData.username}",
+            "order": 2,
+            "timeout": 5000,
+            "description": "Verify welcome message",
+            "properties": {
+              "exactMatch": false,
+              "caseSensitive": false
+            }
+          },
+          {
+            "id": "step_4_3",
+            "stepId": 293857,
+            "action": "screenshot",
+            "selector": null,
+            "value": "dashboard_loaded",
+            "order": 3,
+            "description": "Capture dashboard screenshot",
+            "properties": {
+              "fullPage": true,
+              "captureOnFailure": true
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "url_contains",
+            "expected": "/dashboard",
+            "message": "Should be on dashboard page"
+          },
+          {
+            "type": "element_visible",
+            "selector": ".user-menu",
+            "message": "User menu should be visible"
+          },
+          {
+            "type": "text_contains",
+            "selector": ".welcome-message",
+            "expected": "${testData.username}",
+            "message": "Welcome message should contain username"
+          },
+          {
+            "type": "element_count",
+            "selector": ".dashboard-widget",
+            "expected": 4,
+            "operator": ">=",
+            "message": "Should have at least 4 dashboard widgets"
+          }
+        ]
+      },
+      {
+        "id": "checkpoint_5",
+        "checkpointId": 82345,
+        "name": "Verify User Menu Options",
+        "type": "verification",
+        "order": 5,
+        "enabled": true,
+        "description": "Check user menu and profile options",
+        "steps": [
+          {
+            "id": "step_5_1",
+            "stepId": 293858,
+            "action": "click",
+            "selector": ".user-avatar",
+            "selectorType": "css",
+            "value": null,
+            "order": 1,
+            "timeout": 5000,
+            "description": "Click user avatar to open menu"
+          },
+          {
+            "id": "step_5_2",
+            "stepId": 293859,
+            "action": "wait_for_element",
+            "selector": ".user-dropdown-menu",
+            "selectorType": "css",
+            "value": null,
+            "order": 2,
+            "timeout": 3000,
+            "description": "Wait for dropdown menu"
+          },
+          {
+            "id": "step_5_3",
+            "stepId": 293860,
+            "action": "verify_element_count",
+            "selector": ".user-dropdown-menu li",
+            "selectorType": "css",
+            "value": "5",
+            "order": 3,
+            "description": "Verify menu has 5 options",
+            "properties": {
+              "operator": "equals"
+            }
+          }
+        ],
+        "assertions": [
+          {
+            "type": "element_visible",
+            "selector": "a[href='/profile']",
+            "message": "Profile link should be visible"
+          },
+          {
+            "type": "element_visible",
+            "selector": "a[href='/settings']",
+            "message": "Settings link should be visible"
+          },
+          {
+            "type": "element_visible",
+            "selector": "button.logout",
+            "message": "Logout button should be visible"
+          }
+        ]
+      }
+    ],
+    "variables": {
+      "testData.username": "testuser@example.com",
+      "testData.password": "********",
+      "baseUrl": "https://app.example.com",
+      "timeout.default": 10000,
+      "retry.count": 2
+    },
+    "configuration": {
+      "browser": "chrome",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "parallelExecution": false,
+      "continueOnFailure": false,
+      "screenshotOnFailure": true,
+      "videoRecording": true,
+      "elementHealingEnabled": true
+    },
+    "statistics": {
+      "totalCheckpoints": 5,
+      "totalSteps": 15,
+      "totalAssertions": 11,
+      "estimatedDuration": 45000,
+      "lastExecutions": [
+        {
+          "executionId": "exec_98234",
+          "status": "passed",
+          "duration": 42350,
+          "timestamp": "2025-01-08T14:22:00Z"
+        },
+        {
+          "executionId": "exec_98233",
+          "status": "passed",
+          "duration": 44120,
+          "timestamp": "2025-01-08T10:15:00Z"
+        },
+        {
+          "executionId": "exec_98232",
+          "status": "failed",
+          "duration": 38900,
+          "timestamp": "2025-01-08T06:00:00Z",
+          "failureReason": "Timeout waiting for dashboard title"
+        }
+      ],
+      "passRate": 0.93,
+      "averageExecutionTime": 44567
+    }
+  }
+}

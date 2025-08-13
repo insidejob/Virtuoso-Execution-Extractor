@@ -1,0 +1,1049 @@
+{
+  "id": 612731,
+  "snapshotId": 44878,
+  "goalId": 15069,
+  "name": "Suite 2",
+  "title": "Demo Test",
+  "canonicalId": "7ddc943e-6563-4b85-9d9f-15d99e57468a",
+  "draft": false,
+  "tags": [],
+  "cases": [
+    {
+      "kind": "Checkpoint",
+      "id": 1687534,
+      "canonicalId": "0e506d39-2987-4dce-8c62-1fee7ad1b99b",
+      "snapshotId": 44878,
+      "goalId": 15069,
+      "name": "TC1",
+      "title": "Navigate to URL",
+      "sharedCount": 2,
+      "steps": [
+        {
+          "id": 19735151,
+          "canonicalId": "b7900a45-afdb-4061-b675-543222488064",
+          "action": "NAVIGATE",
+          "meta": {
+            "url": "https://google.com",
+            "kind": "NAVIGATE",
+            "type": "URL",
+            "value": "https://google.com",
+            "useNewTab": false
+          },
+          "optional": false,
+          "value": "https://google.com",
+          "ignoreOutcome": false,
+          "skip": false
+        }
+      ],
+      "tags": []
+    },
+    {
+      "kind": "Checkpoint",
+      "id": 1687535,
+      "canonicalId": "158488ac-6883-41e6-9ef7-680a0ab162b4",
+      "snapshotId": 44878,
+      "goalId": 15069,
+      "name": "TC2",
+      "title": "API Call",
+      "sharedCount": 2,
+      "steps": [
+        {
+          "id": 19735152,
+          "canonicalId": "36afedc5-6e2f-41b6-8b1e-b9c1d995ca2d",
+          "action": "API_CALL",
+          "meta": {
+            "kind": "API_CALL",
+            "apiTestId": 10253,
+            "inputValues": {},
+            "inputVariables": {}
+          },
+          "optional": false,
+          "value": "10253",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735153,
+          "canonicalId": "aca353c7-a8d4-4134-a1aa-5ab88d598c18",
+          "action": "API_CALL",
+          "meta": {
+            "kind": "API_CALL",
+            "apiTestId": 10253,
+            "inputValues": {},
+            "inputVariables": {
+              "url": "url"
+            }
+          },
+          "optional": false,
+          "value": "10253",
+          "ignoreOutcome": false,
+          "skip": false
+        }
+      ],
+      "tags": []
+    },
+    {
+      "kind": "Checkpoint",
+      "id": 1687536,
+      "canonicalId": "9c1004c7-f263-45da-a8b2-771c1c81379a",
+      "snapshotId": 44878,
+      "goalId": 15069,
+      "name": "TC3",
+      "title": "Storing Details",
+      "sharedCount": 2,
+      "steps": [
+        {
+          "id": 19735154,
+          "canonicalId": "c9cb8a8f-0cc3-47cf-b0cd-4a6ef7fbc9be",
+          "action": "STORE",
+          "variable": "test_var",
+          "meta": {
+            "kind": "STORE"
+          },
+          "optional": false,
+          "value": "Test",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735155,
+          "canonicalId": "17203b2f-d86e-4d36-b096-57c69ca3816e",
+          "action": "ENVIRONMENT",
+          "meta": {
+            "kind": "ENVIRONMENT",
+            "name": "test",
+            "type": "ADD"
+          },
+          "optional": false,
+          "value": "test",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735156,
+          "canonicalId": "30f76b44-8005-4903-bbfe-8624737fca81",
+          "action": "ENVIRONMENT",
+          "meta": {
+            "kind": "ENVIRONMENT",
+            "name": "test",
+            "type": "DELETE"
+          },
+          "optional": false,
+          "value": "",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735157,
+          "canonicalId": "344bc0a3-1743-448c-802f-9efc4fa6683e",
+          "action": "ENVIRONMENT",
+          "meta": {
+            "kind": "ENVIRONMENT",
+            "name": "test",
+            "type": "DELETE"
+          },
+          "optional": false,
+          "value": "",
+          "ignoreOutcome": false,
+          "skip": false
+        }
+      ],
+      "tags": []
+    },
+    {
+      "kind": "Checkpoint",
+      "id": 1687537,
+      "canonicalId": "636a3485-5803-4313-8878-329ef7aaf458",
+      "snapshotId": 44878,
+      "goalId": 15069,
+      "name": "TC4",
+      "title": "assertions",
+      "sharedCount": 2,
+      "steps": [
+        {
+          "id": 19735158,
+          "canonicalId": "34e29010-7377-4ae9-8f09-8bbb332a08b2",
+          "action": "ASSERT_EXISTS",
+          "meta": {
+            "kind": "ASSERT"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 15695244,
+            "target": {
+              "kind": "INPUT",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[2]/div[4]/form/div[1]/div[1]/div[3]/center/input[1]"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".FPdoLc > center > .gNO89b"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Submit\"}"
+                }
+              ],
+              "signature": "5412791a-1qicvhu",
+              "tagName": "INPUT",
+              "text": "",
+              "classes": [
+                "gNO89b"
+              ],
+              "rect": {
+                "top": 407,
+                "right": 627,
+                "bottom": 443,
+                "left": 499,
+                "width": 127,
+                "height": 36,
+                "x": 499,
+                "y": 407
+              },
+              "offset": {
+                "height": 36,
+                "width": 127,
+                "left": 151,
+                "top": 87
+              },
+              "scroll": {
+                "height": 34,
+                "width": 125,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "name": "btnK",
+                "role": "button",
+                "type": "submit",
+                "class": "gNO89b",
+                "value": "Google Search",
+                "data-ved": "0ahUKEwj-6Z2OpIOPAxUoXEEAHTBzCWQQ4dUDCBI",
+                "tabindex": "0",
+                "aria-label": "Google Search"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/a7b2ebbb7eda1b708eceea1712ddcf38a3f5ce859037a3c7c4ca52c15798901c.png",
+              "encapsulated": false,
+              "form": "5412791a-1cks2p9",
+              "labels": [],
+              "value": "Google Search",
+              "checked": false,
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": true,
+                "valueMissing": false
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735159,
+          "canonicalId": "0fd4774b-c49e-4ca9-bfc1-28d42b019415",
+          "action": "ASSERT_EXISTS",
+          "meta": {
+            "kind": "ASSERT"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 15695245,
+            "target": {
+              "kind": "BASIC",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[2]/div[5]/div[3]/div"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='gws-output-pages-elements-homepage_additional_languages__als']/div"
+                },
+                {
+                  "type": "ID",
+                  "value": "SIvCob"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".vcVZ7d > div"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Google\"}"
+                }
+              ],
+              "signature": "b61a1606-13i5kk",
+              "tagName": "DIV",
+              "text": "Google offered in:  Gaeilge  ",
+              "classes": [],
+              "rect": {
+                "top": 486,
+                "right": 716,
+                "bottom": 514,
+                "left": 564,
+                "width": 152,
+                "height": 28,
+                "x": 564,
+                "y": 486
+              },
+              "offset": {
+                "height": 28,
+                "width": 152,
+                "left": 564,
+                "top": 486
+              },
+              "scroll": {
+                "height": 28,
+                "width": 152,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "id": "SIvCob"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/bf77fe940b81ac23f7542a7b92789ee65e10081e5e96124756f2662cc3a24f4f.png",
+              "encapsulated": false,
+              "displayed": true,
+              "isDisplayed": true
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735160,
+          "canonicalId": "7b8a16db-f474-42c7-8f57-f007768d75c9",
+          "action": "ASSERT_NOT_EXISTS",
+          "meta": {
+            "kind": "ASSERT"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 15695246,
+            "target": {
+              "kind": "TARGET",
+              "selectors": [
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Please confirm you are not a robot\"}"
+                }
+              ]
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735161,
+          "canonicalId": "5ab94f70-2b79-4ebe-99c2-5f29b8abfc8f",
+          "action": "ASSERT_NOT_EXISTS",
+          "meta": {
+            "kind": "ASSERT"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 15695247,
+            "target": {
+              "kind": "TARGET",
+              "selectors": [
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Request failed\"}"
+                }
+              ]
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735162,
+          "canonicalId": "21ee7074-1fb3-4a0e-a610-0c2eefb7a01b",
+          "action": "ASSERT_EQUALS",
+          "meta": {
+            "kind": "ASSERT"
+          },
+          "optional": false,
+          "value": "More options",
+          "element": {
+            "id": 15695248,
+            "target": {
+              "kind": "LINK",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[3]/div[2]/div[3]/span/div/div/div/div[3]/div[2]/button/a"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='VnjCcb']/a"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".eOjPIe"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": "[aria-label=\"More options for personalisation settings and cookies\"]"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"More options for personalisation settings and cookies\"}"
+                }
+              ],
+              "signature": "ef50829b-33o5fv",
+              "tagName": "A",
+              "text": "More options",
+              "classes": [
+                "eOjPIe"
+              ],
+              "rect": {
+                "top": 692,
+                "right": 684,
+                "bottom": 740,
+                "left": 582,
+                "width": 102,
+                "height": 48,
+                "x": 581,
+                "y": 692
+              },
+              "offset": {
+                "height": 48,
+                "width": 102,
+                "left": 349,
+                "top": 732
+              },
+              "scroll": {
+                "height": 48,
+                "width": 102,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "class": "eOjPIe",
+                "tabindex": "0",
+                "aria-label": "More options for personalisation settings and cookies"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/c5442f02f5201794ecf105029836171f0471cc2aab446ac61bdd309c7d460663.png",
+              "encapsulated": false,
+              "url": "",
+              "origin": "",
+              "displayed": true,
+              "isDisplayed": true
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735163,
+          "canonicalId": "fb0b55f6-4e61-4cb0-a3bd-7217464ac383",
+          "action": "ASSERT_EQUALS",
+          "meta": {
+            "kind": "ASSERT"
+          },
+          "optional": false,
+          "value": "More options",
+          "element": {
+            "id": 15695249,
+            "target": {
+              "kind": "LINK",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[3]/div[2]/div[3]/span/div/div/div/div[3]/div[2]/button/a"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='VnjCcb']/a"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".eOjPIe"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": "[aria-label=\"More options for personalisation settings and cookies\"]"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"More options for personalisation settings and cookies\"}"
+                }
+              ],
+              "signature": "74ea8193-33o5fv",
+              "tagName": "A",
+              "text": "More options",
+              "classes": [
+                "eOjPIe"
+              ],
+              "rect": {
+                "top": 692,
+                "right": 684,
+                "bottom": 740,
+                "left": 582,
+                "width": 102,
+                "height": 48,
+                "x": 581,
+                "y": 692
+              },
+              "offset": {
+                "height": 48,
+                "width": 102,
+                "left": 349,
+                "top": 732
+              },
+              "scroll": {
+                "height": 48,
+                "width": 102,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "class": "eOjPIe",
+                "tabindex": "0",
+                "aria-label": "More options for personalisation settings and cookies"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/c5442f02f5201794ecf105029836171f0471cc2aab446ac61bdd309c7d460663.png",
+              "encapsulated": false,
+              "url": "",
+              "origin": "",
+              "displayed": true,
+              "isDisplayed": true
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735164,
+          "canonicalId": "81e5ad49-e4bd-4f3f-b3e4-d5dc0690df52",
+          "action": "STORE",
+          "variable": "age",
+          "meta": {
+            "kind": "STORE"
+          },
+          "optional": false,
+          "value": "25",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735165,
+          "canonicalId": "daf65c78-32e7-4801-8c52-9ee97f288665",
+          "action": "ASSERT_VARIABLE",
+          "variable": "age",
+          "meta": {
+            "kind": "ASSERT_VARIABLE",
+            "type": "EQUALS"
+          },
+          "optional": false,
+          "value": "25",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735166,
+          "canonicalId": "78d5c17a-47de-4d2e-9da5-4722daf1e47e",
+          "action": "ASSERT_NOT_EQUALS",
+          "meta": {
+            "kind": "ASSERT"
+          },
+          "optional": false,
+          "value": "25",
+          "element": {
+            "id": 15695250,
+            "target": {
+              "kind": "BASIC",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[3]/div[2]/div[3]/span/div/div/div/div[2]/div/div[3]"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='CXQnmb']/div/div/div[2]/div/div[3]"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".AG96lb > :nth-child(3)"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Age\"}"
+                }
+              ],
+              "signature": "51ee4794-ymrngg",
+              "tagName": "DIV",
+              "text": "Non-personalised content is influenced by things like the content that you’re currently viewing, activity in your active Search session, and your location. Non-personalised ads are influenced by the content that you’re currently viewing and your general location. Personalised content and ads can also include more relevant results, recommendations and tailored ads based on past activity from this browser, like previous Google searches. We also use cookies and data to tailor the experience to be age-appropriate, if relevant.",
+              "classes": [
+                "yS1nld"
+              ],
+              "rect": {
+                "top": 470,
+                "right": 1001,
+                "bottom": 570,
+                "left": 265,
+                "width": 736,
+                "height": 100,
+                "x": 264,
+                "y": 470
+              },
+              "offset": {
+                "height": 100,
+                "width": 736,
+                "left": 32,
+                "top": 510
+              },
+              "scroll": {
+                "height": 100,
+                "width": 736,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "class": "yS1nld"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/a1e5893be48b1f59adc6b5b3226af83a41021e096aedb40da66f7a8b75a57808.png",
+              "encapsulated": false,
+              "displayed": true,
+              "isDisplayed": true
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735167,
+          "canonicalId": "4f098df7-dcde-429f-bde1-e4b659e8581c",
+          "action": "ASSERT_NOT_EQUALS",
+          "meta": {
+            "kind": "ASSERT"
+          },
+          "optional": false,
+          "value": "25",
+          "element": {
+            "id": 15695251,
+            "target": {
+              "kind": "BASIC",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[3]/div[2]/div[3]/span/div/div/div/div[2]/div/div[3]"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='CXQnmb']/div/div/div[2]/div/div[3]"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".AG96lb > :nth-child(3)"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"age\"}"
+                }
+              ],
+              "signature": "11bfeb52-ymrngg",
+              "tagName": "DIV",
+              "text": "Non-personalised content is influenced by things like the content that you’re currently viewing, activity in your active Search session, and your location. Non-personalised ads are influenced by the content that you’re currently viewing and your general location. Personalised content and ads can also include more relevant results, recommendations and tailored ads based on past activity from this browser, like previous Google searches. We also use cookies and data to tailor the experience to be age-appropriate, if relevant.",
+              "classes": [
+                "yS1nld"
+              ],
+              "rect": {
+                "top": 470,
+                "right": 1001,
+                "bottom": 570,
+                "left": 265,
+                "width": 736,
+                "height": 100,
+                "x": 264,
+                "y": 470
+              },
+              "offset": {
+                "height": 100,
+                "width": 736,
+                "left": 32,
+                "top": 510
+              },
+              "scroll": {
+                "height": 100,
+                "width": 736,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "class": "yS1nld"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/a1e5893be48b1f59adc6b5b3226af83a41021e096aedb40da66f7a8b75a57808.png",
+              "encapsulated": false,
+              "displayed": true,
+              "isDisplayed": true
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735168,
+          "canonicalId": "e888193f-9d80-44fb-8cf4-0e6ff221e0d5",
+          "action": "ASSERT_VARIABLE",
+          "variable": "age",
+          "meta": {
+            "kind": "ASSERT_VARIABLE",
+            "type": "LESS_THAN"
+          },
+          "optional": false,
+          "value": "26",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735169,
+          "canonicalId": "d10e36d9-df4f-43c9-942c-5ec98c52d9d4",
+          "action": "ASSERT_VARIABLE",
+          "variable": "age",
+          "meta": {
+            "kind": "ASSERT_VARIABLE",
+            "type": "LESS_THAN_OR_EQUALS"
+          },
+          "optional": false,
+          "value": "25",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735170,
+          "canonicalId": "68d319fe-15af-479f-8fe5-3b8636d0c7f1",
+          "action": "ASSERT_VARIABLE",
+          "meta": {
+            "kind": "ASSERT_VARIABLE",
+            "type": "EQUALS"
+          },
+          "optional": false,
+          "value": "3",
+          "expression": "1 + 2",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735171,
+          "canonicalId": "da302050-3b6c-4304-a641-7fa9d6290ef0",
+          "action": "STORE",
+          "variable": "var1",
+          "meta": {
+            "kind": "STORE"
+          },
+          "optional": false,
+          "value": "2",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735172,
+          "canonicalId": "4c0bdc60-ab74-42e4-a19c-91eddf693073",
+          "action": "STORE",
+          "variable": "var2",
+          "meta": {
+            "kind": "STORE"
+          },
+          "optional": false,
+          "value": "2",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735173,
+          "canonicalId": "d0ff4130-b41a-4a43-9592-e53739b14060",
+          "action": "ASSERT_VARIABLE",
+          "meta": {
+            "kind": "ASSERT_VARIABLE",
+            "type": "EQUALS"
+          },
+          "optional": false,
+          "value": "true",
+          "expression": "$var1 == $var2",
+          "ignoreOutcome": false,
+          "skip": false
+        }
+      ],
+      "tags": []
+    },
+    {
+      "kind": "Checkpoint",
+      "id": 1687539,
+      "canonicalId": "44af3293-00c8-49be-8b12-a53c604108fa",
+      "snapshotId": 44878,
+      "goalId": 15069,
+      "name": "TC5",
+      "title": "Scroll",
+      "sharedCount": 1,
+      "steps": [
+        {
+          "id": 19735175,
+          "canonicalId": "548fbac7-b608-4767-8e21-2bb28561528c",
+          "action": "SCROLL",
+          "meta": {
+            "kind": "SCROLL",
+            "type": "BOTTOM"
+          },
+          "optional": false,
+          "value": "",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735176,
+          "canonicalId": "92537703-11c7-486c-b03b-e1f8f78f1465",
+          "action": "SCROLL",
+          "meta": {
+            "kind": "SCROLL",
+            "type": "ELEMENT"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 15695252,
+            "target": {
+              "kind": "INPUT",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[2]/div[4]/form/div[1]/div[1]/div[3]/center/input[1]"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ".FPdoLc > center > .gNO89b"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Search\",\"position\":\"TOP\"}"
+                }
+              ],
+              "signature": "61e8e43e-1qicvhu",
+              "tagName": "INPUT",
+              "text": "",
+              "classes": [
+                "gNO89b"
+              ],
+              "rect": {
+                "top": 407,
+                "right": 628,
+                "bottom": 443,
+                "left": 501,
+                "width": 127,
+                "height": 36,
+                "x": 501,
+                "y": 407
+              },
+              "offset": {
+                "height": 36,
+                "width": 127,
+                "left": 153,
+                "top": 87
+              },
+              "scroll": {
+                "height": 34,
+                "width": 125,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "name": "btnK",
+                "role": "button",
+                "type": "submit",
+                "class": "gNO89b",
+                "value": "Google Search",
+                "data-ved": "0ahUKEwjLjprR9YOPAxW5UUEAHSu1H9wQ4dUDCBI",
+                "tabindex": "0",
+                "aria-label": "Google Search"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/723fa9fb3ec14e4ff65bf769570b9fc18924eaf76d8cf93925cd6a253d5dc0f1.png",
+              "encapsulated": false,
+              "form": "61e8e43e-1cks2p9",
+              "labels": [],
+              "value": "Google Search",
+              "checked": false,
+              "displayed": true,
+              "isDisplayed": true,
+              "validity": {
+                "badInput": false,
+                "customError": false,
+                "patternMismatch": false,
+                "rangeOverflow": false,
+                "rangeUnderflow": false,
+                "stepMismatch": false,
+                "tooLong": false,
+                "tooShort": false,
+                "typeMismatch": false,
+                "valid": true,
+                "valueMissing": false
+              }
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735177,
+          "canonicalId": "4630161c-282a-42b1-9456-23508f1db4bd",
+          "action": "STORE",
+          "variable": "button",
+          "meta": {
+            "kind": "STORE"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 15695253,
+            "target": {
+              "kind": "BASIC",
+              "selectors": [
+                {
+                  "type": "XPATH",
+                  "value": "/html/body/div[3]/div[2]/div[3]/span/div/div/div/div[3]/div[1]/button[2]/div"
+                },
+                {
+                  "type": "XPATH_ID",
+                  "value": "//*[@id='L2AGLb']/div"
+                },
+                {
+                  "type": "CSS_SELECTOR",
+                  "value": ":nth-child(1) > :nth-child(2) > .QS5gu"
+                },
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"Accept all\"}"
+                }
+              ],
+              "signature": "d04deed0-dsfaa2",
+              "tagName": "DIV",
+              "text": "Accept all",
+              "classes": [
+                "QS5gu",
+                "sy4vM"
+              ],
+              "rect": {
+                "top": 648,
+                "right": 837,
+                "bottom": 688,
+                "left": 636,
+                "width": 201,
+                "height": 40,
+                "x": 636,
+                "y": 648
+              },
+              "offset": {
+                "height": 40,
+                "width": 201,
+                "left": 404,
+                "top": 688
+              },
+              "scroll": {
+                "height": 36,
+                "width": 197,
+                "left": 0,
+                "top": 0
+              },
+              "inViewport": true,
+              "attributes": {
+                "role": "none",
+                "class": "QS5gu sy4vM"
+              },
+              "eventListeners": [],
+              "screenshot": "https://virtuoso-screenshots-freetrial.s3.eu-west-1.amazonaws.com/interactive/element/93a68de28d3f8a30cd072b9258aea51d76acc632f3a180dc407c94f1f57b0a71.png",
+              "encapsulated": false,
+              "displayed": true,
+              "isDisplayed": true
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735178,
+          "canonicalId": "5d4d6439-5a2b-41b5-b891-337fe7be3a97",
+          "action": "SCROLL",
+          "meta": {
+            "kind": "SCROLL",
+            "type": "ELEMENT"
+          },
+          "optional": false,
+          "value": "",
+          "element": {
+            "id": 15695254,
+            "target": {
+              "kind": "TARGET",
+              "selectors": [
+                {
+                  "type": "GUESS",
+                  "value": "{\"clue\":\"\",\"variable\":\"button\"}"
+                }
+              ]
+            }
+          },
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735179,
+          "canonicalId": "cbbbc5c6-2b4b-497f-9944-82c577583cbc",
+          "action": "SCROLL",
+          "meta": {
+            "x": 50,
+            "y": 50,
+            "kind": "SCROLL",
+            "type": "OFFSET"
+          },
+          "optional": false,
+          "value": "",
+          "ignoreOutcome": false,
+          "skip": false
+        },
+        {
+          "id": 19735180,
+          "canonicalId": "3cbab57e-1bcf-41d0-8efa-8ecb95f52aec",
+          "action": "SWITCH",
+          "meta": {
+            "kind": "SWITCH",
+            "type": "PARENT_FRAME"
+          },
+          "optional": false,
+          "value": "",
+          "ignoreOutcome": false,
+          "skip": false
+        }
+      ],
+      "tags": []
+    }
+  ]
+}
